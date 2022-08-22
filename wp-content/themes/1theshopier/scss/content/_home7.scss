@@ -1,0 +1,273 @@
+/* ============================================ *
+ * 5.7. Home page 7
+ * ============================================ */
+/* Home 7 header */
+header.header-7{
+  .nth_header_toolbar{
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(230, 230, 230, 0.1);
+
+
+    .toolbar_item{
+      > a{
+        color: $color_light;
+        @include opacity(1);
+
+        &:hover{
+          background: rgba(0, 0, 0, 0.10);
+          color: $color_a;
+        }
+      }
+    }
+  }
+}
+
+// Header Home 5 - Min Width 992px
+@media (min-width: $screen-md-min) {
+  body.home{
+      #header.header-7{
+          position: absolute;
+          width: 100%;
+          margin-bottom: 0px;
+      }
+  }
+
+  #header.header-7{
+    @include box-shadow(none);
+  }
+
+  header.header-7{
+    background: none;
+    .nth_header_middle{
+      background: none;
+      .nth_header_middle_inner{
+        margin-left: 0;
+        margin-right: 0;
+        background: $color_light;
+        @include border-radius(5px 5px 0 0);
+        @include box-shadow(0 1px 3px 0 rgba(0,0,0,.2));
+
+        &:after{
+          content: '';
+          display: block;
+          clear: both;
+        }
+      }
+
+      .logo{
+        a{
+          line-height: 90px;
+        }
+      }
+    }
+
+    .nth_header_top{
+      background: none;
+      color: $color_d;
+
+      a{
+        color: $color_d;
+      }
+      
+      // Header top menu
+      .main-menu{
+        .menu{
+          li{
+            a{
+              color: $color_d;
+            }
+
+            &:hover,
+            &.current-menu-item{
+              > a{
+                color: $color_a;
+              }
+            }
+          }
+
+          li.menu-item-has-children{
+            &:hover{
+              > .menu-drop-icon{
+                color: $color_a;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .nth_header_bottom{
+      border:0;
+      background: none;
+
+      .nth-menu-wrapper{
+        .main-menu{
+          background: $color_a;
+          @include border-radius(0 0 5px 5px);
+        }
+      }
+
+      .nth-menu-wrapper{
+        .main-menu{
+          @include box-shadow(0 1px 3px 0 rgba(0,0,0,.2));
+          > ul.menu{
+            > li.menu-item{
+              > a,
+              > .menu-drop-icon{
+                color: $color_light;
+              }
+
+              &.current-menu-item,
+              &:hover{
+                background: #222222;
+              }
+
+              &:first-child{
+                @include border-radius(0 0 0 5px);
+              }
+
+            }
+          }
+        }
+      }
+    }
+
+    .sticky-wrapper.is-sticky{
+      .nth_header_bottom{
+        background: none;
+      }
+
+      > div{
+        @include box-shadow(none); 
+      }
+    } 
+
+    .nth-mini-popup{
+      .mini-popup-hover{
+        height: 100px;
+      }
+    }
+
+    .nth-searchform{
+      .nth-search-wrapper{
+        margin-top:25px;
+      } 
+    } 
+
+  }
+}
+
+// Header Tablet
+header{
+    .nth_header_bottom.header-tablet-bottom{
+      .nth-menu-wrapper,
+      .nth-menu-wrapper .main-menu,
+      .nth-menu-wrapper .main-menu > ul.menu > li.menu-item{
+        // Avoid background color custom on desktop
+        background: none !important;
+      }
+
+      .nth-menu-wrapper .main-menu > ul.menu > li.menu-item{
+        > a{
+          color: $color_d;
+        }
+
+        &:hover{
+          > a{
+            color: $color_a;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $screen-xs-max) { // max 767px
+        // Icon cart, account on mobile
+        .nth_header_middle.header-tablet-middle{
+          .nth-mini-popup .mini-popup-hover .nth-icon{
+            color: #5d5d5d;
+          }
+        }
+    }
+
+    
+}
+
+.over-slideshow{
+    position: relative;
+    z-index: 2;
+}
+
+// Feature Product - Style 2
+.inside-meta{
+  .feature-prod-cat-wrapper{
+    .feature-cat{
+      .feature-cat-inner{
+        position: relative;
+        @include border-radius(0);
+        background: #efefef;
+        @include box-shadow(none);
+      }
+
+      .f-meta{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding-bottom: 26px;
+        h3{
+          font-size: 16px;
+        }
+      }
+    } 
+  }
+}
+
+// Newsletter footer - Dark-style
+.dark-style{
+    form.mc4wp-form{
+      border-color: #393939;
+      input[type=email]{
+        background: #1b1b1b;
+        @include box-shadow(none);
+      }
+
+      [type=submit]{
+        border: transparent;
+        background-color: transparent;
+        color: $color_a;
+        @include box-shadow(none);
+      }
+
+      [type=submit]:hover{
+        border: transparent;
+        background-color: transparent;
+        color: $color_light;
+      }
+    } 
+}
+
+.notouch_device{
+  .inside-meta{
+    .feature-prod-cat-wrapper{
+      .feature-cat{
+        &:hover{
+            .feature-cat-inner{
+              @include box-shadow(none);
+              @include border-radius(0);
+            }
+
+            .f-thumbnail{
+                img{
+                  @include border-radius(0);
+                }
+                &:after{
+                  @include opacity( .3 );
+                  @include border-radius(0);
+                }
+            }
+          .f-meta h3 {color: #ffffff}
+        }
+      }
+    }
+  }
+}
+

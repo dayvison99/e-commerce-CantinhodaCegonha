@@ -1,0 +1,225 @@
+
+// All common spacings 
+// Will re-do spacing on media query ( 1024px, 768px & 574px )
+
+
+/*
+====================================================
+=
+= padding
+=
+==========================================
+*/
+
+
+.woocommerce-page form.woocommerce-checkout {
+
+	padding-top: 10px;
+}
+
+.woocommerce .cart_totals h2,
+.woocommerce .woocommerce-billing-fields h3,
+.woocommerce-page form.woocommerce-checkout h3,
+.woocommerce-page .woocommerce-order-details h2 {
+
+    padding-bottom: 10px;
+}
+
+.header-style-1 .mid-header {
+
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+
+.product-info-wrap, 
+.woocommerce ul.products li.product .woocommerce-loop-category__title {
+
+    padding: 25px 20px 30px 20px;
+}
+
+.category-description,
+.os-blog-style-1 .card-content,
+.woocommerce div.product .woocommerce-tabs {
+
+	padding:30px;
+}
+
+.cats-widget-styles .card-content {
+
+	padding:30px;
+}
+
+.cta-style-1.section-spacing {
+
+	padding:80px 0;
+}
+
+.inner-page-wrap {
+
+    padding-bottom: 80px;
+}
+
+.cta-style-2.section-spacing {
+
+    padding:120px 0;
+}
+
+
+/*
+====================================================
+=
+= margin
+=
+==========================================
+*/
+
+.entry-metas ul,
+.entry-cats ul,
+.social-icons ul,
+.os-about-widget .contact-info,
+.masterheader .topbar-items ul,
+.archive-entry article:last-child,
+.woocommerce-mini-cart__empty-message,
+.woocommerce ul.products li.product .woocommerce-loop-category__title {
+
+	margin: 0;
+}
+
+.woocommerce .added_to_cart.wc-forward {
+
+	margin-top: 5px;
+}
+
+.woocommerce-Tabs-panel--description p:last-child {
+
+	margin-bottom: 0;
+}
+
+.woocommerce ul.product_list_widget li a,
+.inner-page-wrap .os-breadcrumb-wrap .page-title,
+.woocommerce .os-breadcrumb-wrap .page-title{
+
+	margin-bottom: 5px;
+}
+
+.not-found .page-title,
+.search-entry article .title h3,
+.search-entry article .excerpt p,
+.archive-entry article .title h3,
+.archive-entry article .excerpt p,
+.woocommerce .woocommerce-billing-fields h3,
+.woocommerce-page form.woocommerce-checkout h3,
+.woocommerce-page .woocommerce-order-details h2,
+.product-widget-style-2.section-spacing {
+
+	margin-bottom:10px;
+}
+
+.woocommerce ul.order_details li strong {
+
+	margin-top: 10px;
+}
+
+.yith-wcwl-share,
+.woocommerce span.price,
+.entry-404 .sub-title h2,
+.entry-nothing-found h1,
+.category-description p,
+.default-post-wrap .page-head .entry-cats,
+.woocommerce-loop-product__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product h3,
+.woocommerce div.product .product_title,
+.woocommerce-page .woocommerce-MyAccount-content h3 {
+
+	margin-bottom: 15px;
+}
+
+
+.banner-style-1 h2,
+.cta-style-2 .title h3,
+.cats-widget-style-1.section-spacing,
+.product-widget-style-1.section-spacing,
+.os-blog-style-1.section-spacing,
+.woocommerce .woocommerce-result-count,
+.woocommerce div.product .entry-summary p.stock,
+.woocommerce div.product .entry-summary .yith-wcwl-add-to-wishlist  {
+
+	margin-bottom: 20px;
+}
+
+.not-found form,
+#add_payment_method .cart-collaterals .shipping-calculator-button, 
+.woocommerce-cart .cart-collaterals .shipping-calculator-button, 
+.woocommerce-checkout .cart-collaterals .shipping-calculator-button {
+
+	margin-top: 20px;
+}
+
+
+.woocommerce-error, 
+.woocommerce-info, 
+.woocommerce-message,
+.banner-style-1 .excerpt p,
+.cta-style-2 .sub-title h4,
+.search-entry article,
+.archive-entry article,
+.category-description,
+.cats-widget-styles .card,
+.woocommerce .related.products h2,
+.woocommerce .up-sells h2,
+.woocommerce form.checkout_coupon, 
+.woocommerce form.login, 
+.woocommerce form.register, 
+.woocommerce .woocommerce-ordering,
+.woocommerce-page .woocommerce-billing-fields,
+.woocommerce-page #customer_login h2,
+.woocommerce-account .addresses .title h3,
+.woocommerce .woocommerce-column__title,
+.os-about-widget .intro,
+.os-about-widget .contact-info li,
+.woocommerce-page .woocommerce-shipping-fields,
+.inner-page-wrap .page-title  {
+
+	margin-bottom:30px;
+}
+
+.os-blog .blog-entry,
+.product-widget .product-entry,
+.woocommerce-cart .wc-proceed-to-checkout {
+
+	margin-top:30px;
+}
+
+.header-style-1,
+.os-breadcrumb-wrap,
+.woocommerce ul.products li,
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product,
+.woocommerce-page .woocommerce-notice,
+.woocommerce-page .woocommerce ul.order_details,
+.woocommerce .woocommerce-customer-details, 
+.woocommerce .woocommerce-order-details, 
+.woocommerce .woocommerce-order-downloads,
+.woocommerce div.product .woocommerce-tabs,
+.woocommerce .cross-sells>h2,
+.os-about-widget .info {
+
+	margin-bottom: 40px;
+}
+
+
+.woocommerce .cart-collaterals, 
+.woocommerce-page .cart-collaterals,
+.woocommerce-page .woocommerce-order-details {
+
+	margin-top: 40px;
+}
+
+.section-spacing {
+
+	margin-bottom: 50px;
+}
+
+
+

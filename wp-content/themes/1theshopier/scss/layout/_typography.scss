@@ -1,0 +1,590 @@
+/* ============================================ *
+ * 2.2. Typography
+ * ============================================ */
+
+ol, ul {
+  &.no-list{
+    list-style: none;
+  }
+}
+
+/*********************************
+ * 2.2.1. Button
+ ********************************/
+ .btn,
+.button,
+%button{
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 15px 8px;
+    @include border-radius(5px);
+    @include box-shadow(none);
+    white-space: normal;
+    text-align: center!important;
+    margin-bottom: 5px;
+    color: $button-text-color;
+    border: 1px solid transparent;
+    background: $color_a;
+    /*background: $color_light;*/
+    text-transform: none;
+    //font:400 13px/1 $font-family;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-shadow: none;
+    outline: 0;
+
+    @include transition( all 0.3s ease );
+    span {
+        padding: 0;
+    }
+    &:focus,
+    &:active,
+    &:hover{
+        background: $color_a_dark;
+        color: $color_light;
+        border-color: transparent;
+        outline: 0;
+    }
+
+    &.medium{
+        font-size: 12px;
+        font-family: $font_2;
+        text-transform: uppercase;
+        //line-height: 38px;
+        padding: 13px 20px;
+    }
+
+    &.large{
+        font-size: 20px;
+        font-family: $font_2;
+        text-transform: uppercase;
+        font-weight: 700;
+        //line-height: 48px;
+        padding: 14px 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .fa{
+        margin-right: 6px;
+    }
+}
+
+%button-important{
+  display: inline-block!important;
+  cursor: pointer!important;
+  padding: 7px 15px 8px !important;
+  @include border-radius(5px);
+  @include box-shadow(none);
+  white-space: normal;
+  text-align: center;
+  margin-bottom: 5px;
+  color: $button-text-color!important;
+  border: 1px solid transparent!important;
+  background: $color_a!important;
+  font:400 13px/1 $font-family !important;
+  letter-spacing: 0 !important;
+  text-shadow: none;
+
+  @include transition( all 0.3s ease );
+  span {
+      padding: 0;
+  }
+  span.yotpo-icon-button-text{
+    font-size: 13px !important;
+    line-height: normal !important;
+  }
+  &:focus,
+  &:active,
+  &:hover{
+      background: $color_a_dark !important;
+      color: $color_light !important;
+      border-color: transparent !important;
+  }
+}
+
+.button.medium,
+%button-medium{
+    font-size: 12px;
+    font-family: $font_2;
+    text-transform: uppercase;
+    //line-height: 38px;
+    padding: 13px 20px;
+}
+
+.button.large,
+%button-large{
+    font-size: 20px;
+    font-family: $font_2;
+    text-transform: uppercase;
+    font-weight: 700;
+    //line-height: 48px;
+    padding: 14px 30px;
+    letter-spacing: -0.5px;
+}
+
+.button.button-icon,
+%button-icon{
+    background-color: $color_d_drak;
+    &:before{
+        font-family: $font_icon;
+        content: "\f044";
+        font-size: 13px;
+        margin-right: 6px;
+    }
+
+    &:focus,
+    &:active,
+    &:hover{
+        background: $color-7;
+        color: $color_d_drak;
+        border-color: transparent;
+    }
+
+    &.large{
+        &:before{
+            font-size: 20px;
+        }
+    }
+}
+
+.button.effect,
+%button-effect{
+    border-color: transparent;
+    background: $color_light;
+    @include box-shadow(0 1px 2px 1px rgba(0,0,0,.1));
+    color: $color_d;
+
+    &:focus,
+    &:active,
+    &:hover{
+        background: transparent;
+        color: $color_a;
+        border-color: $color_a;
+    }
+}
+
+.woocommerce .button.outline,
+.button.outline,
+%button-outline{
+    border-color: $color_e;
+    background: transparent;
+    color: $color_d;
+
+    &:focus,
+    &:active,
+    &:hover{
+        background: transparent;
+        color: $color_a;
+        border-color: $color_a;
+    }
+}
+
+.button.gradient,
+%button-gradient{
+    /*@include background-image(linear-gradient(bottom, #599d73 0%, #67b484 100%));*/
+
+    @include background-image(linear-gradient(bottom, $color_light 0%,  lighten($color_light, 10%) 100%));
+    border: 0;
+    //line-height: 30px;
+    padding: 8px 15px 9px;
+
+    &:focus,
+    &:active,
+    &:hover{
+        background: #dadada;
+        color: $color_d_drak;
+        border-color: transparent;
+    }
+
+    &.medium{
+        //line-height: 40px;
+        padding: 14px 20px;
+    }
+
+    &.large{
+        //line-height: 50px;
+        padding: 15px 30px;
+    }
+
+    &.primary {
+      @include background-image(linear-gradient(bottom, $color_a 10%, lighten($color_a, 10%) 90%));
+      &:hover {
+
+      }
+    }
+    &.success {
+      @include background-image(linear-gradient(bottom, $color-green-light 10%, lighten($color-green-light, 10%) 90%));
+    }
+    &.error, &.danger {
+      @include background-image(linear-gradient(bottom, $color-red 10%, lighten($color-red, 10%) 90%));
+    }
+}
+
+.button.threed,
+%button-3d{
+    @include box-shadow(0 3px 0 #48835f);
+
+    &:focus,
+    &:active,
+    &:hover{
+        @include box-shadow(0 3px 0 #366147);
+    }
+}
+
+
+.button.danger,
+%button-danger,
+.button.error,
+%button-error {
+    background: $color-red;
+
+    &:focus,
+    &:active,
+    &:hover{
+        background: $color-7;
+        color: $color_d_drak;
+    }
+}
+
+.button.success,
+%button-success{
+    background: $color-green-light;
+
+    &:focus,
+    &:active,
+    &:hover{
+        background: $color-7;
+        color: $color_d_drak;
+    }
+}
+
+
+.button.primary,
+%button-primary {
+  background: $color_a;
+
+  &:focus,
+  &:active,
+  &:hover{
+    background: $color_a_dark;
+  }
+
+}
+
+/*********************************
+ * Button Slider
+ ********************************/
+@mixin buttonslider(){
+    font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 45%;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: #fff;
+
+        @include border-radius( 3px );
+        @include box-shadow( 0 1px 3px 1px rgba(0,0,0,0.15) );
+
+        @include transition( all 0.4s ease 0s );
+
+        &:before
+        {
+          font-family: "nthTheshopier";
+
+          font-size: 22px;
+          line-height: 40px;
+          color: #777;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          font-style: normal !important;
+          font-weight: normal !important;
+          font-variant: normal !important;
+          text-transform: none !important;
+          speak: none;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          display: block;
+          text-align: center;
+        }
+        &:hover{
+          background: #f6f6f6;
+        }
+}
+
+
+/*********************************
+* 2.2.2. Heading styling
+ ********************************/
+h1,h2,h3,h4,h5{
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 130%;
+  //margin-bottom: 0;
+  a{
+    color: $base-heading-color;
+    &:hover{
+      color: $color_a;
+    }
+  }
+}
+
+h1, h5 {
+  color: $base-heading-color;
+  font-family: $font-family;
+  font-weight: 700;
+}
+
+h2, h4{
+  color: $base-heading-color;
+  font-family: $font-custom-a;
+  font-weight: 700;
+}
+
+h3 {
+  color: $color-6;
+  font-family: $font-family;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 26px;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 18px;
+}
+h4{
+  font-size: 14px;
+}
+h5{
+  font-size: 12px;
+}
+h6{
+  font-size: 11px;
+}
+
+pre{
+  white-space: pre-wrap;
+}
+
+.heading-title{
+  font-size:20px;
+  font-family: $font_2;
+  text-transform: uppercase;
+  position: relative;
+  //padding-bottom: 10px;
+  padding-bottom: 20px;
+  color: #5d5d5d;
+
+  &.ud-line{
+    &:after {
+       content: '';
+       /*position: absolute;
+       top: 100%;
+       left: 0;*/
+       width: 30px;
+       border-top: 3px solid $color-6;
+       display: block;
+       margin-top: 9px;
+    }
+  }
+
+  &.top-line{
+    &:before{
+      content: '';
+       width: 30px;
+       border-top: 2px solid $color-6;
+       display: block;
+       margin-bottom: 12px;
+    }
+  }
+
+  &.border-bottom{
+    display: inline-block;
+    float: none;
+    margin: auto;
+    border-bottom: 3px dashed $color-6;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+
+  }
+}
+
+.heading_center{
+    .heading-title{
+      text-align: center;
+      &:after,
+      &:before{
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+}
+
+.nth-sidebar{
+  .widget-heading{
+    .heading-title{
+      &.widget-title {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/*********************************
+* 2.2.3. Info boxes
+ ********************************/
+
+.vc_cta3.nth-row-grid{
+  border-color: transparent;
+  header.vc_cta3-content-header {
+    h2 {
+      font:700 18px $font-family;
+      margin-bottom: 10px;
+    }
+  }
+  &.vc_general.vc_cta3.vc_cta3-style-classic, &.vc_general.vc_cta3.vc_cta3-style-custom {
+    border: none;
+  }
+}
+
+.nth-fullwidth {
+  padding-right: 40px;
+}
+
+
+/*********************/
+/**** Carousel next, prev button ****/
+/*
+.arrow_button {
+  color: transparent;
+  border: none;
+  outline: none;
+  background: #fff;
+  @include border-radius( 3px);
+  @include box-shadow( 0 1px 3px 1px rgba(0,0,0,0.15) );
+
+  @include transition( all 0.4s ease 0s );
+  &:hover {
+    background: #f6f6f6;
+  }
+  &:before {
+    */
+/*font-family: "nthTheshopier";*//*
+
+
+    font-size: 22px;
+    line-height: 40px;
+    color: #777;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal ;
+    font-weight: normal ;
+    font-variant: normal ;
+    text-transform: none ;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}*/
+
+
+/* Newsletter Form */
+form.mc4wp-form,
+form.mc4wp-form-theme{
+  border: 1px solid #c7c7c7;
+  display: inline-block;
+  overflow: hidden;
+  height: 46px;
+  width: 100%;
+  label { display: none;}
+  margin: 0;
+  @include border-radius ( 5px );
+  position: relative;
+  input[type=email] {
+    border: none;
+    padding: 0px 60px 0 15px;
+    outline: none;
+    font-size: 14px;
+    line-height: 46px;
+    height: 46px;
+    float: left;
+    @include box_shadow( 0 12px 16px -10px  rgba(0,0,0,0.1) inset);
+    width: 100%;
+    max-width: none;
+    @include border-radius(4px);
+
+    &:focus{
+      @include box_shadow( 0 12px 16px -10px  rgba(0,0,0,0.1) inset);
+    }
+  }
+  button[type=submit],
+  input[type=submit] {
+    border: none;
+    font-size: 0;
+    width: 45px;
+    height: 44px;
+    padding: 0;
+    border-left: 1px solid $base-border-color;
+    position: absolute;
+    right: 0;
+    color: $color_d;
+    @include border-radius ( 0 4px 4px 0 );
+    //@include box-shadow(inset 0 1px 0 #fff);
+    background-color: $color-9; /* color overlay */
+    //background-image: url(images/sprite.png);
+    //background-position: 12px 13px;
+    //background-repeat: no-repeat;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    line-height: 43px;
+
+    &:before {
+      font-family: $font_icon;
+      content: "\f1d8";
+      font-size: 16px;
+    }
+    &:hover {
+      background-color: $color-6;
+      color: $color_light;
+      //background-position: -43px 13px;
+    }
+  }
+
+  .none-style{
+    input[type=email]{
+      @include box-shadow(none);
+      -moz-box-shadow: none!important;
+      -webkit-box-shadow: none!important;
+      box-shadow: none!important;
+    }
+  }
+
+  input[type=submit]{
+    background-image: url(images/sprite.png);
+    background-position: 12px 13px;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-color: $color-6;
+      background-position: -43px 13px;
+    }
+  }
+}

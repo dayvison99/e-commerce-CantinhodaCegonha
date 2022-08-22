@@ -1,0 +1,173 @@
+/* ============================================ *
+ * 5.5. Home page 5
+ * ============================================ */
+/* Home 5 header */
+header.header-5{
+  .nth_header_top{
+    background: none;
+    border-bottom: 1px solid #f1f1f1;
+    color: $color_d;
+
+    a{
+      color: $color_d;
+    }
+    
+    // Header top menu
+    .main-menu{
+      .menu{
+        li{
+          a{
+            color: $color_d;
+          }
+
+          &:hover,
+          &.current-menu-item{
+            > a{
+              color: $color_a;
+            }
+          }
+        }
+
+        li.menu-item-has-children{
+          &:hover{
+            > .menu-drop-icon{
+              color: $color_a;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Form Search
+  .nth-searchform{
+    .nth-search-wrapper{
+      input[type=text]{
+        border-color: $color_f;
+        background: $color_f;
+        @include box-shadow(none);
+        -moz-box-shadow: none!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important;
+        line-height: 38px;
+        height: 40px;
+        padding: 0 45px 0 20px;
+      }
+
+      [type=submit]{
+        width: 45px;
+        height: 40px;
+        background-color: transparent;
+        color: $color_a;
+        border: 0;
+
+        &:before{
+          line-height: 40px;
+        }
+
+        &:hover{
+          color: $color_d;
+        }
+      }
+    }
+  }  
+}
+
+// Header Home 5 - Min Width 992px
+@media (min-width: $screen-md-min) {
+  header.header-5{
+    .nth_header_top{
+      // Hidden text contact on Header 5
+      .text-contact{
+        display: none;
+      }
+    }
+
+    .nth_header_middle{
+      padding-bottom: 2px;
+    }
+
+    // Header Bottom
+    .nth_header_bottom{
+      border-top: 0;
+    }
+
+    // Form Search
+    .nth-searchform{
+      .nth-search-wrapper{
+        max-width: 290px;
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .big-product-wrapper{
+      > div{
+        padding-right: 0;
+      }
+      .big-list-products{
+        padding-right: 15px;
+      }
+
+      section.product .product-inner{
+        min-height: 645px;
+      }
+
+      .big-list-products{
+        section.product .product-inner{
+          min-height: 0;
+        }
+      }
+  }
+}
+
+@media (max-width: $screen-xs-max) { // max 767px
+  .woocommerce{
+    .big-product-wrapper{
+      .products {
+          section.product{
+          width: 100%;
+        }
+      }
+
+      .big-list-products{
+          .products {
+              section.product{
+              width: 50%;
+            }
+          }
+
+      }
+    }
+  }
+}
+
+.nth-shortcode.woocommerce {
+  .nth-owlCarousel{
+    .heading_center .heading-title{
+      //padding-bottom: 5px;
+    }
+  }
+} 
+
+.box-shadow-bottom{
+  @include box-shadow(0 5px 8px rgba(0,0,0,.1));
+}
+
+.box-shadow-top-bottom{
+  @include box-shadow(0 1px 10px rgba(0,0,0,.1));
+}
+.text-white{
+    color: $color_light;
+}
+
+.size30{
+    font-size: 30px;
+}
+
+.border-pattern-home5{
+    display: block;
+    height: 13px;
+    background: url(images/border-pattern-home5.png) left top repeat-x transparent;
+}

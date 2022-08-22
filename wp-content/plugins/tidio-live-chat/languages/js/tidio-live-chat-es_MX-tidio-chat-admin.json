@@ -1,0 +1,45 @@
+{
+   "domain": "tidio-live-chat",
+   "locale_data": {
+      "tidio-live-chat": {
+         "": {
+            "domain": "tidio-live-chat",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "es_MX"
+         },
+         "Loading...": [
+            "Cargando..."
+         ],
+         "Can’t be empty!": [
+            "No puede quedar en blanco."
+         ],
+         "Email can’t be empty!": [
+            "El email no puede quedar en blanco."
+         ],
+         "Email is invalid!": [
+            "El email no es válido."
+         ],
+         "Start using Tidio": [
+            "Comienza a usar Tidio"
+         ],
+         "Something went wrong.": [
+            "Algo salió mal."
+         ],
+         "You have been blocked for too many attempts. Please try again in an hour.": [
+            "Como hubo demasiados intentos, fuiste bloqueado. Vuelve a intentar en una hora."
+         ],
+         "Password can’t be empty!": [
+            "La contraseña no puede quedar en blanco."
+         ],
+         "Wrong email or password": [
+            "Email o contraseña no válidos"
+         ],
+         "Go to Tidio panel": [
+            "Ir al panel de Tidio"
+         ],
+         "Error occured while creating, please try again!": [
+            "Ocurrió un error durante la creación, ¡vuelve a intentarlo!"
+         ]
+      }
+   }
+}

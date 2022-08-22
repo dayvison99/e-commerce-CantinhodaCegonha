@@ -1,0 +1,6 @@
+Instagram now use query hash instead of max id.
+
+now can only get max 24 photos
+
+https://www.diggernaut.com/blog/how-to-scrape-pages-infinite-scroll-extracting-data-from-instagram/
+

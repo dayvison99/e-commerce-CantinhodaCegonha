@@ -1,0 +1,652 @@
+/* ============================================ *
+ * 12. Slide Menu
+ * ============================================ */
+/* -----------------------------------------------------------------------------
+
+  MEDIA ELEMENTS
+  
+----------------------------------------------------------------------------- */
+/* line 7, _elements.media.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -----------------------------------------------------------------------------
+
+  WRAPPER OBJECT
+  
+----------------------------------------------------------------------------- */
+/* line 7, _objects.layout.scss */
+.o-wrapper {
+  transition: transform 0.3s;
+}
+
+/* -----------------------------------------------------------------------------
+
+  CONTAINER OBJECTS
+  
+----------------------------------------------------------------------------- */
+/* line 21, _objects.layout.scss */
+.o-container {
+  margin: 0 auto;
+  padding: 0 12px;
+  max-width: 960px;
+}
+
+@media all and (min-width: 480px) {
+  /* line 29, _objects.layout.scss */
+  .o-container {
+    padding: 0 24px;
+  }
+}
+@media all and (min-width: 720px) {
+  /* line 37, _objects.layout.scss */
+  .o-container {
+    padding: 0 48px;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+  HEADER OBJECT
+  
+----------------------------------------------------------------------------- */
+/* line 53, _objects.layout.scss */
+.o-header {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 58, _objects.layout.scss */
+.o-header-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #67b5d1;
+}
+
+/* line 64, _objects.layout.scss */
+.o-header-nav__link {
+  padding: 12px;
+  color: #fff;
+}
+
+/* line 69, _objects.layout.scss */
+.o-header-nav__link:hover {
+  color: #fff;
+  background-color: #3184a1;
+}
+
+/* line 74, _objects.layout.scss */
+.o-header__title {
+  margin: 24px;
+  padding: 0;
+  color: #818181;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media all and (min-width: 480px) {
+  /* line 85, _objects.layout.scss */
+  .o-header__title {
+    margin: 36px;
+    font-size: 42px;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+  MAIN OBJECT
+  
+----------------------------------------------------------------------------- */
+/* line 102, _objects.layout.scss */
+.o-main {
+  /**/
+}
+
+/* -----------------------------------------------------------------------------
+
+  SUB-NAVIGATION OBJECT
+  
+----------------------------------------------------------------------------- */
+/* line 116, _objects.layout.scss */
+.o-sub-nav {
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+/* line 121, _objects.layout.scss */
+.o-sub-nav__items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 130, _objects.layout.scss */
+.o-sub-nav__item {
+  margin: 0;
+  padding: 4px;
+}
+
+/* line 135, _objects.layout.scss */
+.o-sub-nav__link {
+  display: block;
+  margin: 0;
+  padding: 4px 24px;
+  border: solid 2px #67b5d1;
+}
+
+/* line 143, _objects.layout.scss */
+.o-sub-nav__link:hover,
+.o-sub-nav__item.active .o-sub-nav__link {
+  color: #fff;
+  background-color: #67b5d1;
+}
+
+@media all and (min-width: 720px) {
+  /* line 150, _objects.layout.scss */
+  .o-sub-nav {
+    margin: 0 0 48px 0;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+  FOOTER OBJECT
+  
+----------------------------------------------------------------------------- */
+/* line 166, _objects.layout.scss */
+.o-footer {
+  padding: 12px 0;
+  text-align: center;
+}
+
+@media all and (min-width: 480px) {
+  /* line 173, _objects.layout.scss */
+  .o-footer {
+    padding: 24px 0;
+  }
+}
+@media all and (min-width: 720px) {
+  /* line 181, _objects.layout.scss */
+  .o-footer {
+    padding: 48px 0;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+  SLIDE AND PUSH MENUS COMPONENT
+  
+----------------------------------------------------------------------------- */
+/**
+ * Menu overview.
+ */
+/* line 15, _components.menus.scss */
+.c-menu {
+  position: fixed;
+  z-index: 200;
+  background-color: #67b5d1;
+  transition: transform 0.3s;
+}
+
+/* line 22, _components.menus.scss */
+.c-menu__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Left and right menus
+ *
+ * Slide and push menus coming in from the left and right inherit a lot of
+ * common styles. We'll start each of them off by doing up the common styles
+ * for each version, followed by individual styles.
+ *
+ * The various versions are governed by modifier classes.
+ */
+/**
+ * Common modifiers for left/right menus.
+ */
+/* line 45, _components.menus.scss */
+.c-menu--slide-left,
+.c-menu--slide-right,
+.c-menu--push-left,
+.c-menu--push-right {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+@media all and (min-width: 320px) {
+  /* line 45, _components.menus.scss */
+  .c-menu--slide-left,
+  .c-menu--slide-right,
+  .c-menu--push-left,
+  .c-menu--push-right {
+    width: 300px;
+  }
+}
+
+/* line 58, _components.menus.scss */
+.c-menu--slide-left .c-menu__item,
+.c-menu--slide-right .c-menu__item,
+.c-menu--push-left .c-menu__item,
+.c-menu--push-right .c-menu__item {
+  display: block;
+  text-align: center;
+  border-top: solid 1px #b5dbe9;
+  border-bottom: solid 1px #3184a1;
+}
+/* line 64, _components.menus.scss */
+.c-menu--slide-left .c-menu__item:first-child,
+.c-menu--slide-right .c-menu__item:first-child,
+.c-menu--push-left .c-menu__item:first-child,
+.c-menu--push-right .c-menu__item:first-child {
+  border-top: none;
+}
+/* line 68, _components.menus.scss */
+.c-menu--slide-left .c-menu__item:last-child,
+.c-menu--slide-right .c-menu__item:last-child,
+.c-menu--push-left .c-menu__item:last-child,
+.c-menu--push-right .c-menu__item:last-child {
+  border-bottom: none;
+}
+
+/* line 76, _components.menus.scss */
+.c-menu--slide-left .c-menu__link,
+.c-menu--slide-right .c-menu__link,
+.c-menu--push-left .c-menu__link,
+.c-menu--push-right .c-menu__link {
+  display: block;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+/* line 85, _components.menus.scss */
+.c-menu--slide-left .c-menu__close,
+.c-menu--slide-right .c-menu__close,
+.c-menu--push-left .c-menu__close,
+.c-menu--push-right .c-menu__close {
+  display: block;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+/**
+ * Slide/Push Menu Left.
+ */
+/* line 96, _components.menus.scss */
+.c-menu--slide-left,
+.c-menu--push-left {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+@media all and (min-width: 320px) {
+  /* line 96, _components.menus.scss */
+  .c-menu--slide-left,
+  .c-menu--push-left {
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+  }
+}
+
+/* line 111, _components.menus.scss */
+.c-menu--slide-left.is-active,
+.c-menu--push-left.is-active {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/**
+ * Slide/Push Menu Right.
+ */
+/* line 122, _components.menus.scss */
+.c-menu--slide-right,
+.c-menu--push-right {
+  top: 0;
+  right: 0;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+@media all and (min-width: 320px) {
+  /* line 122, _components.menus.scss */
+  .c-menu--slide-right,
+  .c-menu--push-right {
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+}
+
+/* line 137, _components.menus.scss */
+.c-menu--slide-right.is-active,
+.c-menu--push-right.is-active {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/**
+ * Top and bottom menus
+ *
+ * Slide and push menus coming in from the top and bottom inherit a lot of
+ * common styles. We'll start each of them off by doing up the common styles
+ * for each version, followed by individual styles.
+ *
+ * The various versions are governed by modifier classes.
+
+/**
+ * Common modifiers for top/bottom menus
+ */
+/* line 159, _components.menus.scss */
+.c-menu--slide-top,
+.c-menu--slide-bottom,
+.c-menu--push-top,
+.c-menu--push-bottom {
+  vertical-align: middle;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  overflow-x: scroll;
+}
+
+/* line 170, _components.menus.scss */
+.c-menu--slide-top .c-menu__items,
+.c-menu--slide-bottom .c-menu__items,
+.c-menu--push-top .c-menu__items,
+.c-menu--push-bottom .c-menu__items {
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 178, _components.menus.scss */
+.c-menu--slide-top .c-menu__item,
+.c-menu--slide-bottom .c-menu__item,
+.c-menu--push-top .c-menu__item,
+.c-menu--push-bottom .c-menu__item {
+  display: inline-block;
+  line-height: 60px;
+}
+
+/* line 186, _components.menus.scss */
+.c-menu--slide-top .c-menu__link,
+.c-menu--slide-bottom .c-menu__link,
+.c-menu--push-top .c-menu__link,
+.c-menu--push-bottom .c-menu__link {
+  display: block;
+  padding: 0 4px;
+  color: #fff;
+}
+
+/* line 195, _components.menus.scss */
+.c-menu--slide-top .c-menu__close,
+.c-menu--slide-bottom .c-menu__close,
+.c-menu--push-top .c-menu__close,
+.c-menu--push-bottom .c-menu__close {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 0 24px;
+  height: 60px;
+  line-height: 60px;
+}
+
+/**
+ * Slide/Push Menu Top.
+ */
+/* line 208, _components.menus.scss */
+.c-menu--slide-top,
+.c-menu--push-top {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(-60px);
+  -ms-transform: translateY(-60px);
+  transform: translateY(-60px);
+}
+
+/* line 217, _components.menus.scss */
+.c-menu--slide-top.is-active,
+.c-menu--push-top.is-active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/**
+ * Slide/Push Menu Bottom.
+ */
+/* line 228, _components.menus.scss */
+.c-menu--slide-bottom,
+.c-menu--push-bottom {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  transform: translateY(60px);
+}
+
+/* line 237, _components.menus.scss */
+.c-menu--slide-bottom.is-active,
+.c-menu--push-bottom.is-active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/**
+ * Wrapper states.
+ *
+ * Various wrapper states occur depending on if a menu is pushing into view, in
+ * which case, the wrapper has to be pushed by the respective distance.
+ */
+/* line 250, _components.menus.scss */
+.o-wrapper.has-push-left {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+@media all and (min-width: 320px) {
+  /* line 250, _components.menus.scss */
+  .o-wrapper.has-push-left {
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+}
+
+/* line 262, _components.menus.scss */
+.o-wrapper.has-push-right {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+@media all and (min-width: 320px) {
+  /* line 262, _components.menus.scss */
+  .o-wrapper.has-push-right {
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+  }
+}
+
+/* line 274, _components.menus.scss */
+.o-wrapper.has-push-top {
+  -webkit-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  transform: translateY(60px);
+}
+
+/* line 280, _components.menus.scss */
+.o-wrapper.has-push-bottom {
+  -webkit-transform: translateY(-60px);
+  -ms-transform: translateY(-60px);
+  transform: translateY(-60px);
+}
+
+/**
+ * Body states.
+ *
+ * When a menu is active, we want to hide the overflows on the body to prevent
+ * awkward document scrolling.
+ */
+/* line 293, _components.menus.scss */
+body.has-active-menu {
+  overflow: hidden;
+}
+
+/**
+ * Close button resets.
+ */
+/* line 301, _components.menus.scss */
+.c-menu__close {
+  color: #fff;
+  background-color: #3184a1;
+  font-size: 14px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/* line 314, _components.menus.scss */
+.c-menu__close:focus {
+  outline: none;
+}
+
+/* -----------------------------------------------------------------------------
+
+  MASK COMPONENT
+  
+----------------------------------------------------------------------------- */
+/* line 7, _components.mask.scss */
+.c-mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+}
+
+/* line 20, _components.mask.scss */
+.c-mask.is-active {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+/* -----------------------------------------------------------------------------
+
+  BUTTONS
+  
+----------------------------------------------------------------------------- */
+/* line 7, _components.buttons.scss */
+.c-buttons {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+/* line 12, _components.buttons.scss */
+.c-button {
+  display: inline-block;
+  margin: 4px;
+  padding: 12px 24px;
+  color: #67b5d1;
+  background: none;
+  font-size: 14px;
+  border: solid 2px #67b5d1;
+  box-shadow: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/* line 28, _components.buttons.scss */
+.c-button:focus {
+  outline: none;
+}
+
+/* line 32, _components.buttons.scss */
+.c-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* -----------------------------------------------------------------------------
+
+  CARBON AD COMPONENT
+  
+----------------------------------------------------------------------------- */
+/* line 7, _components.carbonad.scss */
+#carbonads {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  z-index: 1000;
+  padding: 24px 12px 12px 12px;
+  width: 154px;
+  background-color: #fff;
+  line-height: 1.1;
+  border: solid 1px #e7e7e7;
+}
+
+/* line 18, _components.carbonad.scss */
+.carbon-wrap {
+  display: block;
+  margin: 0 0 4px 0;
+}
+
+/* line 23, _components.carbonad.scss */
+.carbon-img {
+  display: block;
+  margin: 0 0 4px 0;
+  padding: 0;
+  width: 130px;
+  height: 100px;
+}
+
+/* line 31, _components.carbonad.scss */
+.carbon-text {
+  color: #818181;
+  font-size: 12px;
+}
+
+/* line 36, _components.carbonad.scss */
+.carbon-poweredby {
+  font-size: 10px;
+  font-style: italic;
+}
+
+/* line 41, _components.carbonad.scss */
+.carbonad__close {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 12px;
+  height: 24px;
+  font-size: 11px;
+  line-height: 24px;
+}
+
+@media all and (max-width: 660px) {
+  /* line 53, _components.carbonad.scss */
+  #carbonads {
+    display: none;
+  }
+}

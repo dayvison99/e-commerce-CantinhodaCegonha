@@ -1,0 +1,46 @@
+.redux-container-multi_social {
+    ul.nth-multi-socials {
+        margin: 0;
+        padding: 0;
+		
+		li {
+			padding: 10px 0px;
+			border-top: 1px dashed #ccc;
+			&:first-child {
+				border-top: none;
+			}
+		}
+		
+    }
+
+    .nth-multi-socials-remove {
+        color: #F00;
+        padding: 2px 4px;
+        margin-left: 5px;
+		font-size: 1.2em;
+        &:hover {
+            color: #E80C0C;
+            text-decoration: none;
+        }
+    }
+	
+	label {width: 90px;}
+
+    .nth-multi-socials-add {
+        margin: 5px 0;
+    }
+
+}
+
+@media screen and (max-width: 782px) {
+    .redux-container-multi_social {
+        input {
+            clear: both;
+        }
+
+        .redux-multi-text-remove {
+            margin: 0;
+            float: right;
+        }
+    }
+}

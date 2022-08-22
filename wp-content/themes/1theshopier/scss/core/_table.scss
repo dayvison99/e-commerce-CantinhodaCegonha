@@ -1,0 +1,28 @@
+/* ============================================ *
+ * 2.1. Table Core $color-8
+ * ============================================ */
+table{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+
+    thead{
+        th, td{
+            padding: 8px;
+        }
+    }
+
+    tbody{
+        th, td{
+            padding: 8px;
+            border-top: 1px solid $color-8;
+        }
+    }
+
+    tfoot{
+        th, td{
+            padding: 8px;
+            border-top: 1px solid $color-8;
+        }
+    }
+}

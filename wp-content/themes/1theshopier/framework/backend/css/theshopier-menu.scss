@@ -1,0 +1,86 @@
+$nth-color1-1: #FCFFF5;
+$nth-color1-2: #D1DBBD;
+$nth-color1-3: #91AA9D;
+$nth-color1-4: #3E606F;
+$nth-color1-5: #193441;
+
+.wp-picker-holder {
+	position: absolute;
+	z-index: 9;
+}
+ul.menu {
+	li {
+		dl dt, .menu-item-settings, .menu-item-settings > *, .menu-item-actions {
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+		dl.menu-item-bar {
+			dt.menu-item-handle {
+				width: 100%;
+			}
+		}
+
+	  .menu-item-actions {
+		overflow: hidden;
+	  }
+		
+		.menu-item-settings {
+			width: 100%;
+			> .description {
+				min-height: 50px;
+				margin: 0;
+				padding-right: 10px;
+				font-style: italic;
+			}
+			.description-wide {
+				width: 66.666%;
+			}
+			.description-thin {
+				width: 33.333%;
+			}
+			
+			.description-full {
+				width: 100%;
+				clear: both;
+			}
+			.menu-item-actions {
+			  /*CSS some thing*/
+			}
+		}
+		
+		.nth-adv-menu-opts {
+			clear: both;
+			overflow: hidden;
+			border: 1px solid #dddddd;
+			background-color: #fcfcfc;
+			padding: 10px 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+	}
+	
+	li.menu-item-edit-active {
+		dl.menu-item-bar {
+			dt.menu-item-handle {
+				background-color: $nth-color1-4;
+				color: $nth-color1-1;
+				border-color: $nth-color1-4;
+				.item-controls * {
+					color: $nth-color1-3;
+				}
+			}
+			dt.menu-item-handle:hover {
+				border-color: $nth-color1-4;
+			}
+		}
+		
+		.menu-item-settings {
+			border-color: $nth-color1-4;
+			.menu-item-actions {
+				padding-right: 10px;
+			}
+		}
+		
+	}
+}

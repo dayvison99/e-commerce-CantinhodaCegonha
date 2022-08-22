@@ -1,0 +1,105 @@
+/*
+* Package: Orchid store
+* Contributor: Themebeez
+* Author Url: https://themebeez.com/
+* Licence: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+*/
+
+
+// ancours, links, images, 
+
+a:focus,
+.mobile-menu-toggle-btn:focus,
+.category-navigation .cat-nav-trigger:focus,
+.masterheader .mini-cart .trigger-mini-cart:focus  {
+
+    outline:thin dotted #FFBF3F;
+}
+
+// input types 
+
+.header-style-1 .wishlist-icon-container a:focus,
+.masterheader .mini-cart .trigger-mini-cart:focus,
+.header-style-1 .custom-search-entry button:focus {
+
+    outline:thin dotted #FFBF3F;
+}
+
+// Screen reader text
+
+.screen-reader-text {
+    
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: $white;
+    color: $primary_color;
+    @include border-radius(3px);
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+
+    box-shadow: none;
+    clip: auto !important;
+    display: block;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    -ms-box-shadow: 0px 0px 65px rgba(0,0,0,0.1);
+    -o-box-shadow: 0px 0px 65px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 65px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 65px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 65px rgba(0,0,0,0.1);
+}
+
+.screen-reader-text:focus {
+
+    outline: thin dotted blue;
+}
+
+
+// navigation 
+
+@media ( min-width: 1025px ) {
+
+
+    .site-navigation ul li .sub-menu, 
+    .site-navigation ul li .children,
+    .site-navigation .menu-item-has-mega-children .mega-menu-sub-menu, 
+    .site-navigation .menu-item-has-mega-children .mega-menu-sub-menu {
+
+        display:block;
+        clip: rect(1px, 1px, 1px, 1px);
+        visibility: visible;
+        opacity:1;
+    }
+
+    .site-navigation .menu-item-has-mega-children .mega-menu-sub-menu, 
+    .site-navigation .menu-item-has-mega-children .mega-menu-sub-menu {
+
+        display:flex;
+    }
+
+    .site-navigation ul li:hover > .sub-menu, 
+    .site-navigation ul li:hover > .children,
+    .site-navigation ul li:focus > .sub-menu, 
+    .site-navigation ul li:focus > .children,
+    .site-navigation ul li:focus-within > .sub-menu, 
+    .site-navigation ul li:focus-within > .children,
+    .site-navigation ul li:hover>.sub-menu.mega-menu-sub-menu,
+    .site-navigation ul li:focus>.sub-menu.mega-menu-sub-menu,
+    .site-navigation ul li:focus-within>.sub-menu.mega-menu-sub-menu {
+        
+        clip: auto;
+        visibility: visible;
+        opacity:1;
+    }
+}

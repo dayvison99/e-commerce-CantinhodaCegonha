@@ -1,0 +1,42 @@
+/* ============================================ *
+ * 11. Color Box
+ * ============================================ */
+#colorbox {
+    // Border
+    #cboxMiddleLeft, #cboxMiddleRight, 
+    #cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight,
+    #cboxTopLeft, #cboxTopCenter, #cboxTopRight {
+        display: none;
+    }
+    // Colorbox Content
+    #cboxContent {
+        @include border-radius(3px);
+        background: #fefefe;
+    }    
+    iframe body {
+        h1 {
+            font-family: $font_2;
+            background: #f6f6f6;
+            font-size: 14px;
+            color: $color_d_drak;
+            border-bottom: 1px solid #DEDEDE;
+            @include border-radius(3px 3px 0 0);            
+        }  
+    }
+    // Button Close
+    #cboxClose {
+        right: 25px;
+        top: 20px;
+        text-indent: 0;
+        color: transparent;
+        font-size: 0px;
+        background-color: transparent;
+        background-image: url('images/sprite_2.png');
+        background-repeat: no-repeat;
+        background-position: 0 -52px;
+        width: 9px;
+        height: 9px;
+        display: block;
+        overflow: hidden;       
+    }
+}

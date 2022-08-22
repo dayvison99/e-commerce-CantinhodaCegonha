@@ -1,0 +1,176 @@
+/* ============================================ *
+ * 9. Dokan
+ * ============================================ */
+
+.dokan-dashboard-wrap {
+    margin-bottom: 55px;
+
+    .mce-container:hover, .mce-container *:hover, .mce-widget:hover, .mce-widget *:hover, .mce-reset:hover {
+        background-color: transparent !important;
+    }
+
+    .dokan-dashboard-content {
+        .dokan-order-filter-serach, form.report-filter {
+            .dokan-form-group {
+                label, input[type="text"] {
+                    width: auto;
+                }
+                input[type="submit"] {
+                    margin-top: -2px;
+                }
+            }
+        }
+
+        fieldset {
+            border: none;
+        }
+    }
+}
+
+.dokan-seller-listing {
+    margin-bottom: 55px;
+    .dokan-seller-search-form {
+        label {display: inline;}
+        .search-submit {display: inline-block}
+    }
+    .dokan-single-seller {
+        .dokan-store-thumbnail {
+            -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            background: #fff;
+            padding: 0;
+
+            .dokan-store-caption {
+                padding: 15px;
+                *:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.dokan-widget-area {
+    aside {
+        margin-bottom: 10px;
+        h3.widget-title {
+            margin: 0;
+            background: #f6f6f6;
+            float: none;
+            padding: 10px 20px 7px;
+            border-bottom: 1px solid #dfdfdf;
+            border: 1px solid #dfdfdf;
+            -moz-border-radius: 5px 5px 0 0;
+            -webkit-border-radius: 5px;
+            border-radius: 5px 5px 0 0;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 22px;
+
+            &+div, &+form {
+                background: #fff;
+                border: 1px solid #dfdfdf;
+                padding: 20px 20px;
+                border-top: 0;
+                -webkit-border-radius: 5px;
+                border-radius: 0 0 5px 5px;
+                -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 6px 10px -5px inset;
+                -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 6px 10px -5px inset;
+                box-shadow: rgba(0, 0, 0, 0.1) 0 6px 10px -5px inset;
+                overflow: hidden;
+                margin-left: 0;
+                margin-right: 0;
+                 > ul, > ol {
+                     padding-left: 0;
+                     list-style: none;
+                 }
+            }
+        }
+        #cat-drop-stack {
+            ul {
+                margin: 0;
+                li {
+                    margin-top: 12px;
+                    position: relative;
+                    &:first-child {
+                        margin-top: 0;
+                    }
+
+                    > a {
+                        padding-left: 20px;
+                        &:before {
+                            position: absolute;
+                            left: 0;
+                            top: 1px;
+                            content: '';
+                            width: 15px;
+                            height: 15px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            border-radius: 2px;
+                            background: #fff;
+                            border: 1px solid #dfdfdf;
+                        }
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            left: 4px;
+                            top: 8px;
+                            width: 7px;
+                            height: 1px;
+                            background: #5d5d5d;
+                        }
+
+                    }
+
+                    .sub-category {
+                        padding: 0 20px;
+                        .sub-block {
+                            h3 {
+                                font-weight: 400;
+                                font-size: 1em;
+                            }
+                            &:first-child h3 {
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .location-container {
+            padding: 0 !important;
+        }
+    }
+}
+
+.dokan-single-store {
+    #reviews {
+        .commentlist {
+            padding-left: 0;
+            .comment-text {
+                background-color: #ffffff;
+            }
+        }
+    }
+}
+
+.dokan-form-inline {
+    &.dokan-w6 {
+        .dokan-btn {
+            padding: 5px 20px;
+        }
+        input[type='text'] {
+            padding: 2px 10px;
+        }
+    }
+}
+.dokan-orders-content .dokan-orders-area .order_download_permissions .toolbar {
+    margin-left: 0;
+    margin-right: 0;
+}

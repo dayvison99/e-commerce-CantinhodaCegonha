@@ -1,0 +1,276 @@
+/* ============================================ *
+ * Key Frames Animation
+ * ============================================ */
+@import url(animate.css);
+@-webkit-keyframes nthfadeInUp {
+  /* line 274, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  /* line 280, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInUp {
+  /* line 288, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  /* line 294, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthfadeInDown {
+  /* line 302, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  /* line 308, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInDown {
+  /* line 316, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  /* line 322, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthRotateX {
+  /* line 330, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+  }
+
+  /* line 336, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthRotateX {
+  /* line 344, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+  }
+
+  /* line 350, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthfadeInRight {
+  /* line 358, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  /* line 364, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInRight {
+  /* line 372, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  /* line 378, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthfadeInLeft {
+  /* line 386, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  /* line 392, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInLeft {
+  /* line 400, _theme_variables.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  /* line 406, _theme_variables.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*image hotspot pulse*/
+@-webkit-keyframes av_pulsate {
+  /* line 415, _theme_variables.scss */
+  0% {
+    -webkit-transform: scale(0.1);
+    opacity: 0.0;
+  }
+
+  /* line 416, _theme_variables.scss */
+  50% {
+    opacity: 0.7;
+  }
+
+  /* line 417, _theme_variables.scss */
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+  }
+}
+
+@keyframes av_pulsate {
+  /* line 421, _theme_variables.scss */
+  0% {
+    transform: scale(0.1);
+    opacity: 0.0;
+  }
+
+  /* line 422, _theme_variables.scss */
+  50% {
+    opacity: 0.7;
+  }
+
+  /* line 423, _theme_variables.scss */
+  100% {
+    transform: scale(1);
+    opacity: 0.0;
+  }
+}
+
+@keyframes pulse {
+  /* line 427, _theme_variables.scss */
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  /* line 432, _theme_variables.scss */
+  50% {
+    -webkit-transform: scale3d(1.3, 1.3, 1.3);
+    transform: scale3d(1.3, 1.3, 1.3);
+  }
+
+  /* line 437, _theme_variables.scss */
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes hue {
+  /* line 444, _theme_variables.scss */
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  /* line 448, _theme_variables.scss */
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@keyframes fa-spin {
+  /* line 454, _theme_variables.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 458, _theme_variables.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes animation-rotate {
+  /* line 466, _theme_variables.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes animation-rotate {
+  /* line 472, _theme_variables.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes animation-rotate {
+  /* line 478, _theme_variables.scss */
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes animation-rotate {
+  /* line 484, _theme_variables.scss */
+  100% {
+    transform: rotate(360deg);
+  }
+}

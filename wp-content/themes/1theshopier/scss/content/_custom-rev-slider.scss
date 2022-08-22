@@ -1,0 +1,41 @@
+/*********************************
+ * 2.2.4. Custom Rev Slider
+ ********************************/
+.tparrows{
+    @include buttonslider();
+
+    &.tp-leftarrow{
+        &:before{
+            content: "k";
+        }
+    }
+    &.tp-rightarrow{
+        &:before{
+            content: "j";
+        }
+    }
+}
+
+.tp-bullet{
+    width: 11px;
+    height: 11px;
+    background: $color_light;
+    @include border-radius(50%);
+    @include box-shadow(0 0 2px 1px rgba(0,0,0,.1));
+
+    &.selected,
+    &:hover{
+        background: transparent;
+        &:before{
+            content: '';
+            width: 21px;
+            height: 21px;
+            @include border-radius(50%);
+            @include box-shadow(0 0 2px 1px rgba(0,0,0,.1));
+            border: 5px solid $color_light;
+            position: absolute;
+            left: -5px;
+            top: -5px;
+        }
+    }
+}

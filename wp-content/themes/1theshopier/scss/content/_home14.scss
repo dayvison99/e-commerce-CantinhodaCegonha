@@ -1,0 +1,238 @@
+
+/* ============================================ *
+ * 5.11. Home page 14
+ * ============================================ */
+
+/* Home 14 header */
+header#header.header-14 .nth_header_top {text-transform: capitalize;}
+header#header.header-14 .theshopier_social_network {padding-left: 20px;}
+header#header.header-14 .pc-menu > .menu > li.btn {-webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; padding-left: 30px; padding-right: 30px; margin-left: 35px;}
+header#header.header-14 .pc-menu > .menu > li {padding-left: 65px;}
+header#header.header-14 .nth_header_middle .col-sm-10 .logo,
+header#header.header-14 .nth-menu-wrapper {display: table; table-layout: fixed; height: 100px; position: relative;}
+header#header.header-14 .nth_header_middle .col-sm-10 .logo,
+header#header.header-14 .main-menu {display: table-cell; vertical-align: middle;}
+
+header#header.header-14 .nth_header_middle .col-sm-10 .logo {padding-bottom: 16px;}
+header#header .nth-menu-wrapper ul.menu > li.btn > a {font-weight: 700; padding-top: 2px;}
+
+
+/* Home Page **************************************************************************** */
+
+header#header.header-14 + .main-content .heading-title-home { margin-bottom: 34px;} 
+header#header.header-14 + .main-content .theshopier_testimonials .heading-title.border-bottom-solid {margin-bottom: 50px;} 
+header#header.header-14 + .main-content .nth-portfolios-wrapper {margin-bottom: 85px;}
+
+.border-bottom-solid.line-4,
+.nth-home-line-4 .heading-title.border-bottom-solid {border-width:4px; padding-bottom: 3px; margin-bottom: 20px;}
+
+.nth-home-about-us-block-1 .aio-icon-header .aio-icon-title {font-size: 24px;}
+.nth-heading-line60 .aio-icon-header .aio-icon-title {position: relative;}
+.nth-heading-line60 .aio-icon-header .aio-icon-title:after {width: 60px; height: 4px; content: ""; position: absolute; bottom: -13px; left: 50%; margin-left: -30px;}
+.nth-heading-line60 .aio-icon-header + .aio-icon-description {padding-top: 20px;}
+
+
+.nth-heading-line60 .heading-title.ud-line:after {width: 60px;}
+
+.nth-home-block em {font-size: 20px;}
+
+.vc_progress_bar .vc_single_bar .vc_bar {-webkit-border-top-left-radius: 30px;
+-webkit-border-bottom-left-radius: 30px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-bottomleft: 30px;
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;}
+
+.vc_progress_bar .vc_single_bar {-webkit-border-radius: 30px;-moz-border-radius: 30px; border-radius: 30px;}
+
+.nth-home-heading-title-2 {font-weight: 700; font-size: 50px;}
+.nth-portfolio-content.style_big_item .nth-portfolio-tab-content > div {padding-left: 10px; padding-right: 10px;}
+.nth-portfolio-content.style_big_item .nth-portfolio-tab-content {padding-left: 40px; padding-right: 40px;}
+.nth-portfolio-content.style_big_item {margin: 0 40px;}
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb { -moz-border-radius:0;
+    -webkit-border-radius: 0;
+    border-radius:0;   
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; position: relative;}
+
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .summary {position: absolute; top: 50%; width: 100%; left: 0; margin-top: -50px;}
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .thumnail .icons a i.fa {display: none;}
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .thumnail .icons:before {top: 5px; bottom: 5px; left: 5px; right: 5px; width: auto; height: auto;background:rgba(0, 0, 0, 0.4);  content: ""; position: absolute;}
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .thumnail .icons {width: 100%; height: 100%; top: 0; border: 20px solid rgba(0, 0, 0, 0.4); left: 0; background: none;}
+
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item.col-sm-12 .nth-portfolio-thumb .thumnail .icons:before {top: 10px; bottom: 10px; left: 10px; right: 10px;}
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item.col-sm-12 .nth-portfolio-thumb .thumnail .icons {border-width: 40px;}
+
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .summary {display: none;}
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item:hover .nth-portfolio-thumb .summary {display: block;}
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .summary h3 a {font-size: 16px; color: #fff;}
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item.col-sm-12 .nth-portfolio-thumb .summary h3 a {font-size: 24px;}
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb .summary .nth-meta{ color: #fff; }
+.nth-portfolios-wrapper .nth-portfolio-content.style_big_item .nth-portfolio-item.col-sm-12 .nth-portfolio-thumb .summary .nth-meta{ font-size: 14px; }
+
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-filters-wrap .nth-tabs.round ul.nth-portfolio-filters {
+    margin-bottom: 65px;
+}
+.nth-portfolios-wrapper .nth-portfolio-container .nth-portfolio-content.style_big_item .nth-portfolio-item .nth-portfolio-thumb {margin-bottom: 20px;}
+
+.testimonials-wrapper.testimonials-style-2 .image {float: left;}
+.nth-shortcode.theshopier_testimonials .testimonials-style-2 .testimonials-item {text-align: left;}
+.nth-shortcode.theshopier_testimonials .testimonials-style-2 .description,
+.nth-shortcode.theshopier_testimonials .testimonials-style-2 .author {padding-left: 0; margin-left: 135px;}
+.nth-shortcode.theshopier_testimonials .testimonials-style-2.owl-theme .owl-dots .owl-dot span {webkit-border-radius: 0px;
+    -moz-border-radius: 0px; border-radius: 0px; width: 20px; height: 4px; background-color: #fff; border: none;  margin-top: 4px;}
+.nth-shortcode.theshopier_testimonials .testimonials-style-2 .description {padding-top: 0; padding-bottom: 10px;}
+.nth-shortcode.theshopier_testimonials .testimonials-style-2.owl-theme .owl-dots .owl-dot.active span, 
+.nth-shortcode.theshopier_testimonials .testimonials-style-2.owl-theme .owl-dots .owl-dot:hover span { background-color: #51c8eb; margin: 5px; margin-top:0; height: 8px;}
+
+.nth-shortcode.theshopier_testimonials .testimonials-style-2 .testimonials-item {margin-bottom: 140px;}
+
+
+.nth-tabs.round {}
+.nth-tabs.round .tabs li.active { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
+.nth-tabs.round .tabs li { -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; background: none; margin: 0 5px;}
+
+.ult-just-icon-wrapper  .aio-icon-img {width: auto;}
+.ult-just-icon-wrapper  .aio-icon-img .img-icon {padding-bottom: 20px; width: auto;}
+
+.stats-block  .stats-desc .stats-number {font-weight: 400;}
+.ult_price_body .ult-just-icon-wrapper .aio-icon-img .img-icon  {padding-bottom: 0px; }
+
+.nth-heading-line60 .ult_pricing_table .ult_price_body {margin-top: 0;}
+.nth-heading-line60 .ult_pricing_table .ult_pricing_heading.heading_center {padding-top: 00px;}
+.nth-heading-line60 .ult_pricing_table .ult_pricing_heading.heading_center h3 {font-size: 20px; margin-bottom: 30px;}
+.nth-custom-1 .ult_price_action_button {background: #12294d !important; padding:13px 30px !important; -webkit-border-radius: 30px !important;-moz-border-radius: 30px !important; border-radius: 30px !important; margin-bottom: 25px;}
+.nth-custom-1 .ult_price_action_button:hover {    -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);}
+    .nth-custom-1 .ult_price_action_button:after {content: "\f105"; display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; margin-left: 5px;}
+
+.wpb_column .wpb_wrapper .ult_pricing_table_wrap:hover { -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);}
+
+.theshopier_woo_single_project .star-rating {position: relative; font-family: star; padding-top: 20px; height: 20px; overflow: hidden; width: 103px; letter-spacing: 5px;}
+.theshopier_woo_single_project .star-rating:before {content: "\73\73\73\73\73"; color: #fff; float: left; top: 0; left: 0; position: absolute;}
+.theshopier_woo_single_project .star-rating span {overflow: hidden; float: left; top: 0; left: 0;  position: absolute; padding-top: 1.5em;}
+.theshopier_woo_single_project .star-rating span:before {content: "\53\53\53\53\53"; top: 0;  position: absolute; left: 0; color: #fff;}
+
+.nth-home-project .theshopier_woo_single_project h2 {}
+.nth-home-project .theshopier_woo_single_project .project-testimonial {font-style: italic; padding: 30px 0;}
+.nth-home-project .theshopier_woo_single_project .description { padding: 30px 0 20px;}
+
+
+
+
+/* blog */
+.post-item.grid_style_3 .post-heading {position: relative;}
+.post-item.grid_style_3 .entry-date {position: absolute; left: 0; top: -68px; font-weight: 400; line-height: 
+1.2; -moz-box-shadow: 0 4px 9px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0 4px 9px rgba(0, 0, 0, 0.15); box-shadow: 0 4px 9px rgba(0, 0, 0, 0.15);}
+.post-item.grid_style_3 .entry-date + .post-title {font-size: 24px;}
+ul.list-posts li.post-item.grid_style_3 .post-item-content .post-content {padding: 35px 40px 30px;}
+.post-item.grid_style_3 .post-meta {display: none;}
+ul.list-posts li.post-item.grid_style_3:hover .post-item-content {-moz-box-shadow:0px 5px 20px rgba(0, 0, 0, 0.3) !important; -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3) !important; box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3) !important;}
+
+.post-item.grid_style_3 .read-more .button {background: #12294d;  padding: 13px 30px; -webkit-border-radius: 30px !important; -moz-border-radius: 30px !important; border-radius: 30px !important;  margin-bottom: 25px; text-decoration: none; border: none;}
+.post-item.grid_style_3 .read-more .button:after {  content: "\f105"; display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto;  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin-left: 5px;}
+.post-item.grid_style_3 .read-more .button:hover {    -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);}
+.post-item.grid_style_3 .post-title .post-title-a {position: relative; margin-bottom: 19px; display: inline-block;}
+.post-item.grid_style_3 .post-title .post-title-a:before {position: absolute; content: ""; left: 0; bottom: -11px; height: 4px; width: 60px;}
+
+/* progress bar */
+.vc_progress_bar.nth-pb-style .vc_label {position: absolute; left: 0; top: -34px; width: 100%; font-weight: 700; padding: 0; text-shadow:none !important;}
+.vc_progress_bar.nth-pb-style .vc_label .vc_label_units {float: right; font-weight: 400;}
+.vc_progress_bar.nth-pb-style .vc_bar {position: static;}
+.vc_progress_bar.nth-pb-style .vc_single_bar {height: 20px; margin-bottom: 30px; margin-top: 63px;}
+
+.nth-overflow {overflow: visible !important;}
+.nth-overflow .vc_row > div:nth-child(2),
+.nth-home-project.nth-overflow > div:nth-child(2) {width: auto; margin-right: -100%;}
+.nth-home-project.nth-overflow > div:nth-child(2) .vc_column-inner  {padding: 0 !important;}
+.nth-home-project.nth-overflow > div:nth-child(2) .vc_column-inner *  {margin: 0;}
+
+.nth-progress-bar .vc_row > div:nth-child(1) {padding-right: 60px;}
+.nth-progress-bar em {padding-bottom: 20px;}
+
+.nth-team-members-wrapper.overlay-2 .team-member > a img {-moz-border-radius: 0%; -webkit-border-radius: 0%;  border-radius: 0%;}
+.nth-team-members-wrapper.overlay-2 .owl-item > div {padding-left: 0; padding-right: 0;}
+.nth-team-members-wrapper.overlay-2 .team-member > a:after {-moz-border-radius: 0%; -webkit-border-radius: 0%;  border-radius: 0%;}
+.nth-team-members-wrapper.overlay-2 .team-member .info em {display: none;}
+.nth-team-members-wrapper.overlay-2 .team-member .info p {height: 45px; overflow: hidden; margin-bottom: 30px;}
+.nth-team-members-wrapper.overlay-2 .team-member .info h3 {margin-bottom: 40px;}
+.nth-team-members-wrapper.overlay-2 .team-member .info h3 a {position: relative; overflow: visible; font-size: 24px;}
+.nth-team-members-wrapper.overlay-2 .team-member .info h3 a:after {content: ""; position: absolute; bottom: -7px; left: 50%; margin-left: -30px; width: 60px; height: 4px; }
+.nth-team-members-wrapper.overlay-2 .team-member {position: relative;}
+.nth-team-members-wrapper.overlay-2 .team-member .info {position: absolute; top: 50%; left: 0; width: 100%; margin-top: -106px; display: none;}
+.nth-team-members-wrapper.overlay-2 .team-member:hover .info {display: block;}
+.nth-team-members-wrapper.overlay-2 .team-member:hover > a {-moz-box-shadow:0px 5px 20px rgba(0, 0, 0, 0.3) !important; -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3) !important; box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3) !important;}
+.owl-carousel.row {width: auto;}
+
+
+/* end home 14 */
+
+/* FOOTER **************************************************************** */
+.footer-1 p {line-height: 20px;}
+#footer .wpb_image_grid .wpb_image_grid_ul .isotope-item{padding: 5px;}
+.wpb_image_grid .wpb_image_grid_ul{margin: 0 -5px;}
+.wpb_image_grid .wpb_image_grid_ul .isotope-item { float: left;}
+
+header#header.header-14 + .main-content + footer li a:hover {border-bottom: 1px solid transparent;}
+header#header.header-14 + .main-content + footer .theshopier_social_network li a:hover {border-bottom:none;}
+
+/* END FOOTER **************************************************************** 
+***************************************************************************/
+
+
+ /* product item */
+
+
+/* Responsive *************************************************************************
+****************************************************************************************/
+@media (min-width: 1199px) {
+
+}
+@media (max-width: 1199px) { 
+header#header.header-14 .pc-menu > .menu > li { padding-left: 40px;}
+
+
+
+}
+
+@media (max-width: 991px) { 
+header#header.header-14 .pc-menu > .menu > li { padding-left: 20px;}
+header#header.header-14 .nth-menu-wrapper ul.menu > li.btn > a {color: #fff;}
+header#header.header-14 .pc-menu > .menu > li.btn {padding-left: 20px; padding-right: 0; margin-left: 0px;}
+header#header.header-14 .nth_header_middle .col-sm-10 .logo, 
+header#header.header-14 .nth-menu-wrapper {display: block; height: auto;}
+header#header.header-14 .nth_header_middle .col-sm-10 .logo, 
+header#header.header-14 .main-menu {display: block;}
+header#header.header-14 .nth-tini-wrapper {color: #fff;}
+header.header-14 .nth-mini-popup .mini-popup-hover .nth-icon {color: #fff;}
+header.header-14 .nth-mini-popup .nth-shopping-hover span.cart-total span.amount  {color: #fff;}
+header.header-14 .nth-mini-popup .mini-popup-hover .mini-popup-meta > a {color: #fff}
+.header-14 .fa-bars {color: #fff}
+.header-14 #searchIconActiveId {color: #fff;}
+header.header-14 .nth-mini-popup .nth-shopping-hover span.cart-total > span:after {color: #fff;}
+.nth-home-project .vc_column-inner {padding: 50px 0 !important}
+
+}
+
+@media (max-width: 767px) {  
+  header.header-14 .nth_header_middle.header-tablet-middle .nth-mini-popup .mini-popup-hover .nth-icon, 
+  .header-14 .nth_header_bottom #searchIconActiveId.icon-nth-search,
+  .home .header-14 .active-push-out .fa-bars {color: #fff;}
+  .heading-title.ud-line, 
+  .nth-shortcode .nth_products_categories_shortcode h3.heading-title.ud-line {text-align: center;}
+  .theshopier_woo_single_project .nth-shortcode-content {padding: 0 15px;}
+  .nth-overflow .vc_row > div:nth-child(2), 
+  .nth-home-project.nth-overflow > div:nth-child(2){margin-right: 0;}
+  .nth-progress-bar .vc_row > div:nth-child(1) {padding-right: 0px;}
+  .nth-row-grid {margin-bottom: 30px !important;}
+ 
+}

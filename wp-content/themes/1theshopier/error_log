@@ -1,0 +1,4 @@
+[22-Jan-2019 10:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/canti997/public_html/wp-content/themes/theshopier/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/canti997/public_html/wp-content/themes/theshopier/index.php on line 17

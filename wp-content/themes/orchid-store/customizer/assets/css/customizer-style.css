@@ -1,0 +1,90 @@
+/* Customizer UI */
+.customize-control {
+
+    position: relative;
+    margin-bottom: 0;
+    padding: 10px 10px 0px;
+    box-sizing: border-box;
+}
+
+.customize-control label {
+
+  display: inline-block;
+}
+
+.customize-control-title {
+
+  font-size: 14px;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.customize-control-pro_options+.option-group-title,
+.customize-section-description-container+.option-group-title {
+
+    margin-top: 0 !important;
+}
+
+.option-group-title {
+    
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    background: #2196F3;
+	  background: #ff00cc;  /* fallback for old browsers */
+	  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+	  background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.customize-control.customize-control-ios label {
+  width: 100%;
+  display: inline-block;
+}
+
+.customize-control-description {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.customize-control input[type=email], 
+.customize-control input[type=number], 
+.customize-control input[type=password], 
+.customize-control input[type=search], 
+.customize-control input[type=tel], 
+.customize-control input[type=text], 
+.customize-control input[type=url],
+.customize-control select {
+
+  height: 30px;
+}
+
+/****************************************************************************************************
+ **************************************** Upsell Control Styles *************************************
+ ****************************************************************************************************/
+.control-section-wptrt-customize-pro .accordion-section-title .button {
+
+  margin-top:  -4px;
+  margin-left: 8px;
+  background-color: #ffffff;
+  color: #0286e7;
+  transition-duration: 0.3s;
+}
+
+.control-section-wptrt-customize-pro .accordion-section-title .button:hover {
+
+  background-color: #0286e7;
+  border-color: #0286e7;
+  color: #ffffff;
+}

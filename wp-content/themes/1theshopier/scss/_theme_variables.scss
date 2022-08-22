@@ -1,0 +1,489 @@
+@import 'bootstrap_lib/_variables';
+
+//---- COLOR - FONT CUSTOMER
+$color_light:						#fff;
+
+$color_a:							#5a9e74;
+$color_a_dark:						#3f6e51;
+
+$color_b:							#007ad1;
+$color_b_dark:						#007ad1;
+
+$color_c:							#fd6282;
+$color_c_drak:						#fd6282;
+
+
+$color_d_light:						#8d8d8d;
+$color_d:							#5d5d5d;
+$color_d_drak:						#3d3d3d;
+
+$color_e:							#dfdfdf;
+$color_e_drak:						#c7c7c7;
+
+$color_f:							#f6f6f6;
+$color_f_drak:						#d8d8d8;
+
+$color_g:                           #dedede;
+
+$color_h:                           #f88e4f;
+
+$color_i:                           #bd0200;
+
+$color_j:                           #d10200;
+
+$color_k:                           #f3f3f3;
+
+
+
+$font_1:				  			'Roboto', Arial, Helvetica, sans-serif;
+$font_2:				  			'Roboto Condensed', Arial, Helvetica, sans-serif;
+$font_3:				  			'Quicksand', Arial, Helvetica, sans-serif;
+$font_icon:				  			"FontAwesome";
+$font_icon_custom:				  	"nthTheshopier";
+
+
+//------- FONTS
+$font-family:				  		$font_1;
+$font:						  		normal 13px/15px $font-family;
+$font-custom:                 		$font-family;
+$font-custom-a:                 	$font_2;
+$font-custom-b:                 	$font_3;
+$font-icon:                   		$font_icon;
+$font-nth-theshopier:				$font_icon_custom;
+
+$fa-css-prefix:       				icon !default;
+
+
+//-------- BORDERS
+$base-border-color:					$color_e;
+$main_border:						1px solid $base-border-color;
+$dark-border-color:					$color_e_drak;
+$shop-border-color: $color_g;
+
+
+$light-border-color:				#fff;
+$homepage-footer-border:            #d9d9d9;
+
+//--------- BACKGROUNDS
+$base-box-bg:                       $color_f;
+$table-background:                  $base-box-bg;
+$dark-background:                   $base-box-bg;
+$light-background:                  $color_light;
+$footer-background:                 $color_light;
+
+$main_boxshahow: 					0 1px 2px 1px rgba(0,0,0,0.15);
+
+$homepage-footer-bg:                #f2f2f2;
+
+//--------- COLORS
+$base-body-color:                   $color_d;
+$base-text-color:                   $color_d;
+$base-heading-color:				$color_d;
+$base-title-color:					$base-text-color;
+$light-text-color:                  $color_light;
+
+$dark-text-color:                  	$color_d_drak;
+$link-color:						$color_d;
+$link-hover-color:                  $color_a;
+$description-color:					#666;
+$review_star_color:                 $color_h;
+
+$color-1:							#db0000;
+$color-2:							#2e60a6;
+$color-3:							#079c00;
+$color-4:							#8a23c0;
+$color-5:							#fd6282;
+$color-6:							#5a9e74;
+$color-7:  #dadada;
+$color-8: #e5e5e5;
+$color-9: #eeeeee;
+
+$color-10: #f13d8a;
+$color-11: #2d2d2d;
+
+$color-red: #d13434;
+$color-black: #000000;
+$color-green-light: #66c500;
+$color-bg-slide-menu: #383838;
+
+
+//--------- Indents
+$base-page-indent:                 	$grid-gutter-width;
+$base-box-padding:                  14px 18px 13px;
+$base-box-indent:                  	0 0 30px 0;
+
+
+//---------- Product Elements
+$product-name-color:                $color_d_drak;
+$product-name-hover-color:          $color_a;
+$price-color:						$color_a;
+$product-special-price-color:		$color_c;
+$product-old-price-color:			$color_d_light;
+$product-price-color:				$price-color;
+
+$product-reduced-price:				#f00;
+
+
+//---------- Buttons
+$button-text-color:					$color_light;
+
+		//------ Buttons +/- ---
+		$button-pm-color:			#c0c0c0;
+		$button-pm-hover-color:		$base-text-color;
+
+		//------ Button Small --
+		$button-small-bg:			$color_light;
+		$button-small-hover-bg:		$color_a;
+
+		//-------Button exclusive-medium
+		$button-em-color:			$base-text-color;
+
+//---------- Product Listing
+$base-listing-border-color:					$base-border-color;
+$base-listing-grid-padding:					$base-box-padding;
+
+		//-------------- Grid/List vars
+		$GL-text-color:								$color_d_light;
+		$GL-title-color:							$base-text-color;
+		$GL-icon-color:								#929292;
+		$GL-icon-color-hover:						$base-text-color;
+
+		//-------------- Pagination vars
+		$pagination-prevnext-color:					#777676;
+		$pagination-bgcolor:	               		$base-box-bg;
+		$pagination-hover-bg:						#f6f6f6;
+
+//---------- Product Info
+$top-line-color:									#C4C4C4;
+$product-image-border:								#dbdbdb;
+$scroll-button-color:								#c0c0c0;
+$list-info-bg:										#f6f6f6;
+$scroll-button-hover-color:							$base-text-color;
+$tr-even-bg:										#fdfdfd;
+
+//sub heading (h2,h3) define
+@mixin sub-heading {
+	color: $base-heading-color;
+	text-transform: uppercase;
+	font-family: $font-custom;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 14px 20px 17px;
+	margin: 0 0 20px;
+	position: relative;
+	border: 1px solid $base-border-color;
+	border-bottom: none;
+	background: $base-box-bg;
+}
+
+
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+// generic transform
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+@mixin scale($scale) {
+	 @include transform(scale($scale));
+} 
+// translate
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+// skew
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+	moz-transform-origin: $origin;
+	-o-transform-origin: $origin;
+	-ms-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+	transform-origin: $origin;
+}
+
+@mixin opacity($value) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=" + ($value * 100) + ")"; /* for IE8 in IE7 mode */
+  filter: alpha(opacity=($value * 100)); /* for IE6-IE8 */
+  -moz-opacity: ($value);
+  opacity: ($value);
+}
+
+@mixin animation ($transform: background, $duration: 0.5s, $easing: ease, $delay: 0.1s) {
+  -webkit-transition: $transform $duration $easing $delay;
+  -moz-transition:    $transform $duration $easing $delay;  
+  -o-transition:      $transform $duration $easing $delay;  
+  transition:         $transform $duration $easing $delay;  
+}
+
+@mixin nthanimated($act: nthfadeInUp){
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: $act;
+	animation-name: $act;
+}
+
+/* ============================================ *
+ * Key Frames Animation
+ * ============================================ */
+
+@-webkit-keyframes nthfadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthfadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthRotateX {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthRotateX {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthfadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes nthfadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nthfadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*image hotspot pulse*/
+@-webkit-keyframes av_pulsate {
+    0% 		{-webkit-transform: scale(0.1); opacity: 0.0;}
+    50% 	{opacity: 0.7;}
+    100% 	{-webkit-transform: scale(1); opacity: 0.0;}
+}
+
+@keyframes av_pulsate {
+    0% 		{transform: scale(0.1); opacity: 0.0;}
+    50% 	{opacity: 0.7;}
+    100% 	{transform: scale(1); opacity: 0.0;}
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.3, 1.3, 1.3);
+    transform: scale3d(1.3, 1.3, 1.3);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+
+@-webkit-keyframes animation-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes animation-rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes animation-rotate {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes animation-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+

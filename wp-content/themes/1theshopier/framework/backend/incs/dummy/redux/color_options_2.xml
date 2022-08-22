@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<colour>
+	<item>
+		<title>Body</title>
+		<id>body-color-section-start</id>
+		<subtitle>The header top colour</subtitle>
+		<type>section</type>
+		<indent>true</indent>
+	</item>	
+	
+	<item>
+		<title>Color light</title>
+		<id>color-light</id>
+		<subtitle> Text header, Button color</subtitle>
+		<type>color</type>
+		<def>#fff</def>
+		<output>
+			<color>
+				header .nth_header_top,
+				header .nth-mini-popup .nth-shopping-hover .icon-nth-cart:after,
+				.nth_header_toolbar > div > div > a span:after
+			</color>
+			<bgcolor>
+				.woocommerce a.compare, .woocommerce a.button.nth-compare, .woocommerce-page a.compare, .woocommerce-page a.button.nth-compare,
+				.woocommerce a.compare:hover, .woocommerce a.button.nth-compare:hover, .woocommerce-page a.compare:hover, .woocommerce-page a.button.nth-compare:hover,
+				.woocommerce a.compare:active, .woocommerce a.button.nth-compare:active, .woocommerce-page a.compare:active, .woocommerce-page a.button.nth-compare:active,
+				.woocommerce a.compare:focus, .woocommerce a.button.nth-compare:focus, .woocommerce-page a.compare:focus, .woocommerce-page a.button.nth-compare:focus
+			</bgcolor>
+		</output>		
+	</item>
+	
+	
+	
+	<item>
+		<title>First color</title>
+		<id>color-1</id>
+		<subtitle> Text color, body color </subtitle>
+		<type>color</type>
+		<def>#5d5d5d</def>
+		<output>
+			<color>
+				body,
+				h1, h2, h3, h4, h5,
+				h1.page-title,
+				a, p.lost_password a:hover,
+				
+				html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_section .wpb_accordion_header a,
+				
+				.woocommerce .products section.product .product-inner .product-cats a:hover, .woocommerce-page .products section.product .product-inner .product-cats a:hover,
+				
+				footer, #footer,
+				.vc_tta-style-classic.vc_tta-tabs[class*=vc_tta-color] .vc_tta-tab.vc_active > a,
+				.vc_tta-style-classic.vc_tta-tabs[class*=vc_tta-color] .vc_tta-tab.vc_active > a:hover, .vc_tta-style-classic.vc_tta-tabs[class*=vc_tta-color] .vc_tta-tab.vc_active > a:focus
+			</color>
+			<bgcolor></bgcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Second color</title>
+		<id>color-2</id>
+		<subtitle>  Title, heading </subtitle>
+		<type>color</type>
+		<def>#3d3d3d</def>
+		<output>
+			<color>
+				.woocommerce .products section.product .product-inner h3.product-title a, .woocommerce-page .products section.product .product-inner h3.product-title a,
+				
+				h3.post-title a:hover, h2.post-title a:hover,
+				
+				.pc-menu.vertical-menu-inner > ul.menu > li > .sub-menu li.menu-item > a,
+				.nth-shortcode.recent-comments ul > li h3 a:hover,
+				
+				.nth-quickshop-wrapper div.product .product_title, .woocommerce-page div.product .product_title,
+				.nth-sidebar ul.widgets-sidebar > li .widget-heading h3
+			</color>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Third color</title>
+		<id>color-3</id>
+		<subtitle>  Title small, Text tabs </subtitle>
+		<type>color</type>
+		<def>#8d8d8d</def>
+		<output>
+			<color>.wpb_tabs ul.wpb_tabs_nav.nth-boxed > li a, del span.amount, #footer .nth-product-categories-wrapper a</color>
+		</output>		
+	</item>
+	
+		
+	<item>
+		<title>Fourth color</title>
+		<id>color-4</id>
+		<subtitle>Link, link hover, background</subtitle>
+		<type>color</type>
+		<def>#3a83d4</def>
+		<output>
+			<color>
+				a:hover, a:focus, p.lost_password a,
+				.button.effect:focus, .button.effect:active, .button.effect:hover,
+				.button.outline:focus, .button.outline:active, .button.outline:hover,
+				.woocommerce .button.outline:focus, .woocommerce .button.outline:active, .woocommerce .button.outline:hover,
+				h3.post-title a, h2.post-title a,
+				.woocommerce .products section.product .product-inner h3.product-title a:hover, .woocommerce-page .products section.product .product-inner h3.product-title a:hover,
+				.woocommerce .products section.product .product-inner .product-cats a, .woocommerce-page .products section.product .product-inner .product-cats a,
+				.read-more a.button:hover, a.button.button-border:hover,
+				span.amount,
+				
+				.pc-menu > .menu > li:hover > a,
+				.pc-menu > .menu > li.current-menu-item > a,
+				.pc-menu > .menu li.menu-item-has-children .sub-menu li:hover > a,				
+				.pc-menu.vertical-menu-inner > ul.menu > li.current-menu-item > a, .pc-menu.vertical-menu-inner > ul.menu > li:hover > a,
+				.pc-menu.vertical-menu-inner > ul.menu > li > .sub-menu li.menu-item:hover > a,
+				.pc-menu.vertical-menu-inner > ul.menu > li > .sub-menu li.menu-item .sub-menu li:hover > a,
+				.nth-menu-vertical .vertical-menu-inner > ul.menu > li.current-menu-item > .menu-drop-icon, .nth-menu-vertical .vertical-menu-inner > ul.menu > li:hover > .menu-drop-icon,
+				.pc-menu > .menu li.menu-item-has-children:hover > .menu-drop-icon,
+				.pc-menu > .menu li.current-menu-item > a, .pc-menu > .menu li.current_page_item > a,
+				.c-menu .mobile-menu ul li.current-menu-item a,
+				.wpb_tabs ul.wpb_tabs_nav.nth-boxed > li.ui-state-active a, .wpb_tabs ul.wpb_tabs_nav.nth-boxed > li:hover a,
+				.nth-shortcode .nth_products_categories_shortcode .shortcode-woo-tabs li.active a, .nth-shortcode .nth_products_categories_shortcode .shortcode-woo-tabs li:hover a,
+				html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_section .wpb_accordion_header.ui-accordion-header-active a,
+				
+				#footer .nth-product-categories-wrapper a:hover,
+				
+				.nth-shortcode.recent-comments ul > li h3 a,
+				.nth-shortcode.nth-pricing ul.nth-pricing-ul li.desc,
+				
+				.nth-quickshop-wrapper div.product .woocommerce-product-rating .star-rating + a, .woocommerce-page div.product .woocommerce-product-rating .star-rating + a,
+				.text-color1, .nth-form-single .nth-form-wrapper [type=submit]:hover:before, 
+				header.header-5 .nth-searchform .nth-search-wrapper [type=submit],.post-meta .author a, header.header-5 .nth_header_top .main-menu .menu li:hover > a, 
+				header.header-5 .nth_header_top .main-menu .menu li.current-menu-item > a, header.header-5 .nth_header_top .main-menu .menu li.menu-item-has-children:hover > .menu-drop-icon,
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > ul.menu > li.menu-item:hover > a,
+				.nth_header_top .main-menu .menu li.menu-item-has-children .sub-menu > li:hover > a, .nth_header_top .main-menu .menu li.menu-item-has-children .sub-menu > li:hover .menu-drop-icon,
+				li.widget.widget_product_categories li.current-cat > a, li.widget.widget_categories li.current-cat > a,
+				.vc_tta-style-classic.vc_tta-tabs.vc_general.nth-tab-style4 .vc_tta-tab.vc_active > a, .vc_tta-tabs.nth-tab-style2 ul.vc_tta-tabs-list li.vc_tta-tab.vc_active > a,
+				.vc_tta-accordion.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a,
+				.vc_tta-style-classic.vc_tta-tabs.vc_general.nth-tab-style4 .vc_tta-tab > a:hover, .vc_tta-style-classic.vc_tta-tabs.vc_general.nth-tab-style4 .vc_tta-tab > a:active,
+				.nth-tab-style1 .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a:hover, .nth-tab-style2 .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a:hover, .nth-tab-style3 .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a:hover,
+				.vc_tta-tabs.nth-tab-style2 ul.vc_tta-tabs-list li.vc_tta-tab.vc_active > a:hover, .vc_tta-tabs.nth-tab-style2 ul.vc_tta-tabs-list li.vc_tta-tab.vc_active > a:focus,
+				.vc_tta-style-classic.vc_tta-tabs[class*=vc_tta-color] .vc_tta-tab > a:hover, .vc_tta-style-classic.vc_tta-tabs[class*=vc_tta-color] .vc_tta-tab > a:focus,
+				.vc_tta-accordion.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title > a:hover, .vc_tta-accordion.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title > a:focus,
+				html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_section .wpb_accordion_header a:hover,
+				.nth_header_toolbar > div > div .nth-mini-login-content a:last-child,
+				.woocommerce table.cart td.actions a.button:hover,
+				.cart_totals .shipping-calculator-button,
+				.woocommerce-checkout .nth-checkout-heading a, .woocommerce-checkout h3 a,
+				.navi .navi-prev a:hover, .navi .navi-next a:hover,
+				.entry-date + h1.post-title,
+				.wishlist_table tr td.product-stock-status span.wishlist-in-stock,
+				table.compare-list tr.title td.have-price .price ins span.amount,
+				.c-menu ul li a:hover,
+				.c-menu ul li.menu-item-has-children.show-submenu > a, .c-menu ul li.menu-item-has-children.show-submenu > .menu-drop-icon,
+				.yotpo.yotpo-main-widget .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo.yotpo-main-widget .yotpo-review .yotpo-header .yotpo-user-name, .yotpo.yotpo-main-widget .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo.yotpo-main-widget .yotpo-comment .yotpo-header .yotpo-user-name, .yotpo.yotpo-main-widget .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo.yotpo-main-widget .yotpo-question .yotpo-header .yotpo-user-name,
+				.yotpo.yotpo-main-widget .yotpo-tool-tip .tool-tip-header .header-blue, .yotpo.yotpo-main-widget .yotpo-tool-tip-question .tool-tip-header .header-blue, .yotpo.yotpo-main-widget .yotpo-tool-tip-answer .tool-tip-header .header-blue,
+				.yotpo.yotpo-main-widget .transparent-color-btn.voted span, .yotpo.yotpo-main-widget .transparent-color-btn.voted i, .yotpo.yotpo-main-widget .transparent-color-btn:hover span, .yotpo.yotpo-main-widget .transparent-color-btn:hover i,
+				.yotpo.yotpo-main-widget .yotpo-messages .yotpo-thank-you .yotpo-thankyou-header span, .yotpo.yotpo-main-widget .yotpo-messages .yotpo-modal-dialog .yotpo-thank-you .yotpo-thankyou-header span,
+				header .nth-mini-popup .nth-shopping-hover span.cart-total span.amount,
+				.woocommerce-account a.edit, .woocommerce-account a.signout,
+				.feature-prod-cat-wrapper .feature-cat .f-meta a,
+				p.lost_password a, p.create_account a,
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce a.product_type_grouped.outline, .woocommerce a.product_type_external.outline, .woocommerce a.button.add_to_cart_button.outline, .woocommerce a.button.out_stock.outline, .woocommerce .button.alt.single_add_to_cart_button.outline, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce-page a.product_type_grouped.outline, .woocommerce-page a.product_type_external.outline, .woocommerce-page a.button.add_to_cart_button.outline, .woocommerce-page a.button.out_stock.outline, .woocommerce-page .button.alt.single_add_to_cart_button.outline,
+				.nth-portfolios-wrapper .nth-portfolio-content .nth-portfolio-item .nth-portfolio-thumb .summary h3 a:hover,
+				h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover,
+				.wpb_tour ul.wpb_tabs_nav > li.ui-state-active a, .wpb_tour ul.wpb_tabs_nav > li:hover a,
+				.wpb_tabs ul.wpb_tabs_nav li.ui-tabs-active a, .wpb_tabs ul.wpb_tabs_nav li:hover a,
+				.header-2 .nth_header_middle .text-contact a
+			</color>
+			<bgcolor>
+				.button, button,
+				.button, button, html input[type="button"], input[type="reset"], input[type="submit"], .btn-primary, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .button.primary,
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.button.add_to_cart_button, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.button.out_stock, .woocommerce .button.alt.single_add_to_cart_button, .woocommerce-page .wishlist_table td.product-add-to-cart a, .woocommerce-page a.product_type_grouped, .woocommerce-page a.product_type_external, .woocommerce-page a.button.out_stock, .woocommerce-page a.button.add_to_cart_button, .woocommerce-page .button.alt.single_add_to_cart_button,
+				a.button, button, html input[type="button"], input[type="reset"], input[type="submit"], .btn-primary,
+				.nth-searchform .nth-search-wrapper [type=submit],
+				.yotpo.yotpo-main-widget .yotpo-default-button, .yotpo.yotpo-main-widget input[type="button"].yotpo-default-button,
+
+				header .nth-mini-popup .nth-shopping-hover .icon-nth-cart:after,
+
+				.nth-sidebar ul.widgets-sidebar > li.widget_calendar #wp-calendar #today	,
+				.entry-date .entry-month, .wp-pagenavi ul li a.prev, .wp-pagenavi ul li a.next,
+				.woocommerce .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-handle, .woocommerce-page .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-handle,
+				.woocommerce nav.woocommerce-pagination ul li .next, .woocommerce nav.woocommerce-pagination ul li .prev, .woocommerce-page nav.woocommerce-pagination ul li .next, .woocommerce-page nav.woocommerce-pagination ul li .prev,
+				form.mc4wp-form [type=submit]:hover,
+				.woocommerce .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-range, .woocommerce-page .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-range,
+				.nth-shopping-progress-wrapper ul li.active,
+				.nth-shopping-progress-wrapper ul li.active:before,
+
+				.yotpo.yotpo-main-widget .yotpo-review .yotpo-header .yotpo-icon-profile, .yotpo.yotpo-main-widget .yotpo-comment .yotpo-header .yotpo-icon-profile, .yotpo.yotpo-main-widget .yotpo-question .yotpo-header .yotpo-icon-profile,
+				.nth_header_toolbar .nth-shopping-cart-item span:after
+			</bgcolor>
+			
+			<bdcolor>
+				.read-more a.button:hover, a.button.button-border:hover, .heading-title:after, .nth_header_toolbar > div > div > a span:after,
+				.button.effect:focus, .button.effect:active, .button.effect:hover,
+				.button.outline:focus, .button.outline:active, .button.outline:hover,
+				.woocommerce .button.outline:focus, .woocommerce .button.outline:active, .woocommerce .button.outline:hover,
+				.vc_tta-style-classic.vc_tta-tabs.vc_general.nth-tab-style4 .vc_tta-tab.vc_active > a:after,
+				.woocommerce div.product div.images div.thumbnails .owl-wrapper-outer .owl-item a.active, .woocommerce div.product div.images div.thumbnails .owl-stage-outer .owl-item a.active,
+				.woocommerce table.cart td.actions a.button:hover,
+				.nth-shopping-progress-wrapper ul li.current-item:after,
+				.cart_totals .shipping-calculator-button:after,
+				.navi .navi-prev a:hover, .navi .navi-next a:hover,
+				.heading-title.ud-line:after,
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce a.product_type_grouped.outline, .woocommerce a.product_type_external.outline, .woocommerce a.button.add_to_cart_button.outline, .woocommerce a.button.out_stock.outline, .woocommerce .button.alt.single_add_to_cart_button.outline, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce-page a.product_type_grouped.outline, .woocommerce-page a.product_type_external.outline, .woocommerce-page a.button.add_to_cart_button.outline, .woocommerce-page a.button.out_stock.outline, .woocommerce-page .button.alt.single_add_to_cart_button.outline,
+				input[type="email"]:focus, input[type="search"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input.input-text:focus, input[type="text"]:focus
+			</bdcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Fifth color</title>
+		<id>color-5</id>
+		<subtitle>Button hover</subtitle>
+		<type>color</type>
+		<def>#376DA9</def>
+		<output>
+			<color>
+				header.header-5 .nth-searchform .nth-search-wrapper [type=submit]:hover,
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce a.product_type_grouped.outline:hover, .woocommerce a.product_type_external.outline:hover, .woocommerce a.button.add_to_cart_button.outline:hover, .woocommerce a.button.out_stock.outline:hover, .woocommerce .button.alt.single_add_to_cart_button.outline:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce-page a.product_type_grouped.outline:hover, .woocommerce-page a.product_type_external.outline:hover, .woocommerce-page a.button.add_to_cart_button.outline:hover, .woocommerce-page a.button.out_stock.outline:hover, .woocommerce-page .button.alt.single_add_to_cart_button.outline:hover
+			</color>			
+			<bgcolor>.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart:hover, .woocommerce a.product_type_grouped:disabled, .woocommerce a.product_type_grouped:hover, .woocommerce a.product_type_external:hover, .woocommerce a.button.add_to_cart_button:hover,  .woocommerce a.button.out_stock:hover, .woocommerce .button.alt.single_add_to_cart_button:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart:hover, .woocommerce-page a.product_type_grouped:hover, .woocommerce-page a.product_type_external:hover, .woocommerce-page a.button.add_to_cart_button:hover, .woocommerce-page a.button.out_stock:hover, .woocommerce-page .button.alt.single_add_to_cart_button:hover,
+			.button:focus, .button:active, .button:hover, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .btn-primary:focus, .woocommerce a.button:focus, .woocommerce button.button:focus, .woocommerce input.button:focus, button:active, html input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .btn-primary:active, .woocommerce a.button:active, .woocommerce button.button:active, .woocommerce input.button:active, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .btn-primary:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .button.primary:focus, .button.primary:active, .button.primary:hover,
+			.yotpo.yotpo-main-widget .yotpo-default-button:hover, .yotpo.yotpo-main-widget input[type="button"].yotpo-default-button:hover,
+			.nth-searchform .nth-search-wrapper [type=submit]:hover
+		</bgcolor>
+			<bdcolor>
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce a.product_type_grouped.outline:hover, .woocommerce a.product_type_external.outline:hover, .woocommerce a.button.add_to_cart_button.outline:hover, .woocommerce a.button.out_stock.outline:hover, .woocommerce .button.alt.single_add_to_cart_button.outline:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce-page a.product_type_grouped.outline:hover, .woocommerce-page a.product_type_external.outline:hover, .woocommerce-page a.button.add_to_cart_button.outline:hover, .woocommerce-page a.button.out_stock.outline:hover, .woocommerce-page .button.alt.single_add_to_cart_button.outline:hover
+			</bdcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Sixth color</title>
+		<id>color-6</id>
+		<subtitle>"a" tag color.</subtitle>
+		<type>color</type>
+		<def>#fd6282</def>
+		<output>
+			<color>
+				ins span.amount,
+				
+				.woocommerce .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a, .woocommerce .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a, .woocommerce-page .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a, .woocommerce-page .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a,.text-color2
+			</color>
+			<bgcolor>
+				.woocommerce span.onsale, .woocommerce-page span.onsale,
+				.nth_header_toolbar > div > div > a span:after
+			</bgcolor>
+		</output>		
+	</item>
+	
+	
+	
+	
+	<item>
+		<id>body-color-section-end</id>
+		<type>section</type>
+		<indent>false</indent>
+	</item>
+	
+	<item>
+		<title>Header Top</title>
+		<id>header-top-color-section-start</id>
+		<subtitle>The header top colour</subtitle>
+		<type>section</type>
+		<indent>true</indent>
+	</item>
+
+	<item>
+		<title>Header background</title>
+		<id>header-background-color</id>
+		<subtitle>Header font subtitle</subtitle>
+		<desc>Description</desc>
+		<type>background</type>
+		<output>header</output>
+		<def>
+			<bgColor>#ffffff</bgColor>
+		</def>
+	</item>
+	
+	<item>
+		<id>header-top-color-section-end</id>
+		<type>section</type>
+		<indent>false</indent>
+	</item>
+</colour>

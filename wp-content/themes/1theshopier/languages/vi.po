@@ -1,0 +1,3575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TheShopier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-08 09:23+0000\n"
+"POT-Revision-Date: Mon Aug 01 2016 11:13:05 GMT+0700 (SE Asia Standard Time)"
+"\n"
+"PO-Revision-Date: 2018-02-08 09:33+0000\n"
+"Last-Translator: admin <kingdom102@gmail.com>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:24
+msgid "404 Page Not Found"
+msgstr ""
+
+#. Name of the template
+msgid "Albums Grid"
+msgstr ""
+
+#: archive-nth_gallery.php:26
+msgid "Gallery"
+msgstr ""
+
+#: archive-product.php:49 archive-product.php:184 archive.php:24 archive.php:60
+#: index.php:58 page.php:36 page.php:69 search.php:33 search.php:68
+#: single.php:27 single.php:165 pages/blog-grid.php:26 pages/blog-grid.php:79
+#: pages/blog.php:26 pages/blog.php:63 pages/page-1790.php:38
+#: pages/page-1790.php:67 woocommerce/single-product.php:39
+#: woocommerce/single-product.php:88 framework/header_tpl/header-1.php:22
+#: framework/header_tpl/header-10.php:35 framework/header_tpl/header-11.php:37
+#: framework/header_tpl/header-12.php:16 framework/header_tpl/header-13.php:15
+#: framework/header_tpl/header-14.php:10 framework/header_tpl/header-15.php:20
+#: framework/header_tpl/header-3.php:22 framework/header_tpl/header-4.php:21
+#: framework/header_tpl/header-5.php:23 framework/header_tpl/header-6.php:25
+#: framework/header_tpl/header-7.php:25 framework/header_tpl/header-8.php:22
+msgid "Please add some widgets here!"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: content-audio.php:76 content-video.php:91 content-widget.php:41
+#: content.php:72 single.php:104
+msgid "By"
+msgstr ""
+
+#: content-audio.php:109 content-video.php:124 content.php:105
+msgid "Read more"
+msgstr ""
+
+#: content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: related_posts.php:7
+msgid "Related posts"
+msgstr ""
+
+#: search.php:41
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single-gallery_1.php:50
+msgid "Media icon image"
+msgstr ""
+
+#: single.php:101
+msgid "Edit"
+msgstr ""
+
+#: single.php:119
+#, php-format
+msgid "<span class=\"%1$s\">Tags:</span> %2$s"
+msgstr ""
+
+#: single.php:132
+msgid "avatar image"
+msgstr ""
+
+#: framework/theme.php:361
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/theme.php:362
+msgid "Vertical Menu"
+msgstr ""
+
+#: framework/theme.php:363
+msgid "Mobile Menu"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:202
+msgid "Blog Grid"
+msgstr ""
+
+#. Name of the template
+msgid "Blog default"
+msgstr ""
+
+#. Name of the template
+msgid "Contact Us"
+msgstr ""
+
+#. Name of the template
+msgid "Page Full-width"
+msgstr ""
+
+#. Name of the template
+msgid "Page 1790 template"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolios full-width"
+msgstr ""
+
+#: woocommerce/compare-toolbar.php:20
+msgid "My Compare"
+msgstr ""
+
+#: woocommerce/compare-toolbar.php:41 woocommerce/wishlist-view.php:253
+#: framework/functions/hook.php:499
+#: framework/backend/incs/mega-menu-backend.php:196
+#: framework/backend/incs/mega-menu-backend.php:228
+#: framework/backend/incs/mega-menu-backend.php:321
+#: framework/incs/widgets/class.abstract-widgets.php:221
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/compare-toolbar.php:63 woocommerce/wishlist-toolbar.php:64
+#: woocommerce/wishlist-view.php:175
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/compare-toolbar.php:77
+msgid "No products were added to Compare"
+msgstr ""
+
+#: woocommerce/compare-toolbar.php:87 framework/functions/function_api.php:352
+msgid "View compare"
+msgstr ""
+
+#: woocommerce/compare-toolbar.php:87
+#, php-format
+msgid "Compare (%s)"
+msgstr ""
+
+#: woocommerce/wishlist-toolbar.php:18
+#, php-format
+msgid "My Wishlist (%d)"
+msgstr ""
+
+#: woocommerce/wishlist-toolbar.php:19
+msgid "Browse to Wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-toolbar.php:19
+msgid "Wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-toolbar.php:43 woocommerce/wishlist-view.php:253
+#: woocommerce/wishlist-view.php:259
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-toolbar.php:76 woocommerce/wishlist-view.php:273
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:40
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:49 framework/functions/hook.php:387
+msgid "Save"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:53
+#: framework/backend/incs/mega-menu-backend.php:322
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:85 woocommerce/cart/cart.php:42
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:92
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:105
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:186
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:189
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:202
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:221
+#: framework/backend/incs/mega-menu-backend.php:296
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:233
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:236
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:239
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:293
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:301 woocommerce/wishlist-view.php:345
+msgid "Ask for an estimate"
+msgstr ""
+
+#: framework/functions/ajax_functions.php:55
+msgid "Please enter your sidebar name!"
+msgstr ""
+
+#: framework/functions/ajax_functions.php:64
+msgid "This name was used."
+msgstr ""
+
+#: framework/functions/ajax_functions.php:161
+msgid "Login success!"
+msgstr ""
+
+#: framework/functions/ajax_functions.php:196
+#: framework/functions/function_api.php:373
+msgid "Browse Shopping cart"
+msgstr ""
+
+#: framework/functions/ajax_functions.php:198
+#: framework/functions/function_api.php:255
+#, php-format
+msgid "Cart: %s item(s)"
+msgstr ""
+
+#: framework/functions/breadcrumb.php:17
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: framework/functions/breadcrumb.php:18
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: framework/functions/breadcrumb.php:19
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: framework/functions/breadcrumb.php:20
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: framework/functions/breadcrumb.php:21
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: framework/functions/breadcrumb.php:22
+msgid "Error 404"
+msgstr ""
+
+#: framework/functions/breadcrumb.php:106
+#: framework/functions/breadcrumb.php:126
+msgid "Shop"
+msgstr ""
+
+#: framework/functions/breadcrumb.php:130
+msgid "Tagged \""
+msgstr ""
+
+#: framework/functions/breadcrumb.php:198
+msgid "Page"
+msgstr ""
+
+#: framework/functions/footer.php:52
+msgid "footer copyright logo"
+msgstr ""
+
+#: framework/functions/footer.php:64
+msgid "footer copyright payment"
+msgstr ""
+
+#: framework/functions/function_api.php:57
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/functions/function_api.php:58
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/functions/function_api.php:86
+msgid "Search product..."
+msgstr ""
+
+#: framework/functions/function_api.php:88
+msgid "Search anything..."
+msgstr ""
+
+#: framework/functions/function_api.php:93
+msgid "Search for:"
+msgstr ""
+
+#: framework/functions/function_api.php:101
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: framework/functions/function_api.php:123
+#: framework/functions/function_api.php:313
+#: framework/functions/function_api.php:317
+#: framework/functions/function_api.php:319
+#: framework/functions/function_api.php:323
+msgid "My Account"
+msgstr ""
+
+#: framework/functions/function_api.php:150
+#: framework/functions/function_api.php:183
+msgid "Welcome!"
+msgstr ""
+
+#: framework/functions/function_api.php:162
+#: framework/functions/function_api.php:280
+msgid "Username"
+msgstr ""
+
+#: framework/functions/function_api.php:163
+#: framework/functions/function_api.php:281
+msgid "Password"
+msgstr ""
+
+#: framework/functions/function_api.php:164
+#: framework/functions/function_api.php:282
+msgid "Remember Me"
+msgstr ""
+
+#: framework/functions/function_api.php:165
+#: framework/functions/function_api.php:283
+msgid "Log In"
+msgstr ""
+
+#: framework/functions/function_api.php:184
+msgid "Sign In"
+msgstr ""
+
+#: framework/functions/function_api.php:196
+#: framework/functions/function_api.php:333
+#, php-format
+msgid ""
+"New to our store? <a href=\"%1$s\" title=\"Create an Account\">Create an "
+"Account</a>"
+msgstr ""
+
+#: framework/functions/function_api.php:240
+#: framework/functions/function_api.php:246
+#: framework/functions/function_api.php:253
+#: framework/functions/function_api.php:378
+msgid "My Cart"
+msgstr ""
+
+#: framework/functions/function_api.php:318
+#, php-format
+msgid "Welcome, <strong>%s</strong>"
+msgstr ""
+
+#: framework/functions/function_api.php:319
+msgid "Visit Account Page"
+msgstr ""
+
+#: framework/functions/function_api.php:320
+#: framework/functions/function_api.php:320
+msgid "Log out"
+msgstr ""
+
+#: framework/functions/function_api.php:363
+msgid "Browse Wishlist"
+msgstr ""
+
+#: framework/functions/function_api.php:404
+msgid "Top"
+msgstr ""
+
+#: framework/functions/function_api.php:410
+msgid "Question us!"
+msgstr ""
+
+#: framework/functions/function_api.php:452
+msgid "Follow me"
+msgstr ""
+
+#: framework/functions/function_api.php:469
+msgid "image alt"
+msgstr ""
+
+#: framework/functions/function_api.php:553
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: framework/functions/function_api.php:563
+msgid "- No animate -"
+msgstr ""
+
+#: framework/functions/function_api.php:564
+msgid "Bounce"
+msgstr ""
+
+#: framework/functions/function_api.php:565
+msgid "Pulse"
+msgstr ""
+
+#: framework/functions/function_api.php:566
+msgid "RubberBand"
+msgstr ""
+
+#: framework/functions/function_api.php:567
+msgid "Shake"
+msgstr ""
+
+#: framework/functions/function_api.php:568
+msgid "Swing"
+msgstr ""
+
+#: framework/functions/function_api.php:569
+msgid "Tada"
+msgstr ""
+
+#: framework/functions/function_api.php:570
+msgid "Wobble"
+msgstr ""
+
+#: framework/functions/function_api.php:571
+msgid "Jello"
+msgstr ""
+
+#: framework/functions/function_api.php:572
+msgid "BounceIn"
+msgstr ""
+
+#: framework/functions/function_api.php:573
+msgid "BounceInDown"
+msgstr ""
+
+#: framework/functions/function_api.php:574
+msgid "BounceInLeft"
+msgstr ""
+
+#: framework/functions/function_api.php:575
+msgid "BounceInRight"
+msgstr ""
+
+#: framework/functions/function_api.php:576
+msgid "BounceInUp"
+msgstr ""
+
+#: framework/functions/function_api.php:577
+msgid "FadeIn"
+msgstr ""
+
+#: framework/functions/function_api.php:578
+msgid "FadeInDown"
+msgstr ""
+
+#: framework/functions/function_api.php:579
+msgid "FadeInDownBig"
+msgstr ""
+
+#: framework/functions/function_api.php:580
+msgid "FadeInLeft"
+msgstr ""
+
+#: framework/functions/function_api.php:581
+msgid "FadeInLeftBig"
+msgstr ""
+
+#: framework/functions/function_api.php:582
+msgid "FadeInRight"
+msgstr ""
+
+#: framework/functions/function_api.php:583
+msgid "FadeInRightBig"
+msgstr ""
+
+#: framework/functions/function_api.php:584
+msgid "FadeInUp"
+msgstr ""
+
+#: framework/functions/function_api.php:585
+msgid "FadeInUpBig"
+msgstr ""
+
+#: framework/functions/function_api.php:586
+msgid "Flip"
+msgstr ""
+
+#: framework/functions/function_api.php:587
+msgid "FlipInX"
+msgstr ""
+
+#: framework/functions/function_api.php:588
+msgid "FlipInY"
+msgstr ""
+
+#: framework/functions/function_api.php:589
+msgid "LightSpeedIn"
+msgstr ""
+
+#: framework/functions/function_api.php:590
+msgid "RotateIn"
+msgstr ""
+
+#: framework/functions/function_api.php:591
+msgid "RotateInDownLeft"
+msgstr ""
+
+#: framework/functions/function_api.php:592
+msgid "RotateInDownRight"
+msgstr ""
+
+#: framework/functions/function_api.php:593
+msgid "RotateInUpLeft"
+msgstr ""
+
+#: framework/functions/function_api.php:594
+msgid "RotateInUpRight"
+msgstr ""
+
+#: framework/functions/function_api.php:595
+msgid "SlideInUp"
+msgstr ""
+
+#: framework/functions/function_api.php:596
+msgid "SlideInDown"
+msgstr ""
+
+#: framework/functions/function_api.php:597
+msgid "SlideInLeft"
+msgstr ""
+
+#: framework/functions/function_api.php:598
+msgid "SlideInRight"
+msgstr ""
+
+#: framework/functions/function_api.php:599
+msgid "ZoomIn"
+msgstr ""
+
+#: framework/functions/function_api.php:600
+msgid "ZoomInDown"
+msgstr ""
+
+#: framework/functions/function_api.php:601
+msgid "ZoomInLeft"
+msgstr ""
+
+#: framework/functions/function_api.php:602
+msgid "ZoomInRight"
+msgstr ""
+
+#: framework/functions/function_api.php:603
+msgid "ZoomInUp"
+msgstr ""
+
+#: framework/functions/function_api.php:604
+msgid "Hinge"
+msgstr ""
+
+#: framework/functions/function_api.php:605
+msgid "RollIn"
+msgstr ""
+
+#: framework/functions/general.php:61
+msgid "Prev"
+msgstr ""
+
+#: framework/functions/general.php:62
+msgid "Next"
+msgstr ""
+
+#: framework/functions/general.php:270
+msgid "Loading..."
+msgstr ""
+
+#: framework/functions/general.php:281
+msgid "Load more"
+msgstr ""
+
+#: framework/functions/hook.php:24
+msgid "Share on Facebook"
+msgstr ""
+
+#: framework/functions/hook.php:32
+msgid "Share on Twitter"
+msgstr ""
+
+#: framework/functions/hook.php:41
+msgid "Share on Google plus"
+msgstr ""
+
+#: framework/functions/hook.php:50
+msgid "Share on Pinterest"
+msgstr ""
+
+#: framework/functions/hook.php:218
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: framework/functions/hook.php:219
+msgid "out of 5"
+msgstr ""
+
+#: framework/functions/hook.php:277
+msgid "Compare"
+msgstr ""
+
+#: framework/functions/hook.php:395 framework/functions/mega-menu.php:63
+#: framework/backend/incs/mega-menu-backend.php:254
+msgid "New"
+msgstr ""
+
+#: framework/functions/hook.php:450
+msgid "I want you see this site"
+msgstr ""
+
+#: framework/functions/hook.php:452
+msgid "Check out this site "
+msgstr ""
+
+#: framework/functions/hook.php:454
+msgctxt "Share by mailTo & Print in product page."
+msgid "Send to friends"
+msgstr ""
+
+#: framework/functions/hook.php:455
+msgctxt "Share by mailTo & Print in product page."
+msgid "Print"
+msgstr ""
+
+#: framework/functions/hook.php:499 woocommerce/cart/cart.php:112
+#: woocommerce/cart/cart.php:127
+msgid "Remove this item"
+msgstr ""
+
+#: framework/functions/hook.php:540 framework/functions/hook.php:571
+msgid "My Wishlist"
+msgstr ""
+
+#: framework/functions/hook.php:564 woocommerce/myaccount/navigation.php:40
+msgid "Logout"
+msgstr ""
+
+#: framework/functions/hook.php:568
+msgid "My Order"
+msgstr ""
+
+#: framework/functions/hook.php:574
+msgid "Track my order"
+msgstr ""
+
+#: framework/functions/hook.php:576
+msgid "Custom account page"
+msgstr ""
+
+#: framework/functions/hook.php:577
+msgid "Log Out"
+msgstr ""
+
+#: framework/functions/hook.php:683
+msgid "Update Cart"
+msgstr ""
+
+#: framework/functions/hook.php:692
+msgid "Coupon"
+msgstr ""
+
+#: framework/functions/hook.php:692 woocommerce/checkout/form-coupon.php:38
+msgid "Coupon code"
+msgstr ""
+
+#: framework/functions/hook.php:692 woocommerce/checkout/form-coupon.php:42
+msgid "Apply Coupon"
+msgstr ""
+
+#: framework/functions/hook.php:720
+msgid "Shopping cart"
+msgstr ""
+
+#: framework/functions/hook.php:721
+msgid "Checkout"
+msgstr ""
+
+#: framework/functions/hook.php:722
+msgid "Order Complete"
+msgstr ""
+
+#: framework/functions/hook.php:734 woocommerce/checkout/thankyou.php:89
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: framework/functions/hook.php:754
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/hook.php:762
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/functions/hook.php:785
+msgid "Item per page"
+msgstr ""
+
+#: framework/functions/hook.php:871
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:844
+msgid "Brand"
+msgstr ""
+
+#: framework/functions/main.php:18
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/main.php:25
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/functions/main.php:25
+msgid "(Edit)"
+msgstr ""
+
+#: framework/functions/main.php:28
+msgid "Reply"
+msgstr ""
+
+#: framework/functions/main.php:67 framework/functions/main.php:67
+msgid "Don't show it again"
+msgstr ""
+
+#: framework/functions/mega-menu.php:66
+#: framework/backend/incs/mega-menu-backend.php:255
+msgid "Sale"
+msgstr ""
+
+#: framework/functions/preview.php:20
+msgid "--Select a font--"
+msgstr ""
+
+#: framework/header_tpl/header-1.php:59 framework/header_tpl/header-15.php:62
+#: framework/header_tpl/header-2.php:69
+msgid "Shop By Departments"
+msgstr ""
+
+#: framework/header_tpl/header-1.php:62 framework/header_tpl/header-15.php:65
+#: framework/header_tpl/header-2.php:72
+msgid "Set your vertical menu"
+msgstr ""
+
+#: framework/header_tpl/header-2.php:34
+msgid "Set Primary Menu."
+msgstr ""
+
+#: framework/incs/class.quickshop.php:10 framework/incs/class.quickshop.php:108
+#: framework/incs/class.quickshop.php:108
+msgid "Quick shop"
+msgstr ""
+
+#: framework/incs/class.shop-dragdrop.php:29
+msgid "Drop product in here"
+msgstr ""
+
+#: framework/incs/class.shopbycolor.php:78
+#: framework/incs/class.shopbycolor.php:90
+#: framework/incs/class.shopbycolor.php:110
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:367
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1515
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1660
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:295
+msgid "Color"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:67
+msgid "Main Widget Area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:68
+msgid "The Main sidebar widget area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:71
+msgid "Header Top Widget Area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:72
+msgid "The header top widget area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:75
+msgid "Header Top Widget Area (MB)"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:76
+msgid "The header top widget area on mobile"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:79
+msgid "Header Middle Widget Area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:80
+msgid "The header middle widget area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:83
+msgid "Blog Page Widget Area &mdash; Left"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:84
+msgid "The blog left widget area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:87
+msgid "Blog Page Widget Area &mdash; Right"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:88
+msgid "The blog right widget area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:91
+msgid "Shop Widget Area &mdash; Left"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:92
+msgid "The Shop page left widget area"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:95
+msgid "Shop Widget Area &mdash; Right"
+msgstr ""
+
+#: framework/incs/class.widget_sidebars.php:96
+msgid "The Shop page right widget area"
+msgstr ""
+
+#: framework/incs/mega-menu-action.php:79
+#, php-format
+msgid "NTH Mega Menu - %d"
+msgstr ""
+
+#: framework/incs/widgets.php:65
+msgid "Sidebar name"
+msgstr ""
+
+#: framework/incs/widgets.php:65
+msgid "required"
+msgstr ""
+
+#: framework/incs/widgets.php:69
+msgid "Sidebar description"
+msgstr ""
+
+#: framework/incs/widgets.php:95
+msgid "Hidden on mobile"
+msgstr ""
+
+#: framework/incs/widgets.php:99
+msgid "Hidden on Tablet"
+msgstr ""
+
+#: framework/incs/widgets.php:102
+msgid "Css Classes"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:48
+#: woocommerce/cart/shipping-calculator.php:38
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:80 woocommerce/cart/cart.php:45
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:95
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:43
+#: framework/incs/widgets/class.abstract-widgets.php:235
+#: framework/incs/widgets/class.woocommerce-products.php:53
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:44
+#: woocommerce/single-product/add-to-cart/simple.php:58
+#: woocommerce/single-product/add-to-cart/variable.php:79
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:86
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Continue Shopping"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:35
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:86
+msgid "empty cart image"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:88
+msgid "Your cart is empty."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:89
+msgid "Start shopping now :)"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+msgid "State"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:95
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:32
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:47
+msgid "Returning Customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:47
+#: woocommerce/checkout/form-login.php:19
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:82
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:33
+msgid "Your Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:18
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:25
+msgid "Login to checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:29
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:39
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:41
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:60
+#: woocommerce/order/order-details-customer.php:41
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:66
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/loop/rating.php:36
+msgid "No rating"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:34
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:48
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:64
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:67
+#: woocommerce/order/order-details-customer.php:79
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:76
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/order/order-details.php:43
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/single-product/related.php:45
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/title.php:24
+msgid "View detail"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:37
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: framework/backend/functions/product_cat_form_field.php:13
+#: framework/backend/functions/product_cat_form_field.php:42
+msgid "Category Informations"
+msgstr ""
+
+#: framework/backend/functions/product_cat_form_field.php:16
+#: framework/backend/functions/product_cat_form_field.php:45
+msgid "The Category Informations will show as category description."
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:15
+msgid "NTH &mdash; Page Options"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:16
+msgid "NTH &mdash; Post Options"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:17
+msgid "NTH &mdash; STBlock position"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:19
+msgid "NTH &mdash; Member infomations"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:81
+#: framework/backend/incs/class.metabox.php:476
+#: framework/incs/redux-framework/options-config.php:202
+#: framework/backend/tmps/metabox/page_options.php:13
+#: framework/backend/tmps/metabox/tabs.php:14
+msgid "General"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:86
+msgid "Page Title"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:92
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:99
+msgid "Page comments"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:108
+#: framework/backend/incs/class.metabox.php:276
+#: framework/backend/incs/class.metabox.php:281
+#: framework/backend/tmps/metabox/page_options.php:14
+#: framework/backend/tmps/metabox/tabs.php:15
+msgid "Layout"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:113
+msgid "Page Layout"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:118
+#: framework/backend/incs/class.metabox.php:287
+msgid "Full width"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:119
+#: framework/backend/incs/class.metabox.php:126
+#: framework/backend/incs/class.metabox.php:288
+#: framework/backend/incs/class.metabox.php:296
+msgid "Left sidebar"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:120
+#: framework/backend/incs/class.metabox.php:289
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:121
+#: framework/backend/incs/class.metabox.php:290
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:129
+#: framework/backend/incs/class.metabox.php:140
+msgid "--Select a sidebar--"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:137
+#: framework/backend/incs/class.metabox.php:304
+msgid "Right sidebar"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:150
+#: framework/backend/tmps/metabox/page_options.php:15
+#: framework/backend/tmps/metabox/tabs.php:16
+msgid "Slideshow"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:155
+#: framework/backend/tmps/metabox/page_options.php:24
+#: framework/backend/tmps/metabox/tabs.php:25
+msgid "Slider type"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:167
+#: framework/backend/tmps/metabox/page_options.php:34
+#: framework/backend/tmps/metabox/tabs.php:35
+msgid "Meta Slider"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:171
+msgid "Empty value or Meta Slider not exist!"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:179
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:183
+msgid "Empty value or SliderRevolution not exist!"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:193
+msgid "Page template"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:206
+msgid "Blog Columns"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:215
+#: framework/backend/incs/class.metabox.php:222
+msgid "This use only for Blog Grid page template"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:219
+msgid "Video size"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:226
+msgid "Post per page"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:234
+msgid "Album Grid"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:238
+msgid "Album Style"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:242
+#: framework/incs/widgets/class.recent-posts.php:25
+msgid "Style 1"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:243
+#: framework/incs/widgets/class.recent-posts.php:26
+msgid "Style 2"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:286
+msgid "-- Inherit --"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:292
+#: framework/backend/incs/class.metabox.php:300
+#: framework/backend/incs/class.metabox.php:308
+msgid "By default, it will apply the choice from Theme Options"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:299
+#: framework/backend/incs/class.metabox.php:307
+msgid "--Inherit--"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:315
+msgid "Shortcode"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:319
+msgid "Thumbnail Shortcode"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:322
+msgid "Please enter your shortcode content as slider shortcode..."
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:332
+msgid "Video"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:336
+msgid "Source"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:347
+msgid "Url"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:351
+msgid "Support youtube, vimeo."
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:356
+msgid "Mp4 Url"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:362
+msgid "Ogg Url"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:368
+msgid "Webm Url"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:378
+msgid "Audio"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:382
+msgid "Audio Embed"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:385
+#, php-format
+msgid "Please enter embed code for audio (you can use %1$ssoundcloud.com%2$s)"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:416
+msgid "Standard"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:417
+msgid "Widget"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:418
+msgid "Mega menu"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:444
+msgid "Tab Title"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:446
+msgid "Your custom tab title"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:451
+msgid "Tab Content"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:481
+msgid "Role"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:489
+msgid "Email"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:497
+msgid "Phone"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:504
+msgid "Profile Link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:514
+#: framework/incs/redux-framework/options-config.php:661
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1438
+msgid "Social network"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:518
+msgid "Facebook link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:526
+msgid "Twitter link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:534
+msgid "Google+ link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:542
+msgid "Pinterest link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:550
+msgid "Instagram link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:558
+msgid "LinkedIn link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.php:566
+msgid "Dribbble link"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.template.php:231
+msgid "Choose an media"
+msgstr ""
+
+#: framework/backend/incs/class.metabox.template.php:231
+msgid "Use Media"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: framework/backend/incs/mega-menu-backend.php:58
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: framework/backend/incs/mega-menu-backend.php:62
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:79
+msgid "sub item"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:94
+msgid "Move up"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:107
+msgid "Move down"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:109
+#: framework/backend/incs/mega-menu-backend.php:111
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:121
+msgid "URL"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:128
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:134
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:142
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:147
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:153
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:159
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:220
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:902
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:767
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:856
+msgid "Description"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:161
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:168
+msgid "Text Color"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:175
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:338
+msgid "Icon image"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:184
+#: framework/backend/incs/mega-menu-backend.php:216
+#: framework/incs/widgets/class.abstract-widgets.php:208
+msgid "Choose an image"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:184
+#: framework/backend/incs/mega-menu-backend.php:216
+#: framework/incs/widgets/class.abstract-widgets.php:208
+msgid "Use image"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:188
+#: framework/backend/incs/mega-menu-backend.php:220
+#: framework/incs/widgets/class.abstract-widgets.php:213
+msgid "Media thumbnail"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:195
+#: framework/backend/incs/mega-menu-backend.php:227
+#: framework/incs/widgets/class.abstract-widgets.php:220
+msgid "Add image"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:207
+#: framework/incs/widgets/class.banner.php:23
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:86
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:750
+msgid "Background image"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:245
+msgid "Use mega menu"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:251
+msgid "Label:"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:263
+msgid "Width:"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:266
+msgid "Mega menu width 1"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:267
+msgid "Mega menu width 2"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:268
+msgid "Mega menu width 3"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:269
+msgid "Mega menu width 4"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:270
+msgid "Mega menu width 5"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:276
+msgid "Static block:"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:286
+msgid "Please create static block for menu."
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:297
+msgid "Up one"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:298
+msgid "Down one"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:301
+msgid "To the top"
+msgstr ""
+
+#: framework/backend/incs/mega-menu-backend.php:308
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:53
+msgid "Theme Options"
+msgstr "Tùy chỉnh theme"
+
+#: framework/incs/redux-framework/options-config.php:54
+msgid "Theshopier Options"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:152
+msgid "Documentation!"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:169
+msgid "Documentation"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:170
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:176
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:210
+#: framework/incs/redux-framework/options-config.php:216
+msgid "Logo URL"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:217
+msgid "This logo will showing at main header."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:225
+msgid "Field Description"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:232
+msgid "Static block for PAGE-404"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:239
+msgid "Pace loader"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:249
+msgid "Pace loading logo"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:252
+msgid "Pace loading logo URL"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:253
+msgid "This logo will showing on loading page"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:261
+msgid "Main Layout"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:262
+msgid "Main layout: wide or boxed"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:280
+msgid "Smooth Scroll"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:289
+msgid "Sidebar widget style"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:291
+#: framework/incs/redux-framework/options-config.php:565
+msgid "Default"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:292
+msgid "Outline style"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:300
+msgid "Newsletter popup"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:309
+msgid "Newsletter popup content"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:317
+msgid "Google maps API"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:318
+#, php-format
+msgid "Get Google map API, visit: %sGoogle docs%s"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:324
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1604
+msgid "Image size"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:333
+msgid "Blog thumbnail size"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:340
+#: framework/incs/redux-framework/options-config.php:379
+#: framework/incs/redux-framework/options-config.php:419
+#: framework/incs/redux-framework/options-config.php:459
+#: framework/incs/redux-framework/options-config.php:497
+msgid "Width"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:341
+msgid "Min: 150, max: 1170, step: 1, default: 870"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:352
+#: framework/incs/redux-framework/options-config.php:391
+#: framework/incs/redux-framework/options-config.php:431
+#: framework/incs/redux-framework/options-config.php:471
+#: framework/incs/redux-framework/options-config.php:509
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1053
+msgid "Height"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:353
+msgid "Min: 150, max: 1000, step: 1, default: 696"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:372
+msgid "Blog list thumbnail size"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:380
+msgid "Min: 100, max: 520, step: 1, default: 300"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:392
+msgid "Min: 100, max: 520, step: 1, default: 250"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:412
+msgid "Blog Widget Thumbnail Size"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:420
+msgid "Min: 50, max: 250, step: 1, default: 100"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:432
+msgid "Min: 30, max: 150, step: 1, default: 67"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:453
+msgid "Blog Single image size"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:460
+msgid "Min: 300, max: 1170, step: 1, default: 1170"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:472
+msgid "Min: 300, max: 1170, step: 1, default: 1000"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:490
+msgid "Shop Subcategories"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:498
+msgid "Min: 100, max: 1170, step: 5, default: 100"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:510
+msgid "Min: 100, max: 700, step: 5, default: 100"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:542
+msgid "Header"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:549
+msgid "Header style"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:556
+msgid "Header Shipping Text"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:557
+#: framework/incs/redux-framework/options-config.php:1067
+msgid "Use any of the features of WordPress editor inside your panel!"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:563
+msgid "Breadcrum Style"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:566
+msgid "Transparent"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:573
+msgid "Sticky menu"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:582
+msgid "Footer"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:590
+msgid "Footer width"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:600
+#: framework/incs/widgets/class.staticblock.php:30
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:694
+msgid "Static block"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:606
+msgid "Footer copyright"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:612
+msgid "Show Footer copyright"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:621
+msgid "Footer copyright text"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:633
+msgid "Header Toolbar"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:641
+msgid "Header toolbar"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:650
+msgid "Show social network"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:663
+msgid "Add Item"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:701
+msgid "Toolbar Feelback"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:702
+msgid "Enter your feedback link"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:713
+msgid "Show Qr-code"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:724
+msgid "QR-Code URL"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:725
+msgid "Leave empty to put the current page url."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:769
+msgid "Font import"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:848
+msgid "Theme fonts."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:849
+msgid "<strong>font xml</strong> not found, please import it."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:855
+msgid "Typography"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:868
+msgid "Color importer"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:940
+msgid "Color scheme"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:949
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:956
+msgid "Shop page"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:964
+msgid "Shop Layout"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:965
+#: framework/incs/redux-framework/options-config.php:1101
+msgid "Main layout: none slidebar, left slidebar or right slidebar."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:990
+#: framework/incs/redux-framework/options-config.php:1126
+#: framework/incs/redux-framework/options-config.php:1251
+msgid "Select Left Sidebar"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:998
+#: framework/incs/redux-framework/options-config.php:1134
+#: framework/incs/redux-framework/options-config.php:1259
+msgid "Select Right Sidebar"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1006
+msgid "Product Per Page"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1007
+msgid "Min: 4, max: 100, step:1, default: 12"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1016
+msgid "Shop Product Columns"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1017
+msgid "Min: 2, max: 12, step:1, default value: 3"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1032
+msgid "Catalog item style"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1048
+msgid "Drop-Drag shopping cart"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1057
+msgid "Quickshop button"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1066
+msgid "Shop Infomation"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1074
+msgid "Product Deal format"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1075
+#, php-format
+msgid "For full documentation on this format, visit: %sjQuery.countdown%s"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1082
+msgid "Track order page"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1091
+msgid "Product page"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1100
+msgid "Product Page Layout"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1143
+msgid "Footer block"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1150
+msgid "Custom tab title"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1151
+msgid "It will show at product tabs"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1158
+msgid "Custom tab Content"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1164
+msgid "Variablion style"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1167
+msgid "Section button"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1171
+msgid "Select input"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1183
+msgid "Dokan"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1191
+#: framework/backend/incs/vc_customs/pagrams.php:68
+#: framework/backend/incs/vc_customs/pagrams.php:98
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:187
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:487
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:609
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:773
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1598
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1769
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:177
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:430
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:563
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:640
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:777
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:865
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:972
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1045
+msgid "Columns"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1192
+msgid "Min: 2, max: 6, step: 1, default: 4"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1204
+msgid "Store list thumbnail"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1217
+msgid "Blog"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1225
+msgid "Blog Layout"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1226
+msgid "Blog layout: none slidebar, left slidebar or right slidebar."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1268
+msgid "Excerpt length"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1269
+msgid "Min: 25, max: 255, step: 1, default: 55"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1278
+msgid "Read More button"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1288
+msgid "Galleries"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1296
+msgid "Fullscreen"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1297
+msgid "Enabled/Disabled fullscreen buttom"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1305
+msgid "Loop"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1306
+msgid "Makes slider to go from last slide to first"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1314
+msgid "Gallery height"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1315
+msgid "Min: 350px, max: 1170px, step: 10px, default: 670px"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1329
+msgid "Auto Play"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1337
+msgid "Pause On Hover"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1338
+msgid "Pause autoplay on hover."
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1347
+msgid "Delay"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1348
+msgid "Min: 3000ms, max: 18000ms, step: 500ms, default: 5000ms"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1363
+msgid "Enable thumbnail vertical"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1372
+msgid "Theme Editor"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1380
+msgid "CSS Code"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1392
+msgid "Color options xml"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:1407
+msgid "Font options xml"
+msgstr ""
+
+#: framework/incs/widgets/class.abstract-widgets.php:234
+#: framework/incs/widgets/class.woocommerce-products.php:52
+#: framework/backend/incs/vc_customs/class.autocomplete.php:168
+msgid "Date"
+msgstr ""
+
+#: framework/incs/widgets/class.abstract-widgets.php:236
+#: framework/incs/widgets/class.woocommerce-products.php:54
+#: framework/backend/incs/vc_customs/class.autocomplete.php:173
+msgid "Random"
+msgstr ""
+
+#: framework/incs/widgets/class.abstract-widgets.php:237
+#: framework/incs/widgets/class.woocommerce-products.php:55
+msgid "Sales"
+msgstr ""
+
+#: framework/incs/widgets/class.abstract-widgets.php:243
+#: framework/incs/widgets/class.woocommerce-products.php:63
+msgid "ASC"
+msgstr ""
+
+#: framework/incs/widgets/class.abstract-widgets.php:244
+#: framework/incs/widgets/class.woocommerce-products.php:64
+msgid "DESC"
+msgstr ""
+
+#: framework/incs/widgets/class.banner.php:10
+msgid "Build a banner shortcode"
+msgstr ""
+
+#: framework/incs/widgets/class.banner.php:12
+msgid "Banner"
+msgstr ""
+
+#: framework/incs/widgets/class.banner.php:18
+#: framework/incs/widgets/class.product-category.php:36
+#: framework/incs/widgets/class.product-filters.php:43
+#: framework/incs/widgets/class.recent-comments.php:18
+#: framework/incs/widgets/class.recent-posts.php:18
+#: framework/incs/widgets/class.staticblock.php:25
+#: framework/incs/widgets/class.woocommerce-products.php:18
+#: framework/backend/incs/vc_customs/class.autocomplete.php:171
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:214
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:925
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1504
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:312
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:348
+msgid "Title"
+msgstr ""
+
+#: framework/incs/widgets/class.banner.php:28
+msgid "Banner content"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:10
+msgid "Display a list of your products of a category."
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:12
+msgid "Product Category"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:35
+#: framework/incs/widgets/class.woocommerce-products.php:17
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:596
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:668
+msgid "Products"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:41
+#: framework/incs/widgets/class.woocommerce-products.php:23
+msgid "Item Style"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:43
+#: framework/incs/widgets/class.woocommerce-products.php:25
+msgctxt "NTH WooCommerce Products Widgets"
+msgid "Grid"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:44
+#: framework/incs/widgets/class.woocommerce-products.php:26
+msgctxt "NTH WooCommerce Products Widgets"
+msgid "List"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:53
+#: framework/incs/widgets/class.woocommerce-products.php:35
+msgid "Number of products to show"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:58
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:390
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:499
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:755
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1010
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1106
+msgid "Category"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:64
+#: framework/incs/widgets/class.woocommerce-products.php:50
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:617
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:186
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:442
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:571
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:652
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:794
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:882
+msgid "Order by"
+msgstr ""
+
+#: framework/incs/widgets/class.product-category.php:70
+#: framework/incs/widgets/class.woocommerce-products.php:61
+msgctxt "Sorting order"
+msgid "Order"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:10
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:12
+msgid "WooCommerce Layered Nav"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:42
+msgid "Filter by"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:48
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1039
+msgid "Attribute"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:54
+msgid "Display type"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:56
+msgid "List Vertical"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:57
+msgid "List Horizontal"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:63
+msgid "Query type"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:65
+msgid "AND"
+msgstr ""
+
+#: framework/incs/widgets/class.product-filters.php:66
+msgid "OR"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-comments.php:10
+msgid "Your site's most recent comments."
+msgstr ""
+
+#: framework/incs/widgets/class.recent-comments.php:12
+#: framework/incs/widgets/class.recent-comments.php:17
+msgid "Recent Comments"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-comments.php:26
+#: framework/incs/widgets/class.recent-posts.php:35
+msgid "Number of post to show"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-comments.php:35
+#: framework/incs/widgets/class.recent-posts.php:43
+msgid "Excerpt words"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-posts.php:10
+msgid "Your site's most recent Posts."
+msgstr ""
+
+#: framework/incs/widgets/class.recent-posts.php:12
+msgid "Recent Posts"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-posts.php:17
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:545
+msgid "Recent posts"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-posts.php:23
+msgid "Display style"
+msgstr ""
+
+#: framework/incs/widgets/class.recent-posts.php:48
+msgid "Hidden posted time."
+msgstr ""
+
+#: framework/incs/widgets/class.staticblock.php:10
+msgid "Get Static block content"
+msgstr ""
+
+#: framework/incs/widgets/class.staticblock.php:12
+msgid "Static Blocks"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:10
+msgid "Display a list of your products on your site."
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:12
+msgid "WooCommerce Products"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:40
+msgid "Show"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:42
+msgid "All Products"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:43
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:225
+msgid "Featured Products"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:44
+msgid "On-sale Products"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:70
+msgid "Hide free products"
+msgstr ""
+
+#: framework/incs/widgets/class.woocommerce-products.php:75
+msgid "Show hidden products"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:33
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:70
+msgid "Clear"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:169
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:68
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:188
+msgid "ID"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:170
+msgid "Author"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:172
+msgid "Modified"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:174
+msgid "Comment count"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:175
+msgid "Menu order"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:189
+msgid "Descending"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:190
+msgid "Ascending"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:196
+msgid "Blue"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:197
+msgid "Turquoise"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:198
+msgid "Pink"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:199
+msgid "Violet"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:200
+msgid "Peacoc"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:201
+msgid "Chino"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:202
+msgid "Mulled Wine"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:203
+msgid "Vista Blue"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:204
+msgid "Black"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:205
+msgid "Grey"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:206
+msgid "Orange"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:207
+msgid "Sky"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:208
+msgid "Green"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:209
+msgid "Juicy pink"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:210
+msgid "Sandy brown"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:211
+msgid "Purple"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:212
+msgid "White"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:213
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1119
+msgid "Success"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:216
+msgid "Custom color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:285
+msgid ""
+"If you use slider, This column number will response respectively with 1200px"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:286
+msgid "Type product name, slug or id."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:290
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:117
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:194
+msgid "Css"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:292
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:119
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:196
+msgid "Design options"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:296
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1545
+msgid "Extra class name"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.php:298
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:38
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:65
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:157
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:185
+msgid "Name"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:40
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:60
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:159
+#: framework/backend/incs/vc_customs/class.autocomplete.query.php:180
+msgid "Slug"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:6
+#: framework/backend/incs/vc_customs/pagrams.php:21
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1114
+msgid "Row style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:10
+#: framework/backend/incs/vc_customs/pagrams.php:25
+#: framework/backend/incs/vc_customs/pagrams.php:60
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:598
+msgid "Normal"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:11
+#: framework/backend/incs/vc_customs/pagrams.php:26
+msgid "Grid style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:12
+#: framework/backend/incs/vc_customs/pagrams.php:27
+msgid "Shadow"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:35
+msgid "Backround Color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:37
+msgid "Set background color."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:43
+msgid "Hidden Label"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:57
+#: framework/backend/incs/vc_customs/pagrams.php:82
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:511
+msgid "Tabs style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:61
+msgid "Boxed"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:85
+#: framework/backend/incs/vc_customs/pagrams.php:127
+#: framework/backend/incs/vc_customs/pagrams.php:188
+#: framework/backend/incs/vc_customs/pagrams.php:199
+msgid "VC Defaule"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:86
+msgid "NTH Tab Style 1"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:87
+msgid "NTH Tab Style 2"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:88
+msgid "NTH Tab Style 3"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:89
+msgid "NTH Tab Style 4"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:90
+msgid "NTH Tab Style 5"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:107
+msgid "Align"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:110
+msgid "Left"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:111
+msgid "Center"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:112
+msgid "Right"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:124
+msgid "Section style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:128
+msgid "NTH style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:185
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:169
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:421
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:595
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:762
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:838
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1025
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:951
+msgid "Style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:189
+#: framework/backend/incs/vc_customs/pagrams.php:200
+msgid "NTH Style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/pagrams.php:196
+msgid "Border radius"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:73
+msgid "Banners"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:80
+msgid "Banner Link"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:92
+msgid "Cotent"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:97
+msgid "Display Inline"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:106
+msgid "Hidden on?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:127
+msgid "Brands"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:135
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:552
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:720
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:800
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:873
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1088
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1165
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1446
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1562
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1685
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1787
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:55
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:477
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:686
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:822
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:910
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1070
+msgid "Heading"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:143
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:558
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:726
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:806
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1172
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1452
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1568
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1640
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1693
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1793
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:62
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:692
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:916
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1076
+msgid "Box Style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:154
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:569
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:736
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:816
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1182
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1462
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1578
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1703
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1804
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:74
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:485
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:702
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:717
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:926
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1086
+msgid "Heading style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:180
+msgid "Brand images"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:203
+msgid "Icon options"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:204
+msgid "Color options"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:207
+msgid "Infobox"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:228
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:981
+msgid "Use icon?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:238
+msgid "Icon library"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:240
+msgid "Font Awesome"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:241
+msgid "Open Iconic"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:242
+msgid "Typicons"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:243
+msgid "Entypo"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:244
+msgid "Linecons"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:245
+msgid "Icon Image"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:249
+msgid "Select icon library."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:255
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:271
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:288
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:305
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:321
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:990
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1316
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1412
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1493
+msgid "Icon"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:266
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:283
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:300
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:333
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1001
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1324
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1423
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1500
+msgid "Select icon from library."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:345
+msgid "Select icon from media."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:351
+msgid "Background Style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:354
+msgid "Circle"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:355
+msgid "Square"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:356
+msgid "Rounded"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:358
+msgid "Background style for icon."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:370
+msgid "Infobox color."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:376
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1366
+msgid "Custom Color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:378
+msgid "Select custom color."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:388
+msgid "Icon backgound"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:392
+msgid "Background Color."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:398
+msgid "Custom icon backgound"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:400
+msgid "Select custom icon backgound."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:413
+msgid "Portfolio"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:431
+msgid "Portfolio Cats"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:438
+msgid "Please type [name], [slug] or [id] of Portfolio."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:445
+msgid "Filter align"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:460
+msgid "Filter Style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:474
+msgid "Content style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:496
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:170
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:423
+msgid "Per Page"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:506
+msgid "Show Filter"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:518
+msgid "Show Title"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:530
+msgid "Show Excerpt"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:581
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1235
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1592
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:556
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:786
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:874
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1051
+msgid "Limit"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:588
+msgid "Excerpt Limit"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:599
+msgid "List"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:600
+msgid "Grid"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:601
+msgid "Grid style 2"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:602
+msgid "Grid style 3"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:603
+msgid "Grid Overflow"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:621
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:189
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:445
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:574
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:655
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:797
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:885
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:625
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:194
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:450
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:579
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:660
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:802
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:890
+msgid "Order way"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:628
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:197
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:453
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:582
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:663
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:805
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:893
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:633
+msgid "Show cats"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:643
+msgid "Show Author"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:653
+msgid "Show excerpt"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:663
+msgid "Show read more"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:687
+msgid "Static Block"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:700
+msgid "Display"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:713
+msgid "Team Member"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:751
+msgid "Members"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:758
+msgid "Please type [name], [slug] or [id] of Team Members."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:780
+msgid "Use Slider?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:793
+msgid "Testimonials"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:831
+msgid "Use slider?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:850
+msgid "Testimonial"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:857
+msgid "Please type [name], [slug] or [id] of testimonials."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:865
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:895
+msgid "Pricing"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:879
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:963
+msgid "Label"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:888
+msgid "Label text"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:898
+msgid "Ex: $|11.99|mo, Free|30 days"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:908
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1158
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1100
+msgid "Features"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:912
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:915
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:919
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1133
+msgid "Pack feature here..."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:916
+msgid "Tooltip goes here..."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:931
+msgid "Tooltip content"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:939
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:969
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1335
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1338
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1125
+msgid "Button text"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:945
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:975
+msgid "Button link"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:956
+msgid "Action"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1010
+msgid "Google maps"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1017
+msgid "Your Addpress"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1021
+msgid "Please type your address here."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1038
+msgid "Map style JSON data"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1042
+#, php-format
+msgid "You can get Map style JSON data in %1$sMapStylr%2$s"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1046
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1740
+msgid "Zoom"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1060
+msgid "Marker icon"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1067
+msgid "Widget content"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1078
+msgid "Table"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1098
+msgid "Table row"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1107
+msgid "Table heading"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1109
+msgid "Use this row as table heading?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1117
+msgid "-None-"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1118
+msgid "Active"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1120
+msgid "Info"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1121
+msgid "Warning"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1122
+msgid "Danger"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1128
+msgid "Cells"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1139
+msgid "Colspan"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1146
+msgid "Value"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1196
+msgid "Features style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1207
+msgid "Inside style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1217
+msgid "Simple features"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1227
+msgid "Per Row"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1244
+msgid "Features id"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1251
+msgid "Please type [name], [slug] or [id] of Fatures."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1257
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:151
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:416
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:530
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:630
+msgid "Excerpt limit"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1264
+msgid "Icon Size"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1271
+msgid "Show the excerpt?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1277
+msgid "Show learn more link?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1284
+msgid "Title Color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1287
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1295
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1302
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1311
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1325
+msgid "Color & filter"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1291
+msgid "Excerpt Color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1299
+msgid "Link Color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1307
+msgid "Link text"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1342
+msgid "Button style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1354
+msgid "Background color style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1376
+msgid "Button color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1386
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:89
+msgid "Border color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1396
+msgid "Button size"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1406
+msgid "Use icon"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1408
+msgid "Button with icon."
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1428
+msgid "Button"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1476
+msgid "Social"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1510
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:288
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:322
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:348
+msgid "Link"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1523
+msgid "Apply color hover"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1532
+msgid "Icon size"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1554
+msgid "Instagram"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1618
+msgid "QR_Code"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1626
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1633
+msgid "Data"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1653
+msgid "Margin"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1667
+msgid "Bg Color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1678
+msgid "Store Location"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1717
+msgid "Store"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1722
+msgid "Store Name"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1728
+msgid "Store address"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1733
+msgid "Store link"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1747
+msgid "Store infomation"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1752
+msgid "Line"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1762
+msgid "Map image size"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1780
+msgid "Tag Cloud"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1819
+msgid "Taxonomy"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:97
+msgid "Content as Widget"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:117
+msgid "Use Big Product"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:129
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:406
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:537
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:617
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:978
+msgid "Use slider"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:141
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:397
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:521
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:608
+msgid "Product item style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:159
+msgid "Auto play"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:237
+msgid "Recent Products"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:248
+msgid "Sale Products"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:256
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:354
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:726
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:739
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:940
+msgid "Categories"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:268
+msgid "Deal product"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:278
+msgid "Super Deal Style"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:294
+msgid "Best selling products"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:305
+msgid "Product Tags"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:318
+msgid "Title color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:324
+msgid "Tags"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:331
+#, php-format
+msgid ""
+"Please make sure your tags were added in <a target=\"_blank\" href=\"%s\">"
+"here</a>"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:341
+msgid "Product Categories"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:366
+msgid "Hover color"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:376
+msgid "Top rated products"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:459
+msgid "Products Category"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:470
+msgid "Products Categories - tab"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:546
+msgid "Using ajax?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:679
+msgid "Product Sub Categories"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:769
+#, php-format
+msgid "Ex: Over %s products awaits you!"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:815
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:829
+msgid "Product Brands"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:839
+msgid "Brand logo"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:903
+msgid "Featured Categories"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:962
+msgid "Hidden mega cat"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:965
+msgid "Hidden counting?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:966
+msgid "Hidden category link?"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:992
+msgid "Woo Single Category"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1020
+msgid "--Select--"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1032
+msgid "Woo Attributes"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1063
+msgid "Woo Categories"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1117
+msgid "Category image"
+msgstr ""
+
+#: framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1131
+msgid "Shop all text"
+msgstr ""
+
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:233
+msgid "Add More"
+msgstr ""
+
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:250
+msgid "Select an item"
+msgstr ""
+
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:276
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:310
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:336
+msgid "Icons"
+msgstr ""
+
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:285
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:319
+#: framework/incs/redux-framework/extensions/custom_field/multi_social/field_multi_social.php:345
+msgid "No items of this type were found."
+msgstr ""
+
+#: framework/incs/redux-framework/extensions/import_font/import_font/field_import_font.php:96
+msgid "Import"
+msgstr ""
+
+#. Name of the theme
+msgid "TheShopier"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"The Shopier theme lets you create a strongest website with many features."
+msgstr ""
+
+#. URI of the theme
+msgid ""
+"https://themeforest.net/item/shopier-responsive-multipurpose-wordpress-"
+"woocommerce-theme/15041162"
+msgstr ""
+
+#. Author of the theme
+msgid "Nexthemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/themeyeti"
+msgstr ""
+
+#: framework/incs/redux-framework/options-config.php:224
+msgid "Logo text"
+msgstr "Chữ trong logo"

@@ -1,0 +1,278 @@
+/* ============================================ *
+ * 5.9. Home page 9
+ * ============================================ */
+/* Home 9 header */
+#header.header-9{
+  .nth_header_middle {
+   /* background: $color-black;*/
+
+    .nth-menu-wrapper {
+      float: left;
+      padding-right: 40px;
+      .main-menu {
+        & > ul.menu > li {
+          line-height: 80px;
+          & > a {
+            text-transform: none;
+          }
+        }
+        a {
+          /*color: $color_light;*/
+          font-size: 12px;
+        }
+        ul.sub-menu {
+          /*background: $color-black;*/
+          border: none;
+        }
+      }
+    }
+    .tb-search-wrapper {
+      float: left;
+      .nth-search-wrapper {
+        margin-top: 20px;
+        button[type=submit] {
+          background: transparent;
+          height: 40px;
+          width: 45px;
+          &:before {
+            /*color:$color-10;*/
+            line-height: 38px;
+          }
+        }
+
+        input[type=text] {
+          line-height: 38px;
+          border: none;
+          padding: 0 49px 0 15px;
+        }
+
+        input[type=text]::-webkit-input-placeholder,
+        input[type=text]:-moz-placeholder{
+          color: $color_light;
+        }
+      }
+    }
+
+    .nth-mini-popup-wrapper {
+      float: right;
+      .nth-mini-popup {
+        .mini-popup-hover {
+          .nth-icon{
+            &:before {
+              /*color:$color-10;*/
+            }
+            &.icon-nth-cart {
+              &:after {
+               /* background-color: $color-10;*/
+              }
+            }
+          }
+          .mini-popup-meta {
+            a {
+             /* color: $color_light;*/
+            }
+          }
+
+          &.nth-shopping-hover {
+            span.cart-total {
+              span.amount {
+                /*color: $color_light;*/
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+   .nth_header_bottom  {
+    border: none;
+  }
+
+  #sticky-wrapper {
+    .nth_header_bottom {
+      /*background: $color-10;
+      color: $color_light;*/
+      border: none;
+    }
+  }
+}
+
+/* Home 9 content */
+// Cat group style
+  .woo_categories {
+
+    .woo-categories-wrapper {
+      position: relative;
+      overflow: hidden;
+      .woo-categories-list {
+        position: absolute;
+        width: 35%;
+        min-width: 250px;
+        height: 100%;
+       /* background: $color-black;*/
+        padding: 40px 0;
+        @media (max-width: $screen-sm-max){
+          padding: 10px 0;
+        }
+        @media (max-width: $screen-sm-max){
+          width: 45%;
+        }
+        ul {
+          li {
+            /*color: $color_light;*/
+            font-size: 18px;
+            line-height: 55px;
+            padding: 0 0 0 38px;
+            position: relative;
+            cursor: pointer;
+            @media (max-width: $screen-sm-max){
+              padding: 0 10px;
+              line-height: 30px;
+              font-size: 12px;
+            }
+            span.text {
+              display: block;
+              max-width: 100%;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+            }
+
+            &.active,
+            &:hover {
+              /*background: $color-10;*/
+              span.line {
+                display: block;
+                width: 24px;
+                height: 100%;
+                /*background: $color-10;*/
+                position: absolute;
+                right: -24px;
+                top: 0;
+                @media (max-width: $screen-sm-max){
+                  width: 10px;
+                  right: -10px;
+                }
+                &:before {
+                  content: '';
+                  display: block;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 27.5px 0 0 16px;
+                  border-top-color: transparent !important;
+                  border-right-color: transparent !important;
+                  border-bottom-color: transparent !important;
+                  border-left-color: $color-10;
+                  position: absolute;
+                  right: -16px;
+                  @media (max-width: $screen-sm-max){
+                    border-width: 15px 0 0 16px;
+                  }
+                }
+                &:after {
+                  content: '';
+                  display: block;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 27.5px 16px 0 0;
+                  border-top-color: $color-10;
+                  border-right-color: transparent !important;
+                  border-bottom-color: transparent !important;
+                  border-left-color: transparent !important;
+                  position: absolute;
+                  right: -16px;
+                  top: 27.5px;
+                  @media (max-width: $screen-sm-max){
+                    border-width: 15px 16px 0 0;
+                    top: 15px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        a.shop-all {
+          position: absolute;
+          bottom: 40px;
+          left: 38px;
+          font-size: 18px;
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+      .woo-categories-info {
+        a.button {
+          position: absolute;
+          right: 43px;
+          bottom: 40px;
+          font-size: 18px;
+          @media (max-width: $screen-sm-max){
+            font-size: 12px;
+            margin: 0;
+            padding: 10px 5px;
+            bottom: 10px;
+            right: 13px;
+          }
+          @media (max-width: $screen-md-max){
+            bottom: 0px;
+            right: 3px;
+          }
+        }
+      }
+    }
+  }
+
+
+  //Shop bra by size section
+  .products_by_size {
+    & > .vc_column-inner {
+      position: relative;
+    }
+    ul.list-inline {
+      position: absolute;
+      bottom: 0;
+      overflow: hidden;
+      left: 15px;
+      right: 15px;
+      //width: 100%;
+      min-height: 30%;
+      padding: 40px 20px;
+      margin-left: 0;
+      @media (max-width: $screen-sm-max){
+        min-height: 95px;
+        padding: 20px 10px;
+      }
+      li {
+        width: 20%;
+        float: left;
+        
+        a {
+          font-size: 18px;
+          line-height: 34px;
+          text-decoration: underline;
+          @media (max-width: $screen-sm-max){
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+.footer-copyright{
+    .nth-dropdown{
+      font-size: 13px;
+      padding-left: 15px;
+      .dropdown-menu{
+        top: auto;
+        bottom: 100%;
+        left: auto;
+        right: 0;
+      }
+    }
+}

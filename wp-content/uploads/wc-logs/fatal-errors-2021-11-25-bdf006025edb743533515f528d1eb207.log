@@ -1,0 +1,8 @@
+2021-11-25T05:32:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\cantinhodacegonha\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-11-25T05:56:11+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\cantinhodacegonha\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-11-25T17:25:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\cantinhodacegonha\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-11-25T20:50:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\cantinhodacegonha\wp-includes\Requests\Transport\cURL.php on line 462
+

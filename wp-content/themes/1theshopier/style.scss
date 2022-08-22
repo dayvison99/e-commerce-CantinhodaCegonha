@@ -1,0 +1,111 @@
+/*
+Theme Name: TheShopier
+Theme URI: https://themeforest.net/item/shopier-responsive-multipurpose-wordpress-woocommerce-theme/15041162
+Author: Nexthemes
+Author URI: https://themeforest.net/user/themeyeti
+Description: The Shopier theme lets you create a strongest website with many features.
+Version: 1.4.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, fluid-layout, fixed-layout, custom-menu, full-width-template, sticky-post, theme-options, translation-ready
+Text Domain: theshopier
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**********************************************************************
+  1.  NORMALIZE
+  2.  WORDPRESS CODE
+    2.1.  Table Core $color-8
+    2.2.  Typography
+      2.2.1.  Button
+      2.2.2.  Heading styling
+      2.2.3.  Info boxes
+      2.2.4.  Custom Rev Slider
+  3.  PAGE CSS
+    3.1.  Footer page
+    3.2.  Boostrap
+    3.3.  Other page
+    3.4.  NTH Tabs
+    3.5.  Portfolio
+    3.6.  Gallery pages
+    3.7.  Team members
+    3.8.  Woo Tabs
+    3.9.  Select2
+    3.10. Widget css
+    3.11. Toolbar slide
+    3.12. compare page
+  4.  DEFAULT MENU
+    4.1.  Vertical Menu
+    4.2.  Pace Loader
+  5.  HOME PAGE
+    5.1.  Home page 1
+    5.2.  Home page 2
+    5.3.  Home page 3
+    5.4.  Home page 4
+    5.5.  Home page 5
+    5.6.  Home page 6
+    5.7.  Home page 7
+    5.8.  Home page 8
+    5.9.  Home page 9
+    5.10. Home page 10
+  6.  SHOP PAGE
+  7.  CATEGORY PAGE
+  8.  PRODUCT PAGE - WOOCOMMERCE
+  9.  CHECKOUT PAGE
+  10. BLOG PAGE
+  11. COLOR BOX
+  12. SLIDE MENU
+  13. VC TABS
+    13.1. Tabs styling 1
+    13.2. Tabs styling 2
+    13.3. Tabs styling 3
+    13.4. Tabs styling 4
+  14. OVERLAY BLOCK OWL-CAROUSEL PRODUCTS
+***************************************************************/
+
+//@import "css/reset";
+@import "compass";
+@import "compass/css3";
+@import "compass/utilities";
+//@import "compass/reset";
+@import "scss/theme_variables";
+@import 'scss/bootstrap_lib/_normalize';
+@import 'scss/mixins';
+@import 'scss/core/core';
+@import 'scss/core/table';
+@import 'scss/layout/typography';
+@import 'scss/content/custom-rev-slider';
+@import 'scss/plugins/typo';
+@import 'scss/layout/page';
+@import 'scss/layout/menu';
+@import 'scss/layout/paceloader';
+@import 'scss/content/home';
+@import 'scss/content/home2';
+@import 'scss/content/home3';
+@import 'scss/content/home4';
+@import 'scss/content/home5';
+@import 'scss/content/home6';
+@import 'scss/content/home7';
+@import 'scss/content/home8';
+@import 'scss/content/home9';
+@import 'scss/content/home10';
+@import 'scss/content/home11';
+@import 'scss/content/home12';
+@import 'scss/content/home13';
+@import 'scss/content/home14';
+@import 'scss/content/home15';
+@import 'scss/content/shop';
+@import 'scss/content/category';
+@import 'scss/content/product';
+@import 'scss/content/checkout';
+@import 'scss/content/blog';
+@import 'scss/content/account';
+@import 'scss/content/colorbox';
+@import 'scss/slide_menu/slide.menu';
+@import 'scss/slide_menu/slide.menu.custom';
+@import 'scss/plugins/vc-tabs';
+@import 'scss/plugins/overlay';
+@import 'scss/content/dokan';

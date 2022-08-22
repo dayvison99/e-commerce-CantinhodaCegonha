@@ -1,0 +1,117 @@
+@import "compass";
+@import "theme_variables";
+
+.owl-theme {
+	// Styling Next and Prev buttons
+  .owl-stage-outer {
+	padding: 5px 0px;
+	margin-top: -5px;
+  }
+
+  &:hover {
+	.owl-controls .owl-nav {
+	  display: block;
+	}
+  }
+	.owl-nav {
+	  text-align: center;
+	  -webkit-tap-highlight-color: transparent;
+	  display: none;
+
+	  [class*='owl-'] {
+		@include buttonslider();
+	  }
+	  .owl-prev {
+		left: -10px;
+		@media (min-width: $screen-sm) {
+		  left: 0;
+		}
+	  }
+
+	  [dir='rtl'] .owl-prev
+	  {
+		right: -10px;
+		left: auto;
+		@media (min-width: $screen-sm) {
+		  right: 0;
+		}
+	  }
+
+	  .owl-prev:before
+	  {
+		content: "k";
+	  }
+	  [dir='rtl'] .owl-prev:before
+	  {
+		content: "j";
+	  }
+
+	  .owl-next
+	  {
+		right: -10px;
+		@media (min-width: $screen-sm) {
+		  right: 0;
+		}
+	  }
+
+	  [dir='rtl'] .owl-next
+	  {
+		right: auto;
+		left: -10px;
+		@media (min-width: $screen-sm) {
+		  left: 0;
+		}
+	  }
+
+	  .owl-next:before
+	  {
+		content: "j";
+	  }
+	  [dir='rtl'] .owl-next:before
+	  {
+		content: "k";
+	  }
+
+	  .disabled {
+		  opacity: $nav-disabled-opacity;
+		  cursor: default;
+	  }
+	}
+
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		margin-top: 10px;
+	}
+	.owl-dots {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+		
+		.owl-dot {
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+
+			span {
+				width: $dot-width;
+				height: $dot-height;
+				margin: $dot-margin;
+				background: $dot-background;
+				display: block;
+				-webkit-backface-visibility: visible;
+				@include transition(opacity, 200ms, ease);
+				@include rounded($dot-rounded);
+			}
+
+			&.active,
+			&:hover {
+				span {
+					background: $dot-background-active;
+				}
+			}
+		}
+	}
+
+  .item-video {
+	height: 300px;
+  }
+}

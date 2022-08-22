@@ -1,0 +1,86 @@
+
+// Clearing
+
+.quantity-nav:before,
+.quantity-nav:after,
+.clearfix:before,
+.clearfix:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.dropcap:before,
+.dropcap:after,
+.alignleft:before,
+.alignright:before,
+.editor-entry:before,
+form.search-form:before,
+form.search-form:after,
+.widget_search form:before,
+.widget_product_search form:before,
+.widget_search form:after,
+.widget_product_search form:after,
+.search-form-entry form:after,
+.search-form-entry form:before,
+.widget_archive ul li:before,
+.widget_archive ul li:after,
+.woocommerce div.product form.variations_form:after,
+.woocommerce div.product form.variations_form:before,
+.mini-cart-open .woocommerce.widget_shopping_cart ul.cart_list li:after,
+.mini-cart-open .woocommerce.widget_shopping_cart ul.cart_list li:before,
+.woocommerce ul.products li.product .woocommerce-loop-category__title:before,
+.woocommerce ul.products li.product .woocommerce-loop-category__title:after,
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper:before,
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper:after {
+
+    content: '';
+    display: table;
+}
+
+
+.clearfix:after,
+.quantity-nav:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.alignleft:after,
+.alignright:after,
+.editor-entry:after,
+form.search-form:after,
+.widget_search form:after,
+.widget_product_search form:after,
+.search-form-entry form:after,
+.widget_archive ul li:after,
+.woocommerce div.product form.variations_form:after,
+.mini-cart-open .woocommerce.widget_shopping_cart ul.cart_list li:after,
+.woocommerce ul.products li.product .woocommerce-loop-category__title:after,
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper:after {
+
+    clear: both;
+}
+
+.clear {
+
+    clear: both;
+}
+
+.woocommerce ul.products::after, 
+.woocommerce ul.products::before, 
+.woocommerce-page ul.products::after, 
+.woocommerce-page ul.products::before,
+.woocommerce .products ul::after, 
+.woocommerce .products ul::before, 
+.woocommerce ul.products::after, 
+.woocommerce ul.products::before,
+.woocommerce ul.order_details::after, 
+.woocommerce ul.order_details::before,
+.woocommerce ul.cart_list li::after, 
+.woocommerce ul.cart_list li::before, 
+.woocommerce ul.product_list_widget li::after, 
+.woocommerce ul.product_list_widget li::before {
+	
+	content:'';
+	display:none;
+}

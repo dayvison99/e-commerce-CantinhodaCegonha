@@ -1,0 +1,241 @@
+/* ============================================ *
+ * 5.11. Home page 11
+ * ============================================ */
+
+/* Home 11 header */
+#header.header-12{
+
+  @include box-shadow(none);
+
+  .nth_header_top {
+    text-transform: inherit;
+   }
+  .nth_header_middle  {
+    margin-bottom: 9px;
+    .nth-searchform {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .nth-searchform .nth-search-wrapper input[type=text] {
+    border: none;
+    @include box-shadow(none);
+    font-size: 12px;
+  }
+
+   .nth-mini-popup {
+     top: 18px;
+     .mini-popup-hover {
+       height: auto;
+       @include border-radius(5px);
+       padding-top:10px;
+       padding-bottom: 7px;
+       padding-left: 10px;
+       .nth-icon {
+         margin-right: 5px;
+       }
+     }
+   }
+
+  .shipping-text {
+    margin-left: -10px;
+    .text-color1{
+      display: block;
+      margin-top: 28px;
+    }
+  }
+
+  .nth_header_bottom {
+    border-bottom: none;
+    border-top: none;
+  }
+
+}
+
+/* Boxed body */
+body.boxed {
+  #body-wrapper {
+    max-width: 1230px;
+    margin: 50px auto;
+    min-height: 1000px;
+    background: $color_light;
+    -webkit-box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.15);
+    @media (max-width: $screen-md-max) {
+      max-width: 1000px;
+    }
+    @media (max-width: $screen-sm-max) {
+      max-width: 780px;
+    }
+    @media (max-width: $screen-xs-max) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    header#header{
+      .nth-sticky > .container {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .pc-menu > .menu li.menu-item-has-children .sub-menu.nth-width-5 {
+    width: 1200px;
+  }
+}
+
+
+
+@media (max-width: $screen-md-max) {
+  #header.header-12{
+    .shipping-text {
+      .text-color1 {
+        font-size: 20px;
+        line-height: 0;
+      }
+    }
+  }
+
+
+  .widget.widget_woothemes_features .features > .feature{
+    margin-left: 0;
+    &.icon-left img {
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+    h3 a {
+      font-size: 21px;
+      line-height: 0;
+    }
+  }
+
+}
+
+
+@media (max-width: $screen-sm-max) {
+
+  .nth-shopping-hover {
+    background: transparent;
+  }
+  .widget.widget_woothemes_features .features > .feature {
+    padding: 0;
+    &.icon-left img {
+      margin-right: 10px;
+    }
+  }
+
+
+}
+
+@media (max-width: $screen-xs-max) {
+  header#header.header-12{
+
+    .nth-mini-popup .mini-popup-hover {
+      bottom: -60px;
+      &.nth-shopping-hover {
+        background: transparent;
+      }
+    }
+
+  }
+  .nth-shortcode.recent-post .heading-title {
+    text-align: center;
+  }
+  .heading-title, .nth-shortcode .nth_products_categories_shortcode h3.heading-title{
+    text-align: center;
+  }
+}
+
+
+
+.nth-sidebar .wpb_wrapper {
+  > ul {
+    padding: 0px;
+  }
+}
+
+/* Widget Outline Style */
+li.widget.outline_style {
+
+  .widget-heading {
+    border: 2px solid #998294;
+    background: transparent;
+  }
+  .widget-heading + ul, .widget-heading + div, .widget-heading + form {
+    border: none;
+    background: transparent;
+    @include box-shadow(none);
+  }
+
+  &.widget_product_categories li > a:before,
+  &.widget_categories li > a:before,
+  &.widget_product_categories li > a:after,
+  &.widget_categories li > a:after {
+    content: none;
+  }
+
+  &.widget_product_categories > ul > li > a:before,
+  &.widget_categories > ul > li > a:before,
+  &.widget_product_categories > ul > li > a:after,
+  &.widget_categories > ul > li > a:after {
+    content: "";
+  }
+
+  .widget-heading {
+    @include border-radius( 5px);
+    .heading-title {
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+/* Product style 4 */
+.woocommerce, .woocommerce-page { 
+  .products section.product.prod_style_4  {
+    .product-inner {
+      @include box-shadow(none);
+      border: 1px solid $color_e;
+    }
+  }
+
+}
+.notouch_device .products section.product.prod_style_4 .product-inner:hover {
+  @include box-shadow(none);
+  .product-thumbnail-wrapper a:after {
+    @include border-radius(0);
+  }
+}
+
+.widget.widget_woothemes_features {
+  .features {
+    .feature-title {
+      margin: 0;
+    }
+    &  > .feature {
+      .feature-sumary {
+        .learn-more-wrap {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+.location-item {
+  .location-item-inner {
+    background: $color_light;
+    @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+  }
+  .store-meta {
+    padding: 30px 25px;
+  }
+}
+
+.theshopier_store_location {
+  .heading-title {
+    padding-bottom: 5px;
+  }
+}

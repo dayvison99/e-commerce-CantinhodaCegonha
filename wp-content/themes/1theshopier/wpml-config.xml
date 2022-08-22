@@ -1,0 +1,31 @@
+<wpml-config>
+    <admin-texts>
+		<key name="theshopier_datas">
+            <key name="logo-text" />
+            <key name="header-shipping-text" />
+			<key name="footer-copyright-text" />
+			<key name="nth-cat-infomation" />
+			<key name="nth-product-deal-format" />
+			<key name="nth_custom_tab_title" />
+			<key name="nth_custom_tab_content" />
+        </key>   
+    </admin-texts>   
+	<custom-types>
+		<custom-type translate="1">feature</custom-type>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">nth_stblock</custom-type>
+		<custom-type translate="1">nth_gallery</custom-type>
+		<custom-type translate="1">team</custom-type>
+		<custom-type translate="1">revslider</custom-type>
+		<custom-type translate="1">testimonial</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">feature-category</taxonomy>
+		<taxonomy translate="1">nth_gallery_cat</taxonomy>
+		<taxonomy translate="1">portfolio_cat</taxonomy>
+		<taxonomy translate="1">portfolio_tag</taxonomy>
+		<taxonomy translate="1">product_brand</taxonomy>
+		<taxonomy translate="1">testimonial-category</taxonomy>
+		<taxonomy translate="1">product_cat</taxonomy>
+	</taxonomies>
+</wpml-config>

@@ -1,0 +1,308 @@
+/* ============================================ *
+ * 5.8. Home page 8
+ * ============================================ */
+/* Fix position checkbox and radio */
+input[type="checkbox"], input[type="radio"]{
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+/* Home 8 header */
+#header.header-8{
+    @include box-shadow(none);
+    margin-bottom: 15px;
+}
+
+header{
+  .nth_header_top{
+    .nth-searchform{
+      .nth-search-wrapper{
+        margin-top: 0;
+
+        input[type=text]{
+          border-color: transparent;
+          @include box-shadow(none);
+          -moz-box-shadow: none!important;
+          -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+        }
+
+        [type=submit]{
+          background: transparent;
+          color: $color_d;
+
+          &:hover{
+            background: transparent;
+            color: $color_a;
+          }
+        }
+      }
+    }
+
+    .nth-mini-popup{
+      .mini-popup-hover{
+        .mini-popup-meta{
+          a{
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+    .nth-tini-wrapper{
+      margin-left: -4px;
+    }
+
+    .nth-mini-popup{
+      .mini-popup-hover{
+        height: 50px;
+        border-left: 1px solid $color-9;
+
+        .mini-popup-meta{
+          line-height: 29px;
+          padding-left: 8px;
+        }
+
+        .nth-icon{
+          min-height: 27px;
+          &:before{
+            display: block;
+            line-height: 27px;
+          }
+
+          &.icon-nth-user{
+            font-size:27px;
+          }
+        }
+      }
+    } 
+  }
+}
+
+header.header-8{
+  .nth_header_top{
+      background: $color_light;
+      color: $color_d;
+      @include box-shadow(0 1px 3px 0 rgba(0,0,0,.2));
+      text-transform:capitalize;
+  }
+}
+
+// Header Home 8 - Min Width 992px
+@media (min-width: $screen-md-min) {
+  header.header-8{
+    //background: $color-9;
+    //padding-bottom: 24px;
+    padding-bottom: 10px;
+
+    .nth_header_middle{
+      //background: $color-9;
+      padding-top: 37px;
+      padding-bottom: 24px;
+    }
+
+    .nth_header_bottom{
+      //background: $color-9;
+      border: 0;
+    }
+
+    .nth_header_top{
+      line-height: 50px;
+
+      a{
+        color: $color_d;
+      }
+
+      .button{
+        color: $color_light;
+
+        &:hover{
+          color: $color_light;
+        }
+      }
+
+      .text-contact{
+        display: none;
+      }
+
+      .nth-dropdown{
+        border-left: 1px solid $color-9;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      .textwidget{
+        .pull-left:first-child{
+          .nth-dropdown{
+            border-left: 0;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
+    // Menu
+    .pc-menu{
+      > .menu{
+        > li{
+          padding: 0 12px;
+          margin: 0 24px;
+          >a{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  header{
+    .nth_header_middle{
+      .logo{
+        a{
+          img{
+            max-height: 65px;
+            width:auto;
+          }
+        }
+      }
+    }
+  } 
+}
+
+// Shadow for Revolution slider
+.tp-shadow6{
+  @include box-shadow(0 1px 3px 0 rgba(0,0,0,.2)); 
+}
+
+// Row shadow option
+.nth-row-shadow{
+    @include box-shadow(0 1px 3px 0 rgba(0,0,0,.2));
+}
+
+// Shortcode Single Cat
+.nth-shortcode.woo-single-cat{
+  &.style-1{
+    text-align: center;
+  }
+  .woo-single-cat-inner{
+    line-height: 1.55;
+    h3.text-uppercase,
+    h2.text-uppercase{
+      font-size: 60px;
+      display: inline-block;
+      border-top: 1px solid #919191;
+      border-bottom: 3px solid #919191;
+      padding-top: 9px;
+      padding-bottom: 16px;
+      margin-bottom: 10px;
+    }
+
+    .cat-count{
+      font-size: 20px;
+      font-style: italic;
+      margin-bottom: 25px;
+    }
+
+    .button.medium{
+      font-size: 16px;
+      padding: 21px 20px;
+      margin-top: 8px;
+    }
+  }
+}
+
+// Toggle dropdown menu for all home page
+@media (max-width: $screen-xs-max) { //767px
+  header{
+      .nth-mini-popup{
+        &:hover{
+          .nth-mini-popup-cotent{
+            display: none;
+          }
+        }
+        .nth-mini-popup-cotent{
+          &.show{
+            display: block !important;
+          }
+        }
+        
+      }
+    } 
+
+    .tb-search-wrapper{
+      .nth-searchform{
+        &.show{
+          display: block;
+        }
+      }
+    } 
+}
+@media (max-width: $screen-xs-max) { //767px
+  header{
+    .nth-mini-popup{
+      .mini-popup-hover.active{
+        > a{
+          background-color: #dfdfdf;
+        }
+      }
+    }
+  }
+
+  .tb-search-wrapper{
+    #searchIconActiveId{
+      &.active{
+        background-color: #dfdfdf;
+      }
+    }
+  } 
+} 
+.touch_device{
+    header{
+      .nth-mini-popup{
+        &:hover{
+          .nth-mini-popup-cotent{
+            display: none;
+          }
+        }
+        .nth-mini-popup-cotent{
+          &.show{
+            display: block !important;
+          }
+        }
+        
+      }
+    } 
+
+    .tb-search-wrapper{
+      .nth-searchform{
+        &.show{
+          display: block;
+        }
+      }
+    } 
+
+    @media (max-width: $screen-xs-max) { //767px
+      header{
+        .nth-mini-popup{
+          .mini-popup-hover.active{
+            > a{
+              background-color: #dfdfdf;
+            }
+          }
+        }
+      }
+
+      .tb-search-wrapper{
+        #searchIconActiveId{
+          &.active{
+            background-color: #dfdfdf;
+          }
+        }
+      } 
+    } 
+}

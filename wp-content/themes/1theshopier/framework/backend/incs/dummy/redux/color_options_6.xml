@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<colour>
+	
+	<item>
+		<title>Color light</title>
+		<id>color-light</id>
+		<subtitle> Text header, Button color</subtitle>
+		<type>color</type>
+		<def>#fff</def>
+		<output>
+			<color>
+				header .nth_header_top,
+				header .nth-mini-popup .nth-shopping-hover .icon-nth-cart:after,
+				.nth_header_toolbar > div > div > a span:after,
+				header .nth-menu-wrapper .main-menu > ul.menu > li.menu-item,
+				header .nth-menu-wrapper .main-menu > ul.menu > li.menu-item > a,
+				 .nth-searchform .nth-search-wrapper [type=submit]:hover,
+				 .pc-menu > .menu li.menu-item-has-children:hover > .menu-drop-icon,
+				 .woocommerce .widget_price_filter .price_slider_wrapper .price_slider_amount button.button:hover,
+				 .woocommerce-page .widget_price_filter .price_slider_wrapper .price_slider_amount button.button:hover,
+				 .woocommerce nav.woocommerce-pagination ul li .next:hover, .woocommerce nav.woocommerce-pagination ul li .prev:hover, 
+				.woocommerce-page nav.woocommerce-pagination ul li .next:hover, .woocommerce-page nav.woocommerce-pagination ul li .prev:hover,
+				header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button, #footer .footer-1 .heading-title,
+				.text-color3,
+				form.mc4wp-form button[type=submit]:hover, form.mc4wp-form input[type=submit]:hover, form.mc4wp-form-theme button[type=submit]:hover, form.mc4wp-form-theme input[type=submit]:hover
+			</color>
+			<bgcolor>
+				.main-content
+			</bgcolor>
+		</output>		
+	</item>
+	
+	
+	
+	<item>
+		<title>First color</title>
+		<id>color-1</id>
+		<subtitle> Text color, body color </subtitle>
+		<type>color</type>
+		<def>#5d5d5d</def>
+		<output>
+			<color>
+				body,
+				h1, h2, h3, h4, h5,
+				h1.page-title,
+				a, p.lost_password a:hover,
+				
+				html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_section .wpb_accordion_header a,
+				header .nth_header_top, header .nth_header_top a,
+				.woocommerce .products section.product .product-inner .product-cats a:hover, .woocommerce-page .products section.product .product-inner .product-cats a:hover,
+				header .nth_header_bottom.header-tablet-bottom .pc-menu > .menu > li.menu-item-has-children > .menu-drop-icon,
+				header .nth_header_bottom.header-tablet-bottom .pc-menu > .menu li.menu-item-has-children .sub-menu > li,
+				header .nth_header_bottom.header-tablet-bottom .pc-menu > .menu > li.menu-item-has-children > .menu-drop-icon
+				
+			</color>
+			<bgcolor></bgcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Second color</title>
+		<id>color-2</id>
+		<subtitle>  Title, heading </subtitle>
+		<type>color</type>
+		<def>#3d3d3d</def>
+		<output>
+			<color>
+				.woocommerce .products section.product .product-inner h3.product-title a, .woocommerce-page .products section.product .product-inner h3.product-title a,
+				
+				h3.post-title a:hover, h2.post-title a:hover,
+				
+				.read-more a.button:hover, a.button.button-border:hover,
+				
+				.pc-menu.vertical-menu-inner > ul.menu > li > .sub-menu li.menu-item > a,
+				.nth-shortcode.recent-comments ul > li h3 a:hover,
+				
+				.nth-quickshop-wrapper div.product .product_title, .woocommerce-page div.product .product_title,
+				.nth-sidebar ul.widgets-sidebar > li .widget-heading h3
+			</color>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Third color</title>
+		<id>color-3</id>
+		<subtitle>  Title small, Text tabs </subtitle>
+		<type>color</type>
+		<def>#8d8d8d</def>
+		<output>
+			<color>.wpb_tabs ul.wpb_tabs_nav.nth-boxed > li a, del span.amount, #footer .nth-product-categories-wrapper a, .footer-wrapper a, footer, #footer</color>
+		</output>		
+	</item>
+	
+		
+	<item>
+		<title>Fourth color</title>
+		<id>color-4</id>
+		<subtitle>Link, link hover, background</subtitle>
+		<type>color</type>
+		<def>#d10200</def>
+		<output>
+			<color>
+				a:hover, a:focus, p.lost_password a,
+				
+				h3.post-title a, h2.post-title a,
+				.woocommerce .products section.product .product-inner h3.product-title a:hover, .woocommerce-page .products section.product .product-inner h3.product-title a:hover,
+				.woocommerce .products section.product .product-inner .product-cats a, .woocommerce-page .products section.product .product-inner .product-cats a,
+				.read-more a.button:hover, a.button.button-border:hover,
+				span.amount, .entry-date + h1.post-title,
+				
+				.pc-menu > .menu > li:hover > a,
+				.pc-menu > .menu > li.current-menu-item > a,
+				.pc-menu > .menu li.menu-item-has-children .sub-menu li:hover > a,			
+				.pc-menu > .menu li.current-menu-item > a, .pc-menu > .menu li.current_page_item > a,
+				.pc-menu > .menu li.current-menu-item > a, .pc-menu > .menu li.current_page_item > .menu-drop-icon,
+				.pc-menu.vertical-menu-inner > ul.menu > li.current-menu-item > a, .pc-menu.vertical-menu-inner > ul.menu > li:hover > a,
+				.pc-menu.vertical-menu-inner > ul.menu > li > .sub-menu li.menu-item:hover > a,
+				.pc-menu.vertical-menu-inner > ul.menu > li > .sub-menu li.menu-item .sub-menu li:hover > a,
+				
+				.wpb_tabs ul.wpb_tabs_nav.nth-boxed > li.ui-state-active a, .wpb_tabs ul.wpb_tabs_nav.nth-boxed > li:hover a,
+				.nth-shortcode .nth_products_categories_shortcode .shortcode-woo-tabs li.active a, .nth-shortcode .nth_products_categories_shortcode .shortcode-woo-tabs li:hover a,
+				html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_section .wpb_accordion_header.ui-accordion-header-active a,
+				
+				#footer .nth-product-categories-wrapper a:hover,
+				
+				.nth-shortcode.recent-comments ul > li h3 a,
+				.nth-shortcode.nth-pricing ul.nth-pricing-ul li.desc,
+				
+				.nth-quickshop-wrapper div.product .woocommerce-product-rating .star-rating + a, .woocommerce-page div.product .woocommerce-product-rating .star-rating + a,
+				.text-color1, .nth-form-single .nth-form-wrapper [type=submit]:hover:before,
+				header .nth-mini-popup .nth-shopping-hover span.cart-total span.amount,				
+				li.widget.widget_product_categories li.current-cat > a, li.widget.widget_categories li.current-cat > a,
+				.nth_header_toolbar > div > div .nth-mini-login-content a:last-child,
+				.woocommerce-account .addresses a.edit, .woocommerce-account .address a.edit,
+				a:hover, a:focus, p.lost_password a, p.create_account a, .cart_totals .shipping-calculator-button, 
+				table.compare-list tr.title td.have-price .price ins span.amount,
+				table.compare-list .stock td span, .woocommerce table.cart td.actions a.button:hover,
+				.woocommerce-checkout .nth-checkout-heading a, .woocommerce-checkout h3 a,
+				.wishlist_table tr td.product-stock-status span.wishlist-in-stock, .woocommerce-account a.edit, .woocommerce-account a.signout,
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > ul.menu > li.menu-item:hover > a, 
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > ul.menu > li.menu-item:active > a, 
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > ul.menu > li.menu-item:focus > a,
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > .menu li.menu-item-has-children .sub-menu li:hover > a,
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > .menu li.menu-item-has-children .sub-menu li:active > a,
+				header .nth_header_bottom.header-tablet-bottom .nth-menu-wrapper .main-menu > .menu li.menu-item-has-children .sub-menu li:focus > a,.post-meta .author a,
+				header .nth_header_bottom.header-tablet-bottom .pc-menu > .menu  li.menu-item-has-children:hover > .menu-drop-icon,
+				.c-menu ul li.menu-item-has-children.show-submenu > a, .c-menu ul li.menu-item-has-children.show-submenu > .menu-drop-icon,
+				.c-menu--push-left .pc-menu > .menu li.menu-item-has-children:hover > .menu-drop-icon,
+				form.mc4wp-form button[type=submit], form.mc4wp-form input[type=submit], form.mc4wp-form-theme button[type=submit], form.mc4wp-form-theme input[type=submit],
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce a.product_type_grouped.outline, .woocommerce a.product_type_external.outline, .woocommerce a.button.add_to_cart_button.outline, .woocommerce a.button.out_stock.outline, .woocommerce .button.alt.single_add_to_cart_button.outline, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce-page a.product_type_grouped.outline, .woocommerce-page a.product_type_external.outline, .woocommerce-page a.button.add_to_cart_button.outline, .woocommerce-page a.button.out_stock.outline, .woocommerce-page .button.alt.single_add_to_cart_button.outline,
+				.nth-portfolios-wrapper .nth-portfolio-content .nth-portfolio-item .nth-portfolio-thumb .summary h3 a:hover,
+				h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover,
+				.wpb_tour ul.wpb_tabs_nav > li.ui-state-active a, .wpb_tour ul.wpb_tabs_nav > li:hover a,
+				.wpb_tabs ul.wpb_tabs_nav li.ui-tabs-active a, .wpb_tabs ul.wpb_tabs_nav li:hover a,
+				.c-menu .mobile-menu ul li.current-menu-item a
+			</color>
+			<bgcolor>
+				.woocommerce .wishlist_table td.product-add-to-cart a, .woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.button.add_to_cart_button, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.button.out_stock, .woocommerce .button.alt.single_add_to_cart_button, .woocommerce-page .wishlist_table td.product-add-to-cart a, .woocommerce-page a.product_type_grouped, .woocommerce-page a.product_type_external, .woocommerce-page a.button.out_stock, .woocommerce-page a.button.add_to_cart_button, .woocommerce-page .button.alt.single_add_to_cart_button,
+				a.button, button, html input[type="button"], input[type="reset"], input[type="submit"],input[type="submit"].button, .btn-primary,
+				
+				header .nth-mini-popup .nth-shopping-hover .icon-nth-cart:after,
+				.nth_header_toolbar .nth-shopping-cart-item span:after, .wp-pagenavi ul li a.prev, .wp-pagenavi ul li a.next,
+
+				.nth-sidebar ul.widgets-sidebar > li.widget_calendar #wp-calendar #today,
+				.entry-date .entry-month, .nth-searchform .nth-search-wrapper [type=submit],
+				header .nth-menu-wrapper .main-menu,
+				.woocommerce button.button,
+				.woocommerce nav.woocommerce-pagination ul li .next, .woocommerce nav.woocommerce-pagination ul li .prev, 
+				.woocommerce-page nav.woocommerce-pagination ul li .next, .woocommerce-page nav.woocommerce-pagination ul li .prev,				
+				.woocommerce .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-range, 
+				.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-range,
+				.woocommerce .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-handle,
+				.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-slider-horizontal .ui-slider-handle,
+				.button, button, html input[type="button"], input[type="reset"], input[type="submit"],
+				 header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button,
+				 .woocommerce-account a.button, .woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button,
+				 .nth-shopping-progress-wrapper ul li.active,  .nth-shopping-progress-wrapper ul li.active:before,
+				 .nth_header_toolbar > div > div .nth-toolbar-popup-cotent .widget_shopping_cart_content p.buttons .button
+			</bgcolor>
+			
+			<bdcolor>
+				.read-more a.button:hover, a.button.button-border:hover, .heading-title:after, .nth_header_toolbar > div > div > a span:after,
+				.heading-title.ud-line:after,
+				.woocommerce div.product div.images div.thumbnails .owl-wrapper-outer .owl-item a.active, .woocommerce div.product div.images div.thumbnails .owl-stage-outer .owl-item a.active,
+				.nth-shopping-progress-wrapper ul li.current-item:after,.woocommerce table.cart td.actions a.button:hover,
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce a.product_type_grouped.outline, .woocommerce a.product_type_external.outline, .woocommerce a.button.add_to_cart_button.outline, .woocommerce a.button.out_stock.outline, .woocommerce .button.alt.single_add_to_cart_button.outline, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline, .woocommerce-page a.product_type_grouped.outline, .woocommerce-page a.product_type_external.outline, .woocommerce-page a.button.add_to_cart_button.outline, .woocommerce-page a.button.out_stock.outline, .woocommerce-page .button.alt.single_add_to_cart_button.outline
+			</bdcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Fifth color</title>
+		<id>color-5</id>
+		<subtitle>Button hover</subtitle>
+		<type>color</type>
+		<def>#222222</def>
+		<output>			
+			<bgcolor>.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart:hover, .woocommerce .wishlist_table td.product-add-to-cart a:disabled[disabled], .woocommerce .wishlist_table td.product-add-to-cart a:disabled,
+			.woocommerce .wishlist_table td.product-add-to-cart a:disabled[disabled]:hover, 
+			.woocommerce .wishlist_table td.product-add-to-cart a:disabled:hover, .woocommerce .wishlist_table td.product-add-to-cart a:hover,
+			.woocommerce a.product_type_grouped:disabled[disabled], .woocommerce a.product_type_grouped:disabled, .woocommerce a.product_type_grouped:disabled[disabled]:hover, .woocommerce a.product_type_grouped:disabled:hover, .woocommerce a.product_type_grouped:hover, .woocommerce a.product_type_external:disabled[disabled], .woocommerce a.product_type_external:disabled, .woocommerce a.product_type_external:disabled[disabled]:hover, .woocommerce a.product_type_external:disabled:hover, .woocommerce a.product_type_external:hover, .woocommerce a.button.add_to_cart_button:disabled[disabled], .woocommerce a.button.add_to_cart_button:disabled, .woocommerce a.button.add_to_cart_button:disabled[disabled]:hover, .woocommerce a.button.add_to_cart_button:disabled:hover, .woocommerce a.button.add_to_cart_button:hover, .woocommerce .button.alt.single_add_to_cart_button:disabled[disabled], .woocommerce .button.alt.single_add_to_cart_button:disabled, .woocommerce .button.alt.single_add_to_cart_button:disabled[disabled]:hover, .woocommerce .button.alt.single_add_to_cart_button:disabled:hover, .woocommerce .button.alt.single_add_to_cart_button:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a:disabled[disabled], .woocommerce-page .wishlist_table td.product-add-to-cart a:disabled, .woocommerce-page .wishlist_table td.product-add-to-cart a:disabled[disabled]:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a:disabled:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a:hover, .woocommerce-page a.product_type_grouped:disabled[disabled], .woocommerce-page a.product_type_grouped:disabled, .woocommerce-page a.product_type_grouped:disabled[disabled]:hover, .woocommerce-page a.product_type_grouped:disabled:hover, .woocommerce-page a.product_type_grouped:hover, .woocommerce-page a.product_type_external:disabled[disabled], .woocommerce-page a.product_type_external:disabled, .woocommerce-page a.product_type_external:disabled[disabled]:hover, .woocommerce-page a.product_type_external:disabled:hover, .woocommerce-page a.product_type_external:hover, .woocommerce-page a.button.add_to_cart_button:disabled[disabled], .woocommerce-page a.button.add_to_cart_button:disabled, .woocommerce-page a.button.add_to_cart_button:disabled[disabled]:hover, .woocommerce-page a.button.add_to_cart_button:disabled:hover, .woocommerce-page a.button.add_to_cart_button:hover, .woocommerce-page .button.alt.single_add_to_cart_button:disabled[disabled], .woocommerce-page .button.alt.single_add_to_cart_button:disabled, .woocommerce-page .button.alt.single_add_to_cart_button:disabled[disabled]:hover, .woocommerce-page .button.alt.single_add_to_cart_button:disabled:hover, .woocommerce-page .button.alt.single_add_to_cart_button:hover,
+			header .nth-menu-wrapper .main-menu > ul.menu > li.menu-item:hover,
+			.pc-menu > .menu.menu-vertical-menu > li.current-menu-item, 
+			.nth-searchform .nth-search-wrapper [type=submit]:hover,
+			.woocommerce nav.woocommerce-pagination ul li .next:hover, .woocommerce nav.woocommerce-pagination ul li .prev:hover, 
+			.woocommerce-page nav.woocommerce-pagination ul li .next:hover, .woocommerce-page nav.woocommerce-pagination ul li .prev:hover,
+			.woocommerce .widget_price_filter .price_slider_wrapper .price_slider_amount button.button:hover, 
+			.woocommerce-page .widget_price_filter .price_slider_wrapper .price_slider_amount button.button:hover,
+			input[type="submit"]:hover, .woocommerce input.button:hover,
+			.woocommerce-page a.button.add_to_cart_button:hover,
+			.btn-primary:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .yotpo.yotpo-main-widget .yotpo-default-button:hover, .yotpo.yotpo-main-widget input[type="button"].yotpo-default-button:hover, .navi .navi-prev a:hover, .navi .navi-next a:hover,
+			header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button:hover,
+			.woocommerce-account a.button:hover, .woocommerce-account a.button:focus, .woocommerce-account a.button:active,
+			.woocommerce .woocommerce-error .button:hover, .woocommerce .woocommerce-info .button:hover, .woocommerce .woocommerce-message .button:hover,
+			.woocommerce .woocommerce-error .button:focus, .woocommerce .woocommerce-info .button:focus, .woocommerce .woocommerce-message .button:focus,
+			.woocommerce .woocommerce-error .button:active, .woocommerce .woocommerce-info .button:active, .woocommerce .woocommerce-message .button:active,
+			.nth_header_toolbar > div > div .nth-toolbar-popup-cotent .widget_shopping_cart_content p.buttons .button:hover,
+			#footer, #footer .footer-1, form.mc4wp-form input[type=email], form.mc4wp-form [type=submit], form.mc4wp-form [type=submit]:hover, form.mc4wp-form [type=submit]:active,
+			form.mc4wp-form button[type=submit], form.mc4wp-form input[type=submit], form.mc4wp-form-theme button[type=submit], form.mc4wp-form-theme input[type=submit],
+			form.mc4wp-form button[type=submit]:hover, form.mc4wp-form input[type=submit]:hover, form.mc4wp-form-theme button[type=submit]:hover, form.mc4wp-form-theme input[type=submit]:hover, .pc-menu.vertical-menu-hol ul.menu > li.current-menu-item
+			</bgcolor>
+			<color>
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce a.product_type_grouped.outline:hover, .woocommerce a.product_type_external.outline:hover, .woocommerce a.button.add_to_cart_button.outline:hover, .woocommerce a.button.out_stock.outline:hover, .woocommerce .button.alt.single_add_to_cart_button.outline:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce-page a.product_type_grouped.outline:hover, .woocommerce-page a.product_type_external.outline:hover, .woocommerce-page a.button.add_to_cart_button.outline:hover, .woocommerce-page a.button.out_stock.outline:hover, .woocommerce-page .button.alt.single_add_to_cart_button.outline:hover
+			</color>
+			<bdcolor>
+				form.mc4wp-form button[type=submit], form.mc4wp-form input[type=submit], form.mc4wp-form-theme button[type=submit], form.mc4wp-form-theme input[type=submit],
+				.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce a.product_type_grouped.outline:hover, .woocommerce a.product_type_external.outline:hover, .woocommerce a.button.add_to_cart_button.outline:hover, .woocommerce a.button.out_stock.outline:hover, .woocommerce .button.alt.single_add_to_cart_button.outline:hover, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart.outline:hover, .woocommerce-page a.product_type_grouped.outline:hover, .woocommerce-page a.product_type_external.outline:hover, .woocommerce-page a.button.add_to_cart_button.outline:hover, .woocommerce-page a.button.out_stock.outline:hover, .woocommerce-page .button.alt.single_add_to_cart_button.outline:hover
+			</bdcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Sixth color</title>
+		<id>color-6</id>
+		<subtitle></subtitle>
+		<type>color</type>
+		<def>#007ad1</def>
+		<output>
+			<bgcolor></bgcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Seventh color</title>
+		<id>color-7</id>
+		<subtitle>"a" tag color.</subtitle>
+		<type>color</type>
+		<def>#fd6282</def>
+		<output>
+			<color>
+				ins span.amount,
+				
+				.woocommerce .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a, .woocommerce .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a, .woocommerce-page .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a, .woocommerce-page .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a,
+				.text-color2
+			</color>
+			
+		</output>		
+	</item>
+	
+	<item>
+		<title>Eighth color</title>
+		<id>color-8</id>
+		<subtitle>Number top cart color.</subtitle>
+		<type>color</type>
+		<def>#ff9600</def>
+		<output>
+			<color>
+				
+			</color>
+			<bgcolor>
+				header .nth-mini-popup .nth-shopping-hover .icon-nth-cart:after,
+				.nth_header_toolbar .nth-shopping-cart-item span:after,
+				.nth_header_toolbar > div > div > a span:after,
+				.cart_totals .wc-proceed-to-checkout a.button.checkout-button,
+				header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button.checkout,
+				
+				.button.danger, .cart_totals .wc-proceed-to-checkout a.button.checkout-button, .woocommerce #payment #place_order, .button.error, .nth_header_toolbar > div > div .nth-toolbar-popup-cotent p.buttons .button.checkout, header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button.checkout
+							
+			</bgcolor>
+			<bdcolor>
+				.woocommerce .woocommerce-message, .woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select,
+				input[type="email"]:focus, input[type="search"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input.input-text:focus, input[type="text"]:focus
+			</bdcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Nineth color</title>
+		<id>color-9</id>
+		<subtitle>Top cart background color.</subtitle>
+		<type>color</type>
+		<def>#f5f5f5</def>
+		<output>
+			<color>				
+			</color>
+			<bgcolor>	
+			header .nth_header_top, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, header .nth-mini-popup:hover, 
+			.nth_header_toolbar > div > div > a:hover,
+			.nth_header_toolbar > div > div .nth-toolbar-popup-cotent .widget_shopping_cart_content p.buttons .button.checkout:hover,
+			header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button.checkout:hover,
+			.cart_totals .wc-proceed-to-checkout a.button.checkout-button:hover, .woocommerce #payment #place_order:hover, .woocommerce #payment #place_order:focus, .woocommerce #payment #place_order:active
+			</bgcolor>
+		</output>		
+	</item>
+	
+	<item>
+		<title>Tenth color</title>
+		<id>color-10</id>
+		<subtitle>Border Newsletter form</subtitle>
+		<type>color</type>
+		<def>#393939</def>
+		<output>
+			<color>				
+			</color>
+			<bgcolor>
+			</bgcolor>
+			<bdcolor>form.mc4wp-form</bdcolor>
+		</output>		
+	</item>
+
+	
+</colour>

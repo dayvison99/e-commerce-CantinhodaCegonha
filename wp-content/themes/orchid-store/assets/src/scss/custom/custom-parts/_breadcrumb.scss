@@ -1,0 +1,94 @@
+
+body.home .os-breadcrumb-wrap {
+
+    display: none;
+}
+
+.os-breadcrumb-wrap {
+
+    position:relative;
+    background-color:#444444;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:80px 0;
+    margin-top: -40px;
+}
+
+.os-breadcrumb-wrap .breadcrumb-inner {
+
+    position:relative;
+    z-index:7;
+    text-align:center;
+}
+
+.os-breadcrumb-wrap .mask {
+
+    background: rgba(0,0,0,0.2);
+}
+
+.woocommerce .woocommerce-breadcrumb {
+
+    padding:0;
+    margin:0;
+}
+
+.breadcrumb-trail ul {
+    
+    position:relative;
+    z-index: 5;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.os-page-breadcrumb-wrap .breadcrumbs,
+.woocommerce .os-page-breadcrumb-wrap .woocommerce-breadcrumb {
+
+    margin-bottom: 10px;
+}
+
+.os-page-breadcrumb-wrap .breadcrumb-trail ul {
+    
+    justify-content:flex-start;
+    text-align: left; // case when page header is disabled. Since - 1.2.1
+}
+
+.breadcrumb-trail ul li,
+.breadcrumb-trail ul li a,
+.breadcrumb-trail ul li span {
+    
+    font-size:14px;
+	display:inline-block;
+}
+
+.breadcrumb-trail ul li {
+
+    flex: 0 auto;
+    padding-right: 10px;
+}
+
+.breadcrumb-trail ul li a,
+.breadcrumb-trail ul li span {
+
+    @include transation_delay();
+}
+
+
+.breadcrumb-trail li.trail-item:after {
+
+    content:'/';
+    font-size: 10px;
+    padding-left:10px;
+}
+
+.breadcrumb-trail li.trail-item.trail-end:after {
+
+    content:'';
+    display:none;
+}

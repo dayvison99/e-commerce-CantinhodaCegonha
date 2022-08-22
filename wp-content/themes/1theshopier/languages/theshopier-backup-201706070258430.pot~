@@ -1,0 +1,3927 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TheShopier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Sep 03 2015 12:13:59 GMT+0700 (SE Asia Standard Time)\n"
+"POT-Revision-Date: Mon Aug 01 2016 11:13:05 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:24
+msgid "404 Page Not Found"
+msgstr ""
+
+#. Name of the template
+msgid "Albums Grid"
+msgstr ""
+
+#: ../archive-nth_gallery.php:26
+msgid "Gallery"
+msgstr ""
+
+#: ../archive-product.php:49 ../archive-product.php:167 ../archive.php:24 ..
+#: /archive.php:60 ../framework/header_tpl/header-1.php:20 ..
+#: /framework/header_tpl/header-10.php:35 ../framework/header_tpl/header-11.php:
+#: 37 ../framework/header_tpl/header-12.php:12 ../framework/header_tpl/header-13.
+#: php:15 ../framework/header_tpl/header-14.php:10 ../framework/header_tpl/header-
+#: 15.php:20 ../framework/header_tpl/header-3.php:21 ..
+#: /framework/header_tpl/header-4.php:21 ../framework/header_tpl/header-5.php:22 .
+#: ./framework/header_tpl/header-6.php:24 ../framework/header_tpl/header-7.php:24 
+#: ../framework/header_tpl/header-8.php:21 ../index.php:58 ../page.php:36 ../page.
+#: php:69 ../pages/blog-grid.php:26 ../pages/blog-grid.php:79 ../pages/blog.php:
+#: 26 ../pages/blog.php:63 ../pages/page-1790.php:38 ../pages/page-1790.php:67 ..
+#: /search.php:33 ../search.php:68 ../single.php:27 ../single.php:165 ..
+#: /woocommerce/single-product.php:39 ../woocommerce/single-product.php:88
+msgid "Please add some widgets here!"
+msgstr ""
+
+#: ../comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-audio.php:76 ../content-video.php:91 ../content-widget.php:41 ..
+#: /content.php:73 ../single.php:104
+msgid "By"
+msgstr ""
+
+#: ../content-audio.php:109 ../content-video.php:124 ../content.php:106
+msgid "Read more"
+msgstr ""
+
+#: ../content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:16
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: ../framework/backend/functions/product_cat_form_field.php:13 ..
+#: /framework/backend/functions/product_cat_form_field.php:42
+msgid "Category Informations"
+msgstr ""
+
+#: ../framework/backend/functions/product_cat_form_field.php:16 ..
+#: /framework/backend/functions/product_cat_form_field.php:45
+msgid "The Category Informations will show as category description."
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:15
+msgid "NTH &mdash; Page Options"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:16
+msgid "NTH &mdash; Post Options"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:17
+msgid "NTH &mdash; STBlock position"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:19
+msgid "NTH &mdash; Member infomations"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:81 ../framework/backend/incs/class.
+#: metabox.php:476 ../framework/backend/tmps/metabox/page_options.php:13 ..
+#: /framework/backend/tmps/metabox/tabs.php:14 ../framework/incs/redux-
+#: framework/options-config.php:202
+msgid "General"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:86
+msgid "Page Title"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:92
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:99
+msgid "Page comments"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:108 ..
+#: /framework/backend/incs/class.metabox.php:276 ../framework/backend/incs/class.
+#: metabox.php:281 ../framework/backend/tmps/metabox/page_options.php:14 ..
+#: /framework/backend/tmps/metabox/tabs.php:15
+msgid "Layout"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:113
+msgid "Page Layout"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:118 ..
+#: /framework/backend/incs/class.metabox.php:287
+msgid "Full width"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:119 ..
+#: /framework/backend/incs/class.metabox.php:126 ../framework/backend/incs/class.
+#: metabox.php:288 ../framework/backend/incs/class.metabox.php:296
+msgid "Left sidebar"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:120 ..
+#: /framework/backend/incs/class.metabox.php:289
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:121 ..
+#: /framework/backend/incs/class.metabox.php:290
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:129 ..
+#: /framework/backend/incs/class.metabox.php:140
+msgid "--Select a sidebar--"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:137 ..
+#: /framework/backend/incs/class.metabox.php:304
+msgid "Right sidebar"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:150 ..
+#: /framework/backend/tmps/metabox/page_options.php:15 ..
+#: /framework/backend/tmps/metabox/tabs.php:16
+msgid "Slideshow"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:155 ..
+#: /framework/backend/tmps/metabox/page_options.php:24 ..
+#: /framework/backend/tmps/metabox/tabs.php:25
+msgid "Slider type"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:167 ..
+#: /framework/backend/tmps/metabox/page_options.php:34 ..
+#: /framework/backend/tmps/metabox/tabs.php:35
+msgid "Meta Slider"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:171
+msgid "Empty value or Meta Slider not exist!"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:179
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:183
+msgid "Empty value or SliderRevolution not exist!"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:193
+msgid "Page template"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:202
+msgid "Blog Grid"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:206
+msgid "Blog Columns"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:215 ..
+#: /framework/backend/incs/class.metabox.php:222
+msgid "This use only for Blog Grid page template"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:219
+msgid "Video size"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:226
+msgid "Post per page"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:234
+msgid "Album Grid"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:238
+msgid "Album Style"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:242 ..
+#: /framework/incs/widgets/class.recent-posts.php:25
+msgid "Style 1"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:243 ..
+#: /framework/incs/widgets/class.recent-posts.php:26
+msgid "Style 2"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:286
+msgid "-- Inherit --"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:292 ..
+#: /framework/backend/incs/class.metabox.php:300 ../framework/backend/incs/class.
+#: metabox.php:308
+msgid "By default, it will apply the choice from Theme Options"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:299 ..
+#: /framework/backend/incs/class.metabox.php:307
+msgid "--Inherit--"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:315
+msgid "Shortcode"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:319
+msgid "Thumbnail Shortcode"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:322
+msgid "Please enter your shortcode content as slider shortcode..."
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:332
+msgid "Video"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:336 ../framework/incs/class-tgm-
+#: plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:347
+msgid "Url"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:351
+msgid "Support youtube, vimeo."
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:356
+msgid "Mp4 Url"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:362
+msgid "Ogg Url"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:368
+msgid "Webm Url"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:378
+msgid "Audio"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:382
+msgid "Audio Embed"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:385
+#, php-format
+msgid "Please enter embed code for audio (you can use %1$ssoundcloud.com%2$s)"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:416
+msgid "Standard"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:417
+msgid "Widget"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:418
+msgid "Mega menu"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:444
+msgid "Tab Title"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:446
+msgid "Your custom tab title"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:451
+msgid "Tab Content"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:481
+msgid "Role"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:489
+msgid "Email"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:497
+msgid "Phone"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:504
+msgid "Profile Link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:514 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1438 ..
+#: /framework/incs/redux-framework/options-config.php:657
+msgid "Social network"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:518
+msgid "Facebook link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:526
+msgid "Twitter link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:534
+msgid "Google+ link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:542
+msgid "Pinterest link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:550
+msgid "Instagram link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:558
+msgid "LinkedIn link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.php:566
+msgid "Dribbble link"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.template.php:231
+msgid "Choose an media"
+msgstr ""
+
+#: ../framework/backend/incs/class.metabox.template.php:231
+msgid "Use Media"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: ../framework/backend/incs/mega-menu-backend.php:58
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: ../framework/backend/incs/mega-menu-backend.php:62
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:79
+msgid "sub item"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:94
+msgid "Move up"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:107
+msgid "Move down"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:109 ..
+#: /framework/backend/incs/mega-menu-backend.php:111
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:121
+msgid "URL"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:128
+msgid "Navigation Label"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:134
+msgid "Title Attribute"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:142
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:147
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:153
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:159 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:220 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:902 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:754 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:843
+msgid "Description"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:161
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:168
+msgid "Text Color"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:175 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:338
+msgid "Icon image"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:184 ..
+#: /framework/backend/incs/mega-menu-backend.php:216 ..
+#: /framework/incs/widgets/class.abstract-widgets.php:208
+msgid "Choose an image"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:184 ..
+#: /framework/backend/incs/mega-menu-backend.php:216 ..
+#: /framework/incs/widgets/class.abstract-widgets.php:208
+msgid "Use image"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:188 ..
+#: /framework/backend/incs/mega-menu-backend.php:220 ..
+#: /framework/incs/widgets/class.abstract-widgets.php:213
+msgid "Media thumbnail"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:195 ..
+#: /framework/backend/incs/mega-menu-backend.php:227 ..
+#: /framework/incs/widgets/class.abstract-widgets.php:220
+msgid "Add image"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:196 ..
+#: /framework/backend/incs/mega-menu-backend.php:228 ..
+#: /framework/backend/incs/mega-menu-backend.php:321 ../framework/functions/hook.
+#: php:501 ../framework/incs/widgets/class.abstract-widgets.php:221 ..
+#: /woocommerce/compare-toolbar.php:41 ../woocommerce/wishlist-view.php:250
+msgid "Remove"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:207 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:86 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:737 ..
+#: /framework/incs/widgets/class.banner.php:23
+msgid "Background image"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:245
+msgid "Use mega menu"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:251
+msgid "Label:"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:254 ..
+#: /framework/functions/hook.php:397 ../framework/functions/mega-menu.php:63
+msgid "New"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:255 ..
+#: /framework/functions/mega-menu.php:66
+msgid "Sale"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:263
+msgid "Width:"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:266
+msgid "Mega menu width 1"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:267
+msgid "Mega menu width 2"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:268
+msgid "Mega menu width 3"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:269
+msgid "Mega menu width 4"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:270
+msgid "Mega menu width 5"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:276
+msgid "Static block:"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:286
+msgid "Please create static block for menu."
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:296 ../woocommerce/wishlist-
+#: view.php:218
+msgid "Move"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:297
+msgid "Up one"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:298
+msgid "Down one"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:301
+msgid "To the top"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:308
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../framework/backend/incs/mega-menu-backend.php:322 ../woocommerce/wishlist-
+#: view.php:50
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:160 ..
+#: /framework/incs/widgets/class.abstract-widgets.php:234 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:52
+msgid "Date"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:161 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:68 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:188
+msgid "ID"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:162
+msgid "Author"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:163 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:214 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:925 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1504 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:299 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:335 ..
+#: /framework/incs/widgets/class.banner.php:18 ../framework/incs/widgets/class.
+#: product-category.php:36 ../framework/incs/widgets/class.product-filters.php:43 
+#: ../framework/incs/widgets/class.recent-comments.php:18 ..
+#: /framework/incs/widgets/class.recent-posts.php:18 ..
+#: /framework/incs/widgets/class.staticblock.php:25 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:18
+msgid "Title"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:164
+msgid "Modified"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:165 ..
+#: /framework/incs/widgets/class.abstract-widgets.php:236 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:54
+msgid "Random"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:166
+msgid "Comment count"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:167
+msgid "Menu order"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:181
+msgid "Descending"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:182
+msgid "Ascending"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:188
+msgid "Blue"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:189
+msgid "Turquoise"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:190
+msgid "Pink"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:191
+msgid "Violet"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:192
+msgid "Peacoc"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:193
+msgid "Chino"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:194
+msgid "Mulled Wine"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:195
+msgid "Vista Blue"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:196
+msgid "Black"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:197
+msgid "Grey"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:198
+msgid "Orange"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:199
+msgid "Sky"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:200
+msgid "Green"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:201
+msgid "Juicy pink"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:202
+msgid "Sandy brown"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:203
+msgid "Purple"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:204
+msgid "White"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:205 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1119
+msgid "Success"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:208
+msgid "Custom color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:277
+msgid "If you use slider, This column number will response respectively with 1200px"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:278
+msgid "Type product name, slug or id."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:282 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:117 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:194
+msgid "Css"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:284 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:119 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:196
+msgid "Design options"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:288 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1545
+msgid "Extra class name"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.php:290
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.query.php:38 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:65 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:157 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:185
+msgid "Name"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/class.autocomplete.query.php:40 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:60 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:159 ..
+#: /framework/backend/incs/vc_customs/class.autocomplete.query.php:180
+msgid "Slug"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:6 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:21 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1114
+msgid "Row style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:10 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:25 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:60 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:598
+msgid "Normal"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:11 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:26
+msgid "Grid style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:12 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:27
+msgid "Shadow"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:35
+msgid "Backround Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:37
+msgid "Set background color."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:43
+msgid "Hidden Label"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:57 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:82 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:498
+msgid "Tabs style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:61
+msgid "Boxed"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:68 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:98 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:187 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:487 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:609 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:773 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1598 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1769 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:177 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:417 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:550 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:627 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:764 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:852 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:959 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1032
+msgid "Columns"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:85 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:127 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:188 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:199
+msgid "VC Defaule"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:86
+msgid "NTH Tab Style 1"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:87
+msgid "NTH Tab Style 2"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:88
+msgid "NTH Tab Style 3"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:89
+msgid "NTH Tab Style 4"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:90
+msgid "NTH Tab Style 5"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:107
+msgid "Align"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:110
+msgid "Left"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:111
+msgid "Center"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:112
+msgid "Right"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:124
+msgid "Section style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:128
+msgid "NTH style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:185 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:169 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:421 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:595 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:762 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:838 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1025 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:938
+msgid "Style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:189 ..
+#: /framework/backend/incs/vc_customs/pagrams.php:200
+msgid "NTH Style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/pagrams.php:196
+msgid "Border radius"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:73
+msgid "Banners"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:80
+msgid "Banner Link"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:92
+msgid "Cotent"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:97
+msgid "Display Inline"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:106
+msgid "Hidden on?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:127
+msgid "Brands"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:135 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:552 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:720 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:800 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:873 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1088 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1165 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1446 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1562 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1685 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1787 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:55 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:464 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:673 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:809 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:897 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1057
+msgid "Heading"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:143 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:558 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:726 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:806 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1172 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1452 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1568 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1640 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1693 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1793 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:62 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:679 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:903 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1063
+msgid "Box Style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:154 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:569 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:736 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:816 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1182 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1462 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1578 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1703 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1804 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:74 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:472 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:689 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:704 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:913 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1073
+msgid "Heading style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:180
+msgid "Brand images"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:203
+msgid "Icon options"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:204
+msgid "Color options"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:207
+msgid "Infobox"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:228 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:981
+msgid "Use icon?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:238
+msgid "Icon library"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:240
+msgid "Font Awesome"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:241
+msgid "Open Iconic"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:242
+msgid "Typicons"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:243
+msgid "Entypo"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:244
+msgid "Linecons"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:245
+msgid "Icon Image"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:249
+msgid "Select icon library."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:255 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:271 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:288 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:305 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:321 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:990 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1316 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1412 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1493
+msgid "Icon"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:266 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:283 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:300 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:333 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1001 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1324 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1423 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1500
+msgid "Select icon from library."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:345
+msgid "Select icon from media."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:351
+msgid "Background Style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:354
+msgid "Circle"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:355
+msgid "Square"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:356
+msgid "Rounded"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:358
+msgid "Background style for icon."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:367 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1515 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1660 ..
+#: /framework/incs/class.shopbycolor.php:78 ../framework/incs/class.shopbycolor.
+#: php:90 ../framework/incs/class.shopbycolor.php:110 ../framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:295
+msgid "Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:370
+msgid "Infobox color."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:376 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1366
+msgid "Custom Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:378
+msgid "Select custom color."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:388
+msgid "Icon backgound"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:392
+msgid "Background Color."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:398
+msgid "Custom icon backgound"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:400
+msgid "Select custom icon backgound."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:413
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:431
+msgid "Portfolio Cats"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:438
+msgid "Please type [name], [slug] or [id] of Portfolio."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:445
+msgid "Filter align"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:460
+msgid "Filter Style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:474
+msgid "Content style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:496 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:170 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:410
+msgid "Per Page"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:506
+msgid "Show Filter"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:518
+msgid "Show Title"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:530
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:545 ..
+#: /framework/incs/widgets/class.recent-posts.php:17
+msgid "Recent posts"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:581 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1235 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1592 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:543 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:773 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:861 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1038
+msgid "Limit"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:588
+msgid "Excerpt Limit"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:599
+msgid "List"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:600
+msgid "Grid"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:601
+msgid "Grid style 2"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:602
+msgid "Grid style 3"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:603
+msgid "Grid Overflow"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:617 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:186 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:429 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:558 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:639 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:781 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:869 ..
+#: /framework/incs/widgets/class.product-category.php:64 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:50
+msgid "Order by"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:621 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:189 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:432 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:561 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:642 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:784 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:872
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:625 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:194 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:437 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:566 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:647 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:789 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:877
+msgid "Order way"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:628 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:197 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:440 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:569 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:650 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:792 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:880
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:633
+msgid "Show cats"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:643
+msgid "Show Author"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:653
+msgid "Show excerpt"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:663
+msgid "Show read more"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:687
+msgid "Static Block"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:694 ..
+#: /framework/incs/widgets/class.staticblock.php:30
+msgid "Static block"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:700
+msgid "Display"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:713
+msgid "Team Member"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:751
+msgid "Members"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:758
+msgid "Please type [name], [slug] or [id] of Team Members."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:780
+msgid "Use Slider?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:793
+msgid "Testimonials"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:831
+msgid "Use slider?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:850
+msgid "Testimonial"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:857
+msgid "Please type [name], [slug] or [id] of testimonials."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:865 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:895
+msgid "Pricing"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:879 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:963
+msgid "Label"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:888
+msgid "Label text"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:898
+msgid "Ex: $|11.99|mo, Free|30 days"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:908 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1158 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1087
+msgid "Features"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:912 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:915 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:919 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1133
+msgid "Pack feature here..."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:916
+msgid "Tooltip goes here..."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:931
+msgid "Tooltip content"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:939 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:969 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1335 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1338 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1112
+msgid "Button text"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:945 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:975
+msgid "Button link"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:956
+msgid "Action"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1010
+msgid "Google maps"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1017
+msgid "Your Addpress"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1021
+msgid "Please type your address here."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1038
+msgid "Map style JSON data"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1042
+#, php-format
+msgid "You can get Map style JSON data in %1$sMapStylr%2$s"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1046 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1740
+msgid "Zoom"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1053 ..
+#: /framework/incs/redux-framework/options-config.php:347 ../framework/incs/redux-
+#: framework/options-config.php:386 ../framework/incs/redux-framework/options-
+#: config.php:426 ../framework/incs/redux-framework/options-config.php:466 ..
+#: /framework/incs/redux-framework/options-config.php:504
+msgid "Height"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1060
+msgid "Marker icon"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1067
+msgid "Widget content"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1078
+msgid "Table"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1098
+msgid "Table row"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1107
+msgid "Table heading"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1109
+msgid "Use this row as table heading?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1117
+msgid "-None-"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1118 ..
+#: /framework/incs/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1120
+msgid "Info"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1121
+msgid "Warning"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1122
+msgid "Danger"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1128
+msgid "Cells"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1139
+msgid "Colspan"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1146
+msgid "Value"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1196
+msgid "Features style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1207
+msgid "Inside style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1217
+msgid "Simple features"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1227
+msgid "Per Row"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1244
+msgid "Features id"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1251
+msgid "Please type [name], [slug] or [id] of Fatures."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1257 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:151 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:403 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:517 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:617
+msgid "Excerpt limit"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1264
+msgid "Icon Size"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1271
+msgid "Show the excerpt?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1277
+msgid "Show learn more link?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1284
+msgid "Title Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1287 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1295 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1302 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1311 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1325
+msgid "Color & filter"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1291
+msgid "Excerpt Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1299
+msgid "Link Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1307
+msgid "Link text"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1342
+msgid "Button style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1354
+msgid "Background color style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1376
+msgid "Button color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1386 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:89
+msgid "Border color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1396
+msgid "Button size"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1406
+msgid "Use icon"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1408
+msgid "Button with icon."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1428
+msgid "Button"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1476
+msgid "Social"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1510 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:288 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:322 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:348
+msgid "Link"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1523
+msgid "Apply color hover"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1532
+msgid "Icon size"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1554
+msgid "Instagram"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1604 ..
+#: /framework/incs/redux-framework/options-config.php:319
+msgid "Image size"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1618
+msgid "QR_Code"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1626 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1633
+msgid "Data"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1653
+msgid "Margin"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1667
+msgid "Bg Color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1678
+msgid "Store Location"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1717
+msgid "Store"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1722
+msgid "Store Name"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1728
+msgid "Store address"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1733
+msgid "Store link"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1747
+msgid "Store infomation"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1752
+msgid "Line"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1762
+msgid "Map image size"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1780
+msgid "Tag Cloud"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1819
+msgid "Taxonomy"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_elements.php:1822
+msgid "Select source for tag cloud."
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:97
+msgid "Content as Widget"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:117
+msgid "Use Big Product"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:129 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:393 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:524 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:604 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:965
+msgid "Use slider"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:141 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:384 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:508 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:595
+msgid "Product item style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:159
+msgid "Auto play"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:225 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:43
+msgid "Featured Products"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:237
+msgid "Recent Products"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:247
+msgid "Sale Products"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:255
+msgid "Deal product"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:265
+msgid "Super Deal Style"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:281
+msgid "Best selling products"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:292
+msgid "Product Tags"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:305
+msgid "Title color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:311
+msgid "Tags"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:318
+#, php-format
+msgid ""
+"Please make sure your tags were added in <a target=\"_blank\" "
+"href=\"%s\">here</a>"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:328
+msgid "Product Categories"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:341 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:713 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:726 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:927
+msgid "Categories"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:353
+msgid "Hover color"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:363
+msgid "Top rated products"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:377 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:486 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:742 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:997 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1093 ..
+#: /framework/incs/widgets/class.product-category.php:58
+msgid "Category"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:446
+msgid "Products Category"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:457
+msgid "Products Categories - tab"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:533
+msgid "Using ajax?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:583 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:655 ..
+#: /framework/incs/widgets/class.product-category.php:35 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:17
+msgid "Products"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:666
+msgid "Product Sub Categories"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:756
+#, php-format
+msgid "Ex: Over %s products awaits you!"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:802 ..
+#: /framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:816
+msgid "Product Brands"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:826
+msgid "Brand logo"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:831
+msgid "Brand"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:890
+msgid "Featured Categories"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:949
+msgid "Hidden mega cat"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:952
+msgid "Hidden counting?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:953
+msgid "Hidden category link?"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:979
+msgid "Woo Single Category"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1007
+msgid "--Select--"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1019
+msgid "Woo Attributes"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1026 ..
+#: /framework/incs/widgets/class.product-filters.php:48
+msgid "Attribute"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1050
+msgid "Woo Categories"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1104
+msgid "Category image"
+msgstr ""
+
+#: ../framework/backend/incs/vc_customs/vc_maps/vc_woocommerce.php:1118
+msgid "Shop all text"
+msgstr ""
+
+#: ../framework/functions/ajax_functions.php:55
+msgid "Please enter your sidebar name!"
+msgstr ""
+
+#: ../framework/functions/ajax_functions.php:64
+msgid "This name was used."
+msgstr ""
+
+#: ../framework/functions/ajax_functions.php:161
+msgid "Login success!"
+msgstr ""
+
+#: ../framework/functions/ajax_functions.php:196 ..
+#: /framework/functions/function_api.php:368
+msgid "Browse Shopping cart"
+msgstr ""
+
+#: ../framework/functions/ajax_functions.php:198 ..
+#: /framework/functions/function_api.php:250
+#, php-format
+msgid "Cart: %s item(s)"
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:17
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:18
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:19
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:20
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:21
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:22
+msgid "Error 404"
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:106 ../framework/functions/breadcrumb.
+#: php:126
+msgid "Shop"
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:130
+msgid "Tagged \""
+msgstr ""
+
+#: ../framework/functions/breadcrumb.php:198
+msgid "Page"
+msgstr ""
+
+#: ../framework/functions/footer.php:52
+msgid "footer copyright logo"
+msgstr ""
+
+#: ../framework/functions/footer.php:64
+msgid "footer copyright payment"
+msgstr ""
+
+#: ../framework/functions/function_api.php:52
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../framework/functions/function_api.php:53
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../framework/functions/function_api.php:81
+msgid "Search product..."
+msgstr ""
+
+#: ../framework/functions/function_api.php:83
+msgid "Search anything..."
+msgstr ""
+
+#: ../framework/functions/function_api.php:88
+msgid "Search for:"
+msgstr ""
+
+#: ../framework/functions/function_api.php:96
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../framework/functions/function_api.php:118 ..
+#: /framework/functions/function_api.php:308 ../framework/functions/function_api.
+#: php:312 ../framework/functions/function_api.php:314 ..
+#: /framework/functions/function_api.php:318 ../woocommerce/checkout/thankyou.php:
+#: 36
+msgid "My Account"
+msgstr ""
+
+#: ../framework/functions/function_api.php:145 ..
+#: /framework/functions/function_api.php:178
+msgid "Welcome!"
+msgstr ""
+
+#: ../framework/functions/function_api.php:157 ..
+#: /framework/functions/function_api.php:275
+msgid "Username"
+msgstr ""
+
+#: ../framework/functions/function_api.php:158 ..
+#: /framework/functions/function_api.php:276
+msgid "Password"
+msgstr ""
+
+#: ../framework/functions/function_api.php:159 ..
+#: /framework/functions/function_api.php:277
+msgid "Remember Me"
+msgstr ""
+
+#: ../framework/functions/function_api.php:160 ..
+#: /framework/functions/function_api.php:278
+msgid "Log In"
+msgstr ""
+
+#: ../framework/functions/function_api.php:179
+msgid "Sign In"
+msgstr ""
+
+#: ../framework/functions/function_api.php:191 ..
+#: /framework/functions/function_api.php:328
+#, php-format
+msgid ""
+"New to our store? <a href=\"%1$s\" title=\"Create an Account\">Create an "
+"Account</a>"
+msgstr ""
+
+#: ../framework/functions/function_api.php:235 ..
+#: /framework/functions/function_api.php:241 ../framework/functions/function_api.
+#: php:248 ../framework/functions/function_api.php:373
+msgid "My Cart"
+msgstr ""
+
+#: ../framework/functions/function_api.php:313
+#, php-format
+msgid "Welcome, <strong>%s</strong>"
+msgstr ""
+
+#: ../framework/functions/function_api.php:314
+msgid "Visit Account Page"
+msgstr ""
+
+#: ../framework/functions/function_api.php:315 ..
+#: /framework/functions/function_api.php:315
+msgid "Log out"
+msgstr ""
+
+#: ../framework/functions/function_api.php:347 ../woocommerce/compare-toolbar.php:
+#: 87
+msgid "View compare"
+msgstr ""
+
+#: ../framework/functions/function_api.php:358
+msgid "Browse Wishlist"
+msgstr ""
+
+#: ../framework/functions/function_api.php:405
+msgid "Question us!"
+msgstr ""
+
+#: ../framework/functions/function_api.php:447
+msgid "Follow me"
+msgstr ""
+
+#: ../framework/functions/function_api.php:464
+msgid "image alt"
+msgstr ""
+
+#: ../framework/functions/function_api.php:541
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: ../framework/functions/function_api.php:551
+msgid "- No animate -"
+msgstr ""
+
+#: ../framework/functions/function_api.php:552
+msgid "Bounce"
+msgstr ""
+
+#: ../framework/functions/function_api.php:553
+msgid "Pulse"
+msgstr ""
+
+#: ../framework/functions/function_api.php:554
+msgid "RubberBand"
+msgstr ""
+
+#: ../framework/functions/function_api.php:555
+msgid "Shake"
+msgstr ""
+
+#: ../framework/functions/function_api.php:556
+msgid "Swing"
+msgstr ""
+
+#: ../framework/functions/function_api.php:557
+msgid "Tada"
+msgstr ""
+
+#: ../framework/functions/function_api.php:558
+msgid "Wobble"
+msgstr ""
+
+#: ../framework/functions/function_api.php:559
+msgid "Jello"
+msgstr ""
+
+#: ../framework/functions/function_api.php:560
+msgid "BounceIn"
+msgstr ""
+
+#: ../framework/functions/function_api.php:561
+msgid "BounceInDown"
+msgstr ""
+
+#: ../framework/functions/function_api.php:562
+msgid "BounceInLeft"
+msgstr ""
+
+#: ../framework/functions/function_api.php:563
+msgid "BounceInRight"
+msgstr ""
+
+#: ../framework/functions/function_api.php:564
+msgid "BounceInUp"
+msgstr ""
+
+#: ../framework/functions/function_api.php:565
+msgid "FadeIn"
+msgstr ""
+
+#: ../framework/functions/function_api.php:566
+msgid "FadeInDown"
+msgstr ""
+
+#: ../framework/functions/function_api.php:567
+msgid "FadeInDownBig"
+msgstr ""
+
+#: ../framework/functions/function_api.php:568
+msgid "FadeInLeft"
+msgstr ""
+
+#: ../framework/functions/function_api.php:569
+msgid "FadeInLeftBig"
+msgstr ""
+
+#: ../framework/functions/function_api.php:570
+msgid "FadeInRight"
+msgstr ""
+
+#: ../framework/functions/function_api.php:571
+msgid "FadeInRightBig"
+msgstr ""
+
+#: ../framework/functions/function_api.php:572
+msgid "FadeInUp"
+msgstr ""
+
+#: ../framework/functions/function_api.php:573
+msgid "FadeInUpBig"
+msgstr ""
+
+#: ../framework/functions/function_api.php:574
+msgid "Flip"
+msgstr ""
+
+#: ../framework/functions/function_api.php:575
+msgid "FlipInX"
+msgstr ""
+
+#: ../framework/functions/function_api.php:576
+msgid "FlipInY"
+msgstr ""
+
+#: ../framework/functions/function_api.php:577
+msgid "LightSpeedIn"
+msgstr ""
+
+#: ../framework/functions/function_api.php:578
+msgid "RotateIn"
+msgstr ""
+
+#: ../framework/functions/function_api.php:579
+msgid "RotateInDownLeft"
+msgstr ""
+
+#: ../framework/functions/function_api.php:580
+msgid "RotateInDownRight"
+msgstr ""
+
+#: ../framework/functions/function_api.php:581
+msgid "RotateInUpLeft"
+msgstr ""
+
+#: ../framework/functions/function_api.php:582
+msgid "RotateInUpRight"
+msgstr ""
+
+#: ../framework/functions/function_api.php:583
+msgid "SlideInUp"
+msgstr ""
+
+#: ../framework/functions/function_api.php:584
+msgid "SlideInDown"
+msgstr ""
+
+#: ../framework/functions/function_api.php:585
+msgid "SlideInLeft"
+msgstr ""
+
+#: ../framework/functions/function_api.php:586
+msgid "SlideInRight"
+msgstr ""
+
+#: ../framework/functions/function_api.php:587
+msgid "ZoomIn"
+msgstr ""
+
+#: ../framework/functions/function_api.php:588
+msgid "ZoomInDown"
+msgstr ""
+
+#: ../framework/functions/function_api.php:589
+msgid "ZoomInLeft"
+msgstr ""
+
+#: ../framework/functions/function_api.php:590
+msgid "ZoomInRight"
+msgstr ""
+
+#: ../framework/functions/function_api.php:591
+msgid "ZoomInUp"
+msgstr ""
+
+#: ../framework/functions/function_api.php:592
+msgid "Hinge"
+msgstr ""
+
+#: ../framework/functions/function_api.php:593
+msgid "RollIn"
+msgstr ""
+
+#: ../framework/functions/general.php:61
+msgid "Prev"
+msgstr ""
+
+#: ../framework/functions/general.php:62
+msgid "Next"
+msgstr ""
+
+#: ../framework/functions/general.php:270
+msgid "Loading..."
+msgstr ""
+
+#: ../framework/functions/general.php:281
+msgid "Load more"
+msgstr ""
+
+#: ../framework/functions/hook.php:26
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../framework/functions/hook.php:34
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../framework/functions/hook.php:43
+msgid "Share on Google plus"
+msgstr ""
+
+#: ../framework/functions/hook.php:52
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../framework/functions/hook.php:219
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../framework/functions/hook.php:220
+msgid "out of 5"
+msgstr ""
+
+#: ../framework/functions/hook.php:279
+msgid "Compare"
+msgstr ""
+
+#: ../framework/functions/hook.php:389 ../woocommerce/wishlist-view.php:46
+msgid "Save"
+msgstr ""
+
+#: ../framework/functions/hook.php:452
+msgid "I want you see this site"
+msgstr ""
+
+#: ../framework/functions/hook.php:454
+msgid "Check out this site "
+msgstr ""
+
+#: ../framework/functions/hook.php:456
+msgctxt "Share by mailTo & Print in product page."
+msgid "Send to friends"
+msgstr ""
+
+#: ../framework/functions/hook.php:457
+msgctxt "Share by mailTo & Print in product page."
+msgid "Print"
+msgstr ""
+
+#: ../framework/functions/hook.php:501 ../woocommerce/cart/cart.php:102 ..
+#: /woocommerce/cart/cart.php:114 ../woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: ../framework/functions/hook.php:542 ../framework/functions/hook.php:573
+msgid "My Wishlist"
+msgstr ""
+
+#: ../framework/functions/hook.php:566 ../woocommerce/myaccount/navigation.php:40
+msgid "Logout"
+msgstr ""
+
+#: ../framework/functions/hook.php:570
+msgid "My Order"
+msgstr ""
+
+#: ../framework/functions/hook.php:576
+msgid "Track my order"
+msgstr ""
+
+#: ../framework/functions/hook.php:578
+msgid "Custom account page"
+msgstr ""
+
+#: ../framework/functions/hook.php:579
+msgid "Log Out"
+msgstr ""
+
+#: ../framework/functions/hook.php:681
+msgid "Update Cart"
+msgstr ""
+
+#: ../framework/functions/hook.php:690
+msgid "Coupon"
+msgstr ""
+
+#: ../framework/functions/hook.php:690 ../woocommerce/checkout/form-coupon.php:29
+msgid "Coupon code"
+msgstr ""
+
+#: ../framework/functions/hook.php:690 ../woocommerce/checkout/form-coupon.php:33
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../framework/functions/hook.php:718
+msgid "Shopping cart"
+msgstr ""
+
+#: ../framework/functions/hook.php:719 ../woocommerce/cart/mini-cart.php:95
+msgid "Checkout"
+msgstr ""
+
+#: ../framework/functions/hook.php:720
+msgid "Order Complete"
+msgstr ""
+
+#: ../framework/functions/hook.php:732 ../woocommerce/checkout/thankyou.php:42 ..
+#: /woocommerce/checkout/thankyou.php:78
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../framework/functions/hook.php:752
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/functions/hook.php:760
+msgid "Lost your password?"
+msgstr ""
+
+#: ../framework/functions/hook.php:783
+msgid "Item per page"
+msgstr ""
+
+#: ../framework/functions/main.php:18
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/functions/main.php:25
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../framework/functions/main.php:25
+msgid "(Edit)"
+msgstr ""
+
+#: ../framework/functions/main.php:28
+msgid "Reply"
+msgstr ""
+
+#: ../framework/functions/main.php:67 ../framework/functions/main.php:67
+msgid "Don't show it again"
+msgstr ""
+
+#: ../framework/functions/preview.php:20
+msgid "--Select a font--"
+msgstr ""
+
+#: ../framework/header_tpl/header-1.php:57 ../framework/header_tpl/header-15.php:
+#: 62 ../framework/header_tpl/header-2.php:69
+msgid "Shop By Departments"
+msgstr ""
+
+#: ../framework/header_tpl/header-1.php:60 ../framework/header_tpl/header-15.php:
+#: 65 ../framework/header_tpl/header-2.php:72
+msgid "Set your vertical menu"
+msgstr ""
+
+#: ../framework/header_tpl/header-2.php:34
+msgid "Set Primary Menu."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../framework/incs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:393 ../framework/incs/class-
+#: tgm-plugin-activation.php:912 ../framework/incs/class-tgm-plugin-activation.
+#: php:2618 ../framework/incs/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:394 ../framework/incs/class-
+#: tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:395 ../framework/incs/class-
+#: tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:1019 ../framework/incs/class-
+#: tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:1206 ../framework/incs/class-
+#: tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../framework/incs/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../framework/incs/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/incs/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/incs/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/incs/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3594 ../framework/incs/class-
+#: tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3594 ../framework/incs/class-
+#: tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/incs/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/incs/class.quickshop.php:10
+msgid "Quick shop"
+msgstr ""
+
+#: ../framework/incs/class.shop-dragdrop.php:29
+msgid "Drop product in here"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:67
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:68
+msgid "The Main sidebar widget area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:71
+msgid "Header Top Widget Area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:72
+msgid "The header top widget area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:75
+msgid "Header Top Widget Area (MB)"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:76
+msgid "The header top widget area on mobile"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:79
+msgid "Header Middle Widget Area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:80
+msgid "The header middle widget area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:83
+msgid "Blog Page Widget Area &mdash; Left"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:84
+msgid "The blog left widget area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:87
+msgid "Blog Page Widget Area &mdash; Right"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:88
+msgid "The blog right widget area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:91
+msgid "Shop Widget Area &mdash; Left"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:92
+msgid "The Shop page left widget area"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:95
+msgid "Shop Widget Area &mdash; Right"
+msgstr ""
+
+#: ../framework/incs/class.widget_sidebars.php:96
+msgid "The Shop page right widget area"
+msgstr ""
+
+#: ../framework/incs/mega-menu-action.php:79
+#, php-format
+msgid "NTH Mega Menu - %d"
+msgstr ""
+
+#: ../framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:233
+msgid "Add More"
+msgstr ""
+
+#: ../framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:250
+msgid "Select an item"
+msgstr ""
+
+#: ../framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:276 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:310 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:336
+msgid "Icons"
+msgstr ""
+
+#: ../framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:285 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:319 ..
+#: /framework/incs/redux-
+#: framework/extensions/custom_field/multi_social/field_multi_social.php:345
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../framework/incs/redux-
+#: framework/extensions/import_font/import_font/field_import_font.php:96
+msgid "Import"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:53
+msgid "Theme Options"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:54
+msgid "Theshopier Options"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:152
+msgid "Documentation!"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:169
+msgid "Documentation"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:170
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:176
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:210
+msgid "Logo URL"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:224
+msgid "Logo text"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:225
+msgid "Field Description"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:239
+msgid "Pace loader"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:249
+msgid "Pace loading logo"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:261
+msgid "Main Layout"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:262
+msgid "Main layout: wide or boxed"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:280 ..
+#: /framework/incs/redux-framework/options-config.php:568
+msgid "Smooth Scroll"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:289
+msgid "Sidebar widget style"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:291 ..
+#: /framework/incs/redux-framework/options-config.php:560
+msgid "Default"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:292
+msgid "Outline style"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:300
+msgid "Newsletter popup"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:309
+msgid "Newsletter popup content"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:328
+msgid "Blog thumbnail size"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:335 ..
+#: /framework/incs/redux-framework/options-config.php:374 ../framework/incs/redux-
+#: framework/options-config.php:414 ../framework/incs/redux-framework/options-
+#: config.php:454 ../framework/incs/redux-framework/options-config.php:492
+msgid "Width"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:336
+msgid "Min: 150, max: 1170, step: 1, default: 870"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:348
+msgid "Min: 150, max: 1000, step: 1, default: 696"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:367
+msgid "Blog list thumbnail size"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:375
+msgid "Min: 100, max: 520, step: 1, default: 300"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:387
+msgid "Min: 100, max: 520, step: 1, default: 250"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:407
+msgid "Blog Widget Thumbnail Size"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:415
+msgid "Min: 50, max: 250, step: 1, default: 100"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:427
+msgid "Min: 30, max: 150, step: 1, default: 67"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:448
+msgid "Blog Single image size"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:455
+msgid "Min: 300, max: 1170, step: 1, default: 1170"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:467
+msgid "Min: 300, max: 1170, step: 1, default: 1000"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:485
+msgid "Shop Subcategories"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:493
+msgid "Min: 100, max: 1170, step: 5, default: 100"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:505
+msgid "Min: 100, max: 700, step: 5, default: 100"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:537
+msgid "Header"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:544
+msgid "Header style"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:551
+msgid "Header Shipping Text"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:552 ..
+#: /framework/incs/redux-framework/options-config.php:1066
+msgid "Use any of the features of WordPress editor inside your panel!"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:558
+msgid "Breadcrum Style"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:561
+msgid "Transparent"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:578
+msgid "Footer"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:586
+msgid "Footer width"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:602
+msgid "Footer copyright"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:608
+msgid "Show Footer copyright"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:617
+msgid "Footer copyright text"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:629
+msgid "Header Toolbar"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:637
+msgid "Header toolbar"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:646
+msgid "Show social network"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:659
+msgid "Add Item"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:697
+msgid "Toolbar Feelback"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:698
+msgid "Enter your feedback link"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:709
+msgid "Show Qr-code"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:720
+msgid "QR-Code URL"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:721
+msgid "Leave empty to put the current page url."
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:768
+msgid "Font import"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:847
+msgid "Theme fonts."
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:848
+msgid "<strong>font xml</strong> not found, please import it."
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:854
+msgid "Typography"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:867
+msgid "Color importer"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:939
+msgid "Color scheme"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:948
+msgid "Woocommerce"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:955
+msgid "Shop page"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:963
+msgid "Shop Layout"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:964 ..
+#: /framework/incs/redux-framework/options-config.php:1100
+msgid "Main layout: none slidebar, left slidebar or right slidebar."
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1005
+msgid "Product Per Page"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1006
+msgid "Min: 4, max: 100, step:1, default: 12"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1015
+msgid "Shop Product Columns"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1016
+msgid "Min: 2, max: 12, step:1, default value: 3"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1031
+msgid "Catalog item style"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1047
+msgid "Drop-Drag shopping cart"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1056
+msgid "Quickshop button"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1065
+msgid "Shop Infomation"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1073
+msgid "Product Deal format"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1074
+#, php-format
+msgid "For full documentation on this format, visit: %sjQuery.countdown%s"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1081
+msgid "Track order page"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1090
+msgid "Product page"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1099
+msgid "Product Page Layout"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1149
+msgid "Custom tab title"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1150
+msgid "It will show at product tabs"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1157
+msgid "Custom tab Content"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1166
+msgid "Section button"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1170
+msgid "Select input"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1181
+msgid "Blog"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1189
+msgid "Blog Layout"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1190
+msgid "Blog layout: none slidebar, left slidebar or right slidebar."
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1232
+msgid "Excerpt length"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1233
+msgid "Min: 25, max: 255, step: 1, default: 55"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1242
+msgid "Read More button"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1252
+msgid "Galleries"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1260
+msgid "Fullscreen"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1261
+msgid "Enabled/Disabled fullscreen buttom"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1269
+msgid "Loop"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1270
+msgid "Makes slider to go from last slide to first"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1278
+msgid "Gallery height"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1279
+msgid "Min: 350px, max: 1170px, step: 10px, default: 670px"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1293
+msgid "Auto Play"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1301
+msgid "Pause On Hover"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1302
+msgid "Pause autoplay on hover."
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1311
+msgid "Delay"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1312
+msgid "Min: 3000ms, max: 18000ms, step: 500ms, default: 5000ms"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1327
+msgid "Enable thumbnail vertical"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1336
+msgid "Theme Editor"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1344
+msgid "CSS Code"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1356
+msgid "Color options xml"
+msgstr ""
+
+#: ../framework/incs/redux-framework/options-config.php:1371
+msgid "Font options xml"
+msgstr ""
+
+#: ../framework/incs/widgets/class.abstract-widgets.php:235 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:53 ..
+#: /woocommerce/cart/cart.php:33
+msgid "Price"
+msgstr ""
+
+#: ../framework/incs/widgets/class.abstract-widgets.php:237 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:55
+msgid "Sales"
+msgstr ""
+
+#: ../framework/incs/widgets/class.abstract-widgets.php:243 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:63
+msgid "ASC"
+msgstr ""
+
+#: ../framework/incs/widgets/class.abstract-widgets.php:244 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:64
+msgid "DESC"
+msgstr ""
+
+#: ../framework/incs/widgets/class.banner.php:10
+msgid "Build a banner shortcode"
+msgstr ""
+
+#: ../framework/incs/widgets/class.banner.php:12
+msgid "Banner"
+msgstr ""
+
+#: ../framework/incs/widgets/class.banner.php:28
+msgid "Banner content"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:10
+msgid "Display a list of your products of a category."
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:12
+msgid "Product Category"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:41 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:23
+msgid "Item Style"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:43 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:25
+msgctxt "NTH WooCommerce Products Widgets"
+msgid "Grid"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:44 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:26
+msgctxt "NTH WooCommerce Products Widgets"
+msgid "List"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:53 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:35
+msgid "Number of products to show"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-category.php:70 ..
+#: /framework/incs/widgets/class.woocommerce-products.php:61
+msgctxt "Sorting order"
+msgid "Order"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:10
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:12
+msgid "WooCommerce Layered Nav"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:42
+msgid "Filter by"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:54
+msgid "Display type"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:56
+msgid "List Vertical"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:57
+msgid "List Horizontal"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:63
+msgid "Query type"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:65
+msgid "AND"
+msgstr ""
+
+#: ../framework/incs/widgets/class.product-filters.php:66
+msgid "OR"
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-comments.php:10
+msgid "Your site's most recent comments."
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-comments.php:12 ..
+#: /framework/incs/widgets/class.recent-comments.php:17
+msgid "Recent Comments"
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-comments.php:26 ..
+#: /framework/incs/widgets/class.recent-posts.php:35
+msgid "Number of post to show"
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-comments.php:35 ..
+#: /framework/incs/widgets/class.recent-posts.php:43
+msgid "Excerpt words"
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-posts.php:10
+msgid "Your site's most recent Posts."
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-posts.php:12
+msgid "Recent Posts"
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-posts.php:23
+msgid "Display style"
+msgstr ""
+
+#: ../framework/incs/widgets/class.recent-posts.php:48
+msgid "Hidden posted time."
+msgstr ""
+
+#: ../framework/incs/widgets/class.staticblock.php:10
+msgid "Get Static block content"
+msgstr ""
+
+#: ../framework/incs/widgets/class.staticblock.php:12
+msgid "Static Blocks"
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:10
+msgid "Display a list of your products on your site."
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:12
+msgid "WooCommerce Products"
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:40
+msgid "Show"
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:42
+msgid "All Products"
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:44
+msgid "On-sale Products"
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:70
+msgid "Hide free products"
+msgstr ""
+
+#: ../framework/incs/widgets/class.woocommerce-products.php:75
+msgid "Show hidden products"
+msgstr ""
+
+#: ../framework/incs/widgets.php:65
+msgid "Sidebar name"
+msgstr ""
+
+#: ../framework/incs/widgets.php:65
+msgid "required"
+msgstr ""
+
+#: ../framework/incs/widgets.php:69
+msgid "Sidebar description"
+msgstr ""
+
+#: ../framework/incs/widgets.php:95
+msgid "Hidden on mobile"
+msgstr ""
+
+#: ../framework/incs/widgets.php:99
+msgid "Hidden on Tablet"
+msgstr ""
+
+#: ../framework/incs/widgets.php:102
+msgid "Css Classes"
+msgstr ""
+
+#: ../framework/theme.php:358
+msgid "Primary Menu"
+msgstr ""
+
+#: ../framework/theme.php:359
+msgid "Vertical Menu"
+msgstr ""
+
+#: ../framework/theme.php:360
+msgid "Mobile Menu"
+msgstr ""
+
+#. Name of the template
+msgid "Blog default"
+msgstr ""
+
+#. Name of the template
+msgid "Contact Us"
+msgstr ""
+
+#. Name of the template
+msgid "Page Full-width"
+msgstr ""
+
+#. Name of the template
+msgid "Page 1790 template"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolios full-width"
+msgstr ""
+
+#: ../related_posts.php:7
+msgid "Related posts"
+msgstr ""
+
+#: ../search.php:41
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../single-gallery_1.php:50
+msgid "Media icon image"
+msgstr ""
+
+#: ../single.php:101
+msgid "Edit"
+msgstr ""
+
+#: ../single.php:119
+#, php-format
+msgid "<span class=\"%1$s\">Tags:</span> %2$s"
+msgstr ""
+
+#: ../single.php:132
+msgid "avatar image"
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:30
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:38
+msgid "Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:26 ../woocommerce/cart/mini-cart.php:89
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:48 ../woocommerce/cart/shipping-calculator.
+#: php:29
+msgid "Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:80 ../woocommerce/cart/cart.php:35 ..
+#: /woocommerce/order/order-details.php:44
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:92
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:95
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:32 ../woocommerce/wishlist-view.php:82
+msgid "Product Name"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:34 ../woocommerce/single-product/add-to-
+#: cart/simple.php:40 ../woocommerce/single-product/add-to-cart/variable.php:79
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:129
+msgid "Continue Shopping"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:50
+msgid "Crosssell Products"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:77
+msgid "empty cart image"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:79
+msgid "Your cart is empty."
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:80
+msgid "Start shopping now :)"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:94
+msgid "View Cart"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:40
+msgid "State"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:49 ../woocommerce/cart/shipping-
+#: calculator.php:55 ../woocommerce/cart/shipping-calculator.php:67
+msgid "State / county"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:56
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:84 ../woocommerce/cart/shipping-
+#: calculator.php:85
+msgid "Postcode / Zip"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:90
+msgid "Update Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:22
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:38
+msgid "Returning Customer?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:38 ../woocommerce/checkout/form-
+#: login.php:19
+msgid "Click here to login"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:41 ../woocommerce/checkout/form-
+#: coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:41 ../woocommerce/checkout/form-
+#: coupon.php:18
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:71
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:24
+msgid "Your Coupon"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:18
+msgid "Returning customer?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:25
+msgid "Login to checkout"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:29
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:24
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:28
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:30
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:46
+msgid "Order Number:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:50
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:54
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:59
+msgid "Payment Method:"
+msgstr ""
+
+#: ../woocommerce/compare-toolbar.php:20
+msgid "My Compare"
+msgstr ""
+
+#: ../woocommerce/compare-toolbar.php:63 ../woocommerce/wishlist-toolbar.php:64 ..
+#: /woocommerce/wishlist-view.php:172
+msgid "Free!"
+msgstr ""
+
+#: ../woocommerce/compare-toolbar.php:77
+msgid "No products were added to Compare"
+msgstr ""
+
+#: ../woocommerce/compare-toolbar.php:87
+#, php-format
+msgid "Compare (%s)"
+msgstr ""
+
+#: ../woocommerce/loop/rating.php:23
+msgid "No rating"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:18
+msgid "Customer Details"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:26
+msgid "Note:"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:33
+msgid "Email:"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:40
+msgid "Telephone:"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:58
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:61 ../woocommerce/order/order-
+#: details-customer.php:72
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:69
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:35
+msgid "Order Details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:43
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:70
+msgid "Clear"
+msgstr ""
+
+#: ../woocommerce/single-product/product-image.php:66
+msgid "Placeholder"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:56
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:65
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/wishlist-toolbar.php:18
+#, php-format
+msgid "My Wishlist (%d)"
+msgstr ""
+
+#: ../woocommerce/wishlist-toolbar.php:19
+msgid "Browse to Wishlist"
+msgstr ""
+
+#: ../woocommerce/wishlist-toolbar.php:19
+msgid "Wishlist"
+msgstr ""
+
+#: ../woocommerce/wishlist-toolbar.php:43 ../woocommerce/wishlist-view.php:250 ..
+#: /woocommerce/wishlist-view.php:256
+msgid "Remove this product"
+msgstr ""
+
+#: ../woocommerce/wishlist-toolbar.php:76 ../woocommerce/wishlist-view.php:270
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:37
+msgid "Edit title"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:89
+msgid "Unit Price"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:102
+msgid "Stock Status"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:183
+msgid "Out of Stock"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:186
+msgid "In Stock"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:199
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:230
+msgid "Shared"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:233
+msgid "Private"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:236
+msgid "Public"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:290
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: ../woocommerce/wishlist-view.php:298 ../woocommerce/wishlist-view.php:342
+msgid "Ask for an estimate"
+msgstr ""
+
+#. Name of the theme
+msgid "TheShopier"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://nexthemes.com/"
+msgstr ""
+
+#. Description of the theme
+msgid "The Shopier theme lets you create a strongest website with many features."
+msgstr ""
+
+#. Author of the theme
+msgid "Nexthemes"
+msgstr ""

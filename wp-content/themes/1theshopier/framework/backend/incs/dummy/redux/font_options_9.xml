@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fonts>
+	<font>
+		<title>Header Font</title>
+		<id>header-font</id>
+		<subtitle>Header font subtitle</subtitle>
+		<google>1</google>
+		<output>header, #header</output>
+		<def>
+			<size>13px</size>
+			<family>Playfair Display</family>
+			<weight>400</weight>
+			<align>inherit</align>
+			<line_height>13px</line_height>
+		</def>
+	</font>
+	<font>
+		<title>Body Font</title>
+		<id>body-font</id>
+		<subtitle>body font subtitle</subtitle>
+		<default>Playfair Display</default>
+		<output>body</output>
+		<def>
+			<size>13px</size>
+			<line_height>1.55em</line_height>
+			<family>Playfair Display</family>
+			<weight>400</weight>
+			<align>inherit</align>
+		</def>
+	</font>
+
+	<font>
+		<title>Heading font</title>
+		<id>heading-font</id>
+		<subtitle>Heading font: h1, h2, h3, h4, h5, h6</subtitle>
+		<default>Playfair Display</default>
+		<output>h1, h2, h3, h4, h5, h6</output>
+		<def>
+			<family>Playfair Display</family>
+		</def>
+	</font>
+
+	<font>
+		<title>Heading title font</title>
+		<id>heading-title-font</id>
+		<subtitle>Heading title font</subtitle>
+		<default>Playfair Display</default>
+		<output>.heading-title</output>
+		<def>
+			<family>Playfair Display</family>
+			<line_height>1.55em</line_height>
+			<weight>400</weight>
+			<size>18px</size>
+		</def>
+	</font>
+
+	<font>
+		<title>Heading title home page</title>
+		<id>heading-title-font1</id>
+		<subtitle>Heading title home page</subtitle>
+		<default>Playfair Display</default>
+		<output>.nth-shortcode.woo_categories .heading-title</output>
+		<def>
+			<family>Playfair Display</family>
+			<line_height>1.55em</line_height>
+			<weight>400</weight>
+			<size>24px</size>
+			<text_transform>capitalize</text_transform>
+		</def>
+	</font>
+
+	<font>
+		<title>Tab style 4 font</title>
+		<id>tab-style-4-font</id>
+		<subtitle>Tab style 4 font</subtitle>
+		<default>Playfair Display</default>
+		<output>.vc_tta-style-classic.vc_tta-tabs.vc_general.nth-tab-style4 .vc_tta-tab > a</output>
+		<def>
+			<family>Playfair Display</family>
+			<line_height>1.55em</line_height>
+			<weight>400</weight>
+			<size>24px</size>
+			<text_transform>capitalize</text_transform>
+		</def>
+	</font>
+
+	<font>
+		<title>Price font</title>
+		<id>price-font</id>
+		<subtitle>price font</subtitle>
+		<default>Playfair Display</default>
+		<output>span.amount</output>
+		<def>
+			<family>Playfair Display</family>
+			<weight>400</weight>
+		</def>
+	</font>
+
+	<font>
+		<title>Product Name font</title>
+		<id>product-name-font</id>
+		<subtitle>Product Name font</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.nth-quickshop-wrapper div.product .product_title, .woocommerce-page div.product .product_title
+		</output>
+		<def>
+			<family>Playfair Display</family>
+			<weight>400</weight>
+		</def>
+	</font>
+	<font>
+		<title>Font product Name on grid</title>
+		<id>font-product-name-grid</id>
+		<subtitle>Font product Name on grid</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.woocommerce .products section.product .product-inner h3.product-title, .woocommerce-page .products section.product .product-inner h3.product-title
+		</output>
+		<def>
+			<family>Playfair Display</family>
+			<size>14px</size>
+			<weight>400</weight>
+		</def>
+	</font>
+
+	<font>
+		<title>Button Cart font</title>
+		<id>button-cart-font</id>
+		<subtitle>Button Cart font</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.woocommerce .wishlist_table td.product-add-to-cart a.add_to_cart, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.button.add_to_cart_button, .woocommerce a.button.out_stock, .woocommerce .button.alt.single_add_to_cart_button, .woocommerce-page .wishlist_table td.product-add-to-cart a.add_to_cart, .woocommerce-page a.product_type_grouped, .woocommerce-page a.product_type_external, .woocommerce-page a.button.add_to_cart_button, .woocommerce-page a.button.out_stock, .woocommerce-page .button.alt.single_add_to_cart_button
+		</output>
+		<def>
+			<family>Playfair Display</family>
+		</def>
+	</font>
+
+	<font>
+		<title>Button Medium font</title>
+		<id>button-medium-font</id>
+		<subtitle>Button medium font</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.button.medium, button.medium, html input.medium[type="button"], input.medium[type="reset"], input.medium[type="submit"], .medium.btn-primary, .woocommerce a.medium.button, .woocommerce button.medium.button, .woocommerce input.medium.button, .yotpo.yotpo-main-widget .medium.yotpo-default-button, .yotpo.yotpo-main-widget input.medium[type="button"].yotpo-default-button, .navi .navi-prev a.medium, .navi .navi-next a.medium, ul.list-posts li.post-item .post-item-content a.button
+		</output>
+		<def>
+			<family>Playfair Display</family>
+		</def>
+	</font>
+
+	<font>
+		<title>Button Large font</title>
+		<id>button-large-font</id>
+		<subtitle>Button large font</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.button.large, .nth-shortcode.nth-pricing ul.nth-pricing-ul li.price-buttons a, .nth_header_toolbar > div > div .nth-toolbar-popup-cotent p.buttons .button, header .nth-mini-popup .nth-mini-popup-cotent.nth-shopping-cart-content .buttons .button, .cart_totals .wc-proceed-to-checkout > input.button, .cart_totals .wc-proceed-to-checkout > a.button, .woocommerce #payment #place_order
+		</output>
+		<def>
+			<family>Playfair Display</family>
+		</def>
+	</font>
+
+	<font>
+		<title>Sale Label</title>
+		<id>sale-label-font</id>
+		<subtitle>Sale label font on product</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.woocommerce span.onsale, .woocommerce-page span.onsale
+		</output>
+		<def>
+			<family>Playfair Display</family>
+			<line_height>25px</line_height>
+			<weight>700</weight>
+			<size>22px</size>
+		</def>
+	</font>
+
+	<font>
+		<title>Blog Title Font</title>
+		<id>blog-title-font</id>
+		<subtitle>Blog Title Font</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			h3.post-title, h2.post-title
+		</output>
+		<def>
+			<family>Playfair Display</family>
+			<weight>400</weight>
+			<size>24px</size>
+		</def>
+	</font>
+
+	<font>
+		<title>Others element font</title>
+		<id>others-element-font</id>
+		<subtitle>Others element change font</subtitle>
+		<default>Playfair Display</default>
+		<output>
+			.woocommerce span.featured, .woocommerce-page span.featured, .entry-date, .widget.widget_woothemes_features .features .feature-title,
+			.nth-tab-style1 .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a, .nth-tab-style2 .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a, .nth-tab-style3 .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a, .nth-section-style1.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab > a,
+			.vc_cta3.nth-row-grid header.vc_cta3-content-header h2,
+			.feature-prod-cat-wrapper .feature-cat .f-meta h3, .widget_boxed .widget-heading h3, .shortcode-woo-tabs li a, 
+			.product_subcaterories .subcat-info .subcat-info-inner .parent_cat-heading,
+			.wpb_tabs ul.wpb_tabs_nav.nth-boxed > li a,
+			html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_section .wpb_accordion_header a,
+			h1.page-title, li.widget .widget-heading h3,
+			.nth-quickshop-wrapper div.product .product_meta, .woocommerce-page div.product .product_meta,
+			.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+			.nth-tabs .tabs li > a, .wpb_tabs ul.wpb_tabs_nav li a, .wpb_tour ul.wpb_tabs_nav > li a, 
+			.nth-shortcode.nth-pricing ul.nth-pricing-ul li.desc, .nth-shortcode.nth-pricing ul.nth-pricing-ul li.pricing-label,
+			.comments-area h3.comment-reply-title, .related_post .heading-title, .entry-date + h1.post-title, .maps-save-widget, .save-button-text, .nth-quickshop-wrapper .nth-content-right ul.widgets-sidebar .nth_stblock_widget .nth-infobox h3.infobox-title, .woocommerce-page .nth-content-right ul.widgets-sidebar .nth_stblock_widget .nth-infobox h3.infobox-title, 
+			.nth-shopping-progress-wrapper, .nth-sidebar .cart_totals .widget-heading .widget-title,
+			.coupon label, .woocommerce-checkout .nth-checkout-heading, .woocommerce-checkout h3, .woocommerce form .form-row.notes label, .woocommerce-account .addresses header.title h3, .woocommerce-account .address header.title h3
+		</output>
+		<def>
+			<family>Playfair Display</family>
+		</def>
+	</font>
+	
+	<font>
+		<title>Footer Font</title>
+		<id>footer-font</id>
+		<subtitle>footer font subtitle</subtitle>
+		<default>Playfair Display</default>
+		<output>footer, #footer</output>
+		<def>
+			<size>13px</size>
+			<family>Playfair Display</family>
+			<weight>400</weight>
+			<align>inherit</align>
+			<line_height>13px</line_height>
+		</def>
+	</font>
+</fonts>

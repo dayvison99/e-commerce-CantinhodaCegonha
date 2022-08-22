@@ -1,0 +1,225 @@
+
+/* ============================================ *
+ * 12.1. Slide Menu Tablet - Mobile
+ * ============================================ */
+ // -----------------------------------------------------------------------------
+//
+// Slide Menu For Shopier - Tablet and Mobile
+//
+// -----------------------------------------------------------------------------
+
+/**
+ ** Mobile Menu
+***/
+.c-mask.is-active {
+    opacity: 1;
+    background: transparent;
+}
+.c-menu,
+/*div#c-menu--push-left{
+	background-color: $color-bg-slide-menu;
+}*/
+.c-menu--slide-left, 
+.c-menu--slide-right, 
+.c-menu--push-left, 
+.c-menu--push-right{
+	width: 280px;
+	overflow: auto;
+}
+.c-menu--slide-left,
+.c-menu--push-left{
+    @include transform(translateX(-280px));
+    @include transition(all 0.6s ease);
+
+    &.is-active{
+    	@include transform(translateX(0));
+    }
+}
+.o-wrapper{
+	@include transition(all 0.6s ease);
+}
+.o-wrapper.has-push-left{
+	@include transform(translateX(280px));
+}
+
+.mobile-menu-wrapper.c-menu{
+	.c-menu__close {
+        display: none;
+    }
+}
+.c-menu{
+	padding: 10px 15px;
+	ul{
+		li{
+			display: block;
+			padding: 0;
+			color: $color_light;
+
+			a{
+				color: $color_light;
+			}
+
+			&.menu-item-has-children{
+				.sub-menu{
+					display: none;
+				}
+
+				&.show-submenu{
+					> .sub-menu{
+						display: block;
+					}
+				}
+				&.show-submenu{
+					> .menu-drop-icon:before{
+						content:"\f0d8";
+					}
+
+					> a,
+					> .menu-drop-icon{
+						color: $color_a;
+					}
+				}
+			}
+		}
+	}
+	.pc-menu{
+		border-bottom: 1px solid #484848;
+		padding-bottom: 9px;
+		> .menu{
+			> li{
+				display: block;
+				line-height: normal;
+			}
+			li{
+				text-transform: uppercase;
+				padding: 0;
+				a{
+					font-size: 13px;
+					padding: 8px 0;
+					display: block !important;
+				}
+			}
+
+			li.menu-item-has-children{
+				.sub-menu{
+					position: static;
+					background: transparent;
+					@include box-shadow(none);
+					@include border-radius(0);
+					border: 0;
+					width: auto;
+					z-index: inherit;
+					padding-left: 10px;
+					padding-top: 0;
+					padding-bottom: 0;
+					@include nthanimated(none);
+					display: none;
+
+					&:before{
+						display: none;
+					}
+
+					> li{
+						padding: 0;
+						> a{
+							display: inline-block;
+						}
+					}
+					li.menu-item-has-children .menu-drop-icon{
+						right: 0;
+					}
+				}
+				> a{
+					z-index: 4;
+					margin-right: 20px;
+					display: inline-block !important;
+				}
+				.menu-drop-icon{
+					top: 0;
+					padding: 8px 0;
+					cursor: pointer;
+					width: 100%;
+				}
+
+				&.show-submenu{
+					> .sub-menu{
+						display: block;
+					}
+				}
+
+				&.show-submenu{
+					> .menu-drop-icon:before{
+						content:"\f0d8";
+					}
+				}
+			} 
+		}
+	}
+
+	.mobile-menu{
+		padding-top: 6px;
+		ul{
+			li{
+				font-size: 14px;
+
+				a{
+					display: block;
+					padding: 10px 0px;
+
+					&:hover{
+						background: none;
+					}
+				}
+
+				&.current-menu-item{
+					a{
+						color: $color_a;
+					}
+				}
+
+				&.menu-item-has-children{
+					position: relative;
+					> a{
+						margin-right: 20px;
+						position: relative;
+						z-index: 4;
+						display: inline-block;
+					}
+					.menu-drop-icon{
+						position: absolute;
+                        top: 0;
+                        right: 0;
+                        padding: 10px 0;
+                        width: 100%;
+                        text-align: right;
+                        z-index: 3;
+                        cursor: pointer;
+						&:before{
+							content: "\f0d7";
+	                        font: normal normal normal 14px/1 FontAwesome;
+	                        margin-left: 5px;
+	                        display: inline-block; 
+						}
+					}
+
+					.sub-menu{
+						padding:0 0 0 10px;
+					}
+
+					&.show-submenu{
+						> .sub-menu{
+							display: block;
+						}
+						> .menu-drop-icon{
+							&:before{
+								content:"\f0d8";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

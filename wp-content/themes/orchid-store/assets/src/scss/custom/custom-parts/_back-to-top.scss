@@ -1,0 +1,29 @@
+
+.orchid-backtotop {
+    
+    position: fixed;
+    display: none;
+    z-index: 999999999;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    opacity: 1;
+    text-align:center;
+    height:40px;
+    width: 40px;
+    line-height: 40px;
+    -moz-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    
+    @include transation_delay(); 
+
+}
+
+.orchid-backtotop span {
+    
+    display: inline-block;
+}
